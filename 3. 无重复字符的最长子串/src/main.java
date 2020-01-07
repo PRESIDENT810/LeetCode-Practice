@@ -4,7 +4,7 @@ import java.math.*;
 class main {
     public static void main(String[] args) {
         Solution3 solu = new Solution3();
-        int result = solu.lengthOfLongestSubstring("wobgrovw");
+        int result = solu.lengthOfLongestSubstring("abcabcbb");
         System.out.println(result);
     }
 }
@@ -34,27 +34,27 @@ class Solution3 {
     public Set setOfLongestSubstring(String s) {
         int len = s.length();
 
-        if (len == 1) {
-            Set crt_set = new HashSet();
-            crt_set.add(s.charAt(0));
-            return crt_set;
-        }
+        Set sub_set = new HashSet();
+        String temp_s;
 
-        String sub_s = s.substring(0, len - 1);
-        Set sub_set = setOfLongestSubstring(sub_s);
+        for (int i=1; i<len+1; i++) {
+            temp_s = s.substring(0, i);
 
-        if (LongestOnTheEnd(sub_s, sub_set.size())) {
-            sub_set = EndSet(s, sub_set.size() + 1);
-        }
+            if (i == 1) {
+                Set crt_set = new HashSet();
+                crt_set.add(s.charAt(0));
+                sub_set = crt_set;
+                continue;
+            }
 
-        if (sub_set.contains(s.charAt(len - 1))) {
-            return sub_set;
-        } else {
+            String sub_s = s.substring(0, i - 1);
+
             if (LongestOnTheEnd(sub_s, sub_set.size())) {
-//                sub_set.add(s.charAt(len-1));
-                return sub_set;
-            } else return sub_set;
+                sub_set = EndSet(temp_s, sub_set.size() + 1);
+            }
         }
+
+        return sub_set;
     }
 
 
