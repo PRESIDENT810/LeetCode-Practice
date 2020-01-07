@@ -6,7 +6,7 @@ class ListNode {
     ListNode(int x) { val = x; }
 }
 
-class Solution {
+class Solution2 {
     static public int get_length(ListNode l) {
         int len = 0;
         while (l != null) {
@@ -87,7 +87,7 @@ class main{
         l2.next = new ListNode(1);
 //        l2.next.next = new ListNode(4);
 
-        Solution solu = new Solution();
+        Solution2 solu = new Solution2();
         ListNode result = solu.addTwoNumbers(l1, l2);
 
         System.out.println(result.val);

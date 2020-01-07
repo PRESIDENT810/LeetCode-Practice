@@ -2,13 +2,13 @@ import java.util.*;
 
 public class main {
     public static void main(String[] args){
-        Solution solu = new Solution();
+        Solution1 solu = new Solution1();
         int[] nums = {2,7,11,15};
         int[] result = solu.twoSum(nums, 9);
     }
 }
 
-class Solution {
+class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         Map m = new HashMap();

@@ -2,14 +2,14 @@ import java.util.Arrays;
 
 public class main {
     public static void main(String[] args) {
-        Solution solu = new Solution();
+        Solution66 solu = new Solution66();
         int[] arr = {4, 3, 2, 1};
         arr = solu.plusOne(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
 
-class Solution {
+class Solution66 {
     public int[] plusOne(int[] digits) {
         int len = digits.length;
         return add_carry(digits, len - 1);
