@@ -37,13 +37,11 @@ class Solution3 {
         Set sub_set = new HashSet();
         String temp_s;
 
-        for (int i=1; i<len+1; i++) {
+        for (int i = 1; i < len + 1; i++) {
             temp_s = s.substring(0, i);
 
             if (i == 1) {
-                Set crt_set = new HashSet();
-                crt_set.add(s.charAt(0));
-                sub_set = crt_set;
+                sub_set.add(s.charAt(0));
                 continue;
             }
 
