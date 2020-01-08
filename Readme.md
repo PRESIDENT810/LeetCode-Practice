@@ -13,3 +13,4 @@ If you want to times -1 when negative, doing this leads to an error, since **-21
 
 (**The only case that java supports a negative number, but not its corresponding positive number !**)
   
+Note: take care when handling integer overflow cases!

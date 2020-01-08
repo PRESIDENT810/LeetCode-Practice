@@ -4,7 +4,7 @@ import java.util.*;
 public class main {
     public static void main(String args[]) {
         Solution7 solu = new Solution7();
-        int result = solu.reverse(-2147483648);
+        int result = solu.reverse(1534236469);
         System.out.println(result);
     }
 }
@@ -19,25 +19,17 @@ class Solution7 {
             return -1 * ans;
         }
 
-        int ans = 0;
-        Stack<Integer> stack = new Stack<Integer>();
+        int reverse = 0;
 
-        while (x >= 10) {
-            stack.push(x % 10);
-            x = (int) x / 10;
+        while (x>=10){
+            if (reverse > 214748364 || (reverse==214748364 && x%10>=8)) return 0;
+            reverse = reverse*10+x%10;
+            x = (int) x/10;
         }
+        if (reverse > 214748364 || (reverse==214748364 && x%10>=8)) return 0;
 
-        stack.push(x);
+        reverse = reverse*10+x;
 
-        int power = 0;
-
-        while (!stack.empty()) {
-            ans += stack.pop() * Math.pow(10, power);
-            power += 1;
-        }
-
-        if (ans >= Math.pow(2, 31) - 1) return 0;
-
-        return ans;
+        return reverse;
     }
 }
