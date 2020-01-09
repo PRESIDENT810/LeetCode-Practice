@@ -30,3 +30,6 @@ If you want to times -1 when negative, doing this leads to an error, since **-21
 (**The only case that java supports a negative number, but not its corresponding positive number !**)
   
 Note: take care when handling integer overflow cases!
+
+## 27. 移除元素
+Apart from moving different elements forward, one can also move duplicate elements afterwords
