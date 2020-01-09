@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21. 合并两个有序链表/21. 合并两个有序链表.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21. 合并两个有序链表/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26. 删除排序数组中的重复项/26. 删除排序数组中的重复项.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26. 删除排序数组中的重复项/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,13 +19,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/21. 合并两个有序链表/src/main.java">
+        <entry file="file://$PROJECT_DIR$/26. 删除排序数组中的重复项/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="12">
+              <caret line="11" selection-start-line="11" selection-end-line="27" selection-end-column="1" />
               <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +57,7 @@
         <option value="$PROJECT_DIR$/20. 有效的括号/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/21. 合并两个有序链表/src/main.java" />
+        <option value="$PROJECT_DIR$/26. 删除排序数组中的重复项/src/main.java" />
       </list>
     </option>
   </component>
@@ -77,17 +77,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="21. 合并两个有序链表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="21. 合并两个有序链表" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,7 +130,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="20. 有效的括号" />
+      <module name="26. 删除排序数组中的重复项" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,7 +150,7 @@
       <workItem from="1578399207881" duration="8763000" />
       <workItem from="1578419192038" duration="705000" />
       <workItem from="1578465825226" duration="8591000" />
-      <workItem from="1578581036510" duration="750000" />
+      <workItem from="1578581036510" duration="2103000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -219,17 +208,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578497331461</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finish Q21">
+      <created>1578581801366</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578581801366</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29463000" />
+    <option name="totallyTimeSpent" value="30816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -240,11 +236,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29277107" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29277107" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -314,7 +310,8 @@
     <MESSAGE value="Finish Q13" />
     <MESSAGE value="Finish Q14" />
     <MESSAGE value="Finish Q20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q20" />
+    <MESSAGE value="Finish Q21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,11 +443,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/21. 合并两个有序链表/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="37">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. 删除排序数组中的重复项/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="11" selection-start-line="11" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
