@@ -46,11 +46,14 @@ class Solution38 {
     }
 
     public String countAndSay(int n) {
-        if (n == 1) return "1";
+        String last = "1";
+        String crt = "1";
 
-        String last = countAndSay(n - 1);
-        String crt = next(last);
-
+        for (int time=0; time<n; time++){
+            if (time==0) continue;
+            crt = next(last);
+            last = crt;
+        }
         return crt;
     }
 }
