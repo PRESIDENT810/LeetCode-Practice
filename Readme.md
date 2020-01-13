@@ -56,3 +56,9 @@ this is much faster than
         ...
         result = result+generate(cnt, last_digit);
 ```
+
+## 53 最大字序和
+Common extreme case:
+- Array with only one element
+- Empty array
+- `Integer.MAX_VALUE/MIN_VALUE`
