@@ -74,4 +74,8 @@ Case: " "
 
 Case: "   "
 
-... fuck, fuck, fuck 
+... fuck, fuck, fuck
+
+Case: "a "
+
+... fuck this shit 
