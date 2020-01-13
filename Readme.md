@@ -42,3 +42,17 @@ When doing binary search, at first the tail should be the length of the array, *
         int mid = (int) (head+tail)/2;;
 
 ```
+
+## 38. 外观数列
+It saves more time when appending string if you use StringBuilder, instead of string concentration
+```java
+        StringBuilder result = new StringBuilder();
+        ...
+        result.append(generate(cnt, last_digit));
+```
+this is much faster than
+```java
+        String result = new String();
+        ...
+        result = result+generate(cnt, last_digit);
+```

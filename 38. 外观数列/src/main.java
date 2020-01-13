@@ -20,7 +20,7 @@ class Solution38 {
         boolean start = true;
         char last_digit = '_';
         char crt_digit = '_';
-        String result = "";
+        StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < str.length(); i++) {
             if (start) {
@@ -33,16 +33,16 @@ class Solution38 {
 
                 if (crt_digit == last_digit) cnt++;
                 else {
-                    result = result+generate(cnt, last_digit);
+                    result.append(generate(cnt, last_digit));
                     cnt = 1;
                     last_digit = crt_digit;
 //                    start = true;
                 }
             }
         }
-        result = result+generate(cnt, last_digit);
+        result.append(generate(cnt, last_digit));
 
-        return result;
+        return result.toString();
     }
 
     public String countAndSay(int n) {
