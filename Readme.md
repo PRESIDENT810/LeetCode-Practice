@@ -33,3 +33,12 @@ Note: take care when handling integer overflow cases!
 
 ## 27. 移除元素
 Apart from moving different elements forward, one can also move duplicate elements afterwords
+
+## 35. 搜索插入位置
+When doing binary search, at first the tail should be the length of the array, **not the length-1**
+```java
+        int head = 0;
+        int tail = nums.length; // not "nums.length-1"
+        int mid = (int) (head+tail)/2;;
+
+```
