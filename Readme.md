@@ -62,3 +62,16 @@ Common extreme case:
 - Array with only one element
 - Empty array
 - `Integer.MAX_VALUE/MIN_VALUE`
+
+## 58. 最后一个单词的长度
+Case: "a "
+
+...fuck, I didn't expect space at the end
+
+Case: " "
+
+...fuck, I didn't expect only space either
+
+Case: "   "
+
+... fuck, fuck, fuck 
