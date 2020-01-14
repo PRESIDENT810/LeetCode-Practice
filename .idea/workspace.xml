@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/67. 二进制求和/67. 二进制求和.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/67. 二进制求和/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/69. x 的平方根/69. x 的平方根.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/69. x 的平方根/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,10 +19,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/67. 二进制求和/src/main.java">
+        <entry file="file://$PROJECT_DIR$/69. x 的平方根/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="390">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +68,7 @@
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/58. 最后一个单词的长度/src/main.java" />
         <option value="$PROJECT_DIR$/67. 二进制求和/src/main.java" />
+        <option value="$PROJECT_DIR$/69. x 的平方根/src/main.java" />
       </list>
     </option>
   </component>
@@ -87,7 +92,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="67. 二进制求和" type="462c0819:PsiDirectoryNode" />
+              <item name="69. x 的平方根" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,7 +146,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="67. 二进制求和" />
+      <module name="69. x 的平方根" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,7 +177,7 @@
       <workItem from="1578896438061" duration="7097000" />
       <workItem from="1578930564474" duration="142000" />
       <workItem from="1579001478684" duration="34000" />
-      <workItem from="1579001517862" duration="915000" />
+      <workItem from="1579001517862" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -314,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578904647331</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Finish Q67">
+      <created>1579002552783</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1579002552783</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50697000" />
+    <option name="totallyTimeSpent" value="52112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +345,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -343,12 +355,12 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -429,7 +441,8 @@
     <MESSAGE value="Finish Q53" />
     <MESSAGE value="Finish Q58 (slow)" />
     <MESSAGE value="Finish Q58 (slighter better)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q58 (slighter better)" />
+    <MESSAGE value="Finish Q67" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q67" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -480,7 +493,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="s.length()" language="JAVA" />
+        <watch expression="mid*mid &gt; x" language="JAVA" />
+        <watch expression="mid*mid" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -513,6 +527,16 @@
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>mid*mid</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mid*mid &gt; x</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>s.length()</expression-string>
         <language-id>JAVA</language-id>
@@ -700,16 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/38. 外观数列/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-281">
@@ -753,8 +767,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/67. 二进制求和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="380">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#62#63#0" expanded="true" />
+            <element signature="e#83#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/69. x 的平方根/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
