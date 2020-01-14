@@ -78,4 +78,10 @@ Case: "   "
 
 Case: "a "
 
-... fuck this shit 
+... fuck this shit
+
+## 69. x 的平方根
+**Use long datatype to avoid integer overflow issue**
+
+Since the result keeps only integer part (left), when doing binary search, mid point should use left mid as well 
+
