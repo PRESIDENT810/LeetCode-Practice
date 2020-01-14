@@ -85,3 +85,11 @@ Case: "a "
 
 Since the result keeps only integer part (left), when doing binary search, mid point should use left mid as well 
 
+## 88. 合并两个有序数组
+> 方法三 : 双指针 / 从后往前
+直觉: 方法二已经取得了最优的时间复杂度O(n+m), 但需要使用额外空间。这是由于在从头改变nums1的值时，需要把nums1中的元素存放在其他位置。
+
+> 如果我们从结尾开始改写 nums1 的值又会如何呢？这里没有信息，因此不需要额外空间。
+这里的指针 p 用于追踪添加元素的位置。
+
+This is so fuckin' brilliant

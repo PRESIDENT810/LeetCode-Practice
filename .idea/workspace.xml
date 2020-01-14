@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/70. 爬楼梯/70. 爬楼梯.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/70. 爬楼梯/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/88. 合并两个有序数组/88. 合并两个有序数组.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/88. 合并两个有序数组/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +19,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/70. 爬楼梯/src/main.java">
+        <entry file="file://$PROJECT_DIR$/88. 合并两个有序数组/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding>
-                <element signature="e#62#63#0" expanded="true" />
-                <element signature="e#87#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="301">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -71,6 +66,8 @@
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/69. x 的平方根/src/main.java" />
         <option value="$PROJECT_DIR$/70. 爬楼梯/src/main.java" />
+        <option value="$PROJECT_DIR$/83. 删除排序链表中的重复元素/src/main.java" />
+        <option value="$PROJECT_DIR$/88. 合并两个有序数组/src/main.java" />
       </list>
     </option>
   </component>
@@ -94,7 +91,25 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="70. 爬楼梯" type="462c0819:PsiDirectoryNode" />
+              <item name="3. 无重复字符的最长子串" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="3. 无重复字符的最长子串" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="3. 无重复字符的最长子串" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="88. 合并两个有序数组" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -118,6 +133,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -148,7 +164,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="70. 爬楼梯" />
+      <module name="88. 合并两个有序数组" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,7 +195,7 @@
       <workItem from="1578896438061" duration="7097000" />
       <workItem from="1578930564474" duration="142000" />
       <workItem from="1579001478684" duration="34000" />
-      <workItem from="1579001517862" duration="5719000" />
+      <workItem from="1579001517862" duration="7833000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -335,11 +351,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579003998221</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Finish Q70 (recursion, but actually you can use math method to solve)">
+      <created>1579008047241</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579008047241</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Finish Q83">
+      <created>1579009510843</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1579009510843</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55501000" />
+    <option name="totallyTimeSpent" value="57615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,7 +482,9 @@
     <MESSAGE value="Finish Q58 (slighter better)" />
     <MESSAGE value="Finish Q67" />
     <MESSAGE value="Finish Q69 (binary)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q69 (binary)" />
+    <MESSAGE value="Finish Q70 (recursion, but actually you can use math method to solve)" />
+    <MESSAGE value="Finish Q83" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q83" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,12 +531,29 @@
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/70. 爬楼梯/src/main.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/88. 合并两个有序数组/src/main.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/88. 合并两个有序数组/src/main.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="mid*mid &gt; x" language="JAVA" />
-        <watch expression="mid*mid" language="JAVA" />
+        <watch expression="nums1" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -537,6 +586,11 @@
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>nums1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mid*mid</expression-string>
         <language-id>JAVA</language-id>
@@ -773,16 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -809,12 +853,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/70. 爬楼梯/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="e#62#63#0" expanded="true" />
             <element signature="e#87#88#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/83. 删除排序链表中的重复元素/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/88. 合并两个有序数组/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -868,11 +940,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>66. 加一</last-edited>
+          <last-edited>88. 合并两个有序数组</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
