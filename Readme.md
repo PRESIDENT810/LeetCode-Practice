@@ -95,7 +95,7 @@ Since the result keeps only integer part (left), when doing binary search, mid p
 This is so fuckin' brilliant
 
 
-## 101. 对称二叉树
+## 100. 相同的树 & 101. 对称二叉树
 
 Visiting every node of a tree:
 **Recursion: use DFS**
