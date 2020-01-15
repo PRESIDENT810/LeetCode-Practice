@@ -93,3 +93,10 @@ Since the result keeps only integer part (left), when doing binary search, mid p
 这里的指针 p 用于追踪添加元素的位置。
 
 This is so fuckin' brilliant
+
+
+## 101. 对称二叉树
+
+Visiting every node of a tree:
+**Recursion: use DFS**
+**Iteration: use BFS**
