@@ -100,3 +100,6 @@ This is so fuckin' brilliant
 Visiting every node of a tree:
 **Recursion: use DFS**
 **Iteration: use BFS**
+
+## 104. 二叉树的最大深度
+Fuck trees, always beware of an empty tree (`Tree = []`)
