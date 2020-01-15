@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/104. 二叉树的最大深度/104. 二叉树的最大深度.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,8 @@
           <provider editor-type-id="Gfm" />
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="93" selection-start-line="93" selection-end-line="93" />
+              <first_editor relative-caret-position="457">
+                <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -33,15 +28,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="13" selection-start-line="13" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="201">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -88,8 +92,8 @@
         <option value="$PROJECT_DIR$/88. 合并两个有序数组/src/main.java" />
         <option value="$PROJECT_DIR$/101. 对称二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/100. 相同的树/src/main.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -113,7 +117,13 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="104. 二叉树的最大深度" type="462c0819:PsiDirectoryNode" />
+              <item name="111. 二叉树的最小深度" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="111. 二叉树的最小深度" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,7 +212,7 @@
       <workItem from="1579001517862" duration="8088000" />
       <workItem from="1579100183189" duration="5066000" />
       <workItem from="1579107058692" duration="15000" />
-      <workItem from="1579107519538" duration="2563000" />
+      <workItem from="1579107519538" duration="2836000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -407,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579111250357</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Finish Q104 (iteration)">
+      <created>1579111767290</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1579111767290</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65514000" />
+    <option name="totallyTimeSpent" value="65787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q9" />
     <MESSAGE value="Finish Q12" />
     <MESSAGE value="Finish Q13" />
     <MESSAGE value="Finish Q14" />
@@ -528,7 +544,8 @@
     <MESSAGE value="Finish Q101" />
     <MESSAGE value="Finish Q101 (iteration)" />
     <MESSAGE value="Finish Q100 (iteration)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q100 (iteration)" />
+    <MESSAGE value="Finish Q104 (iteration)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q104 (iteration)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -936,8 +953,8 @@
       <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <first_editor relative-caret-position="457">
+            <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -947,12 +964,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" selection-start-line="13" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="201">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
