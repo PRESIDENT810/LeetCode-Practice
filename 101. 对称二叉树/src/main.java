@@ -1,8 +1,7 @@
+import com.sun.source.tree.Tree;
+
 public class main {
-
 }
-
-
 
 class TreeNode {
     int val;
@@ -14,9 +13,9 @@ class TreeNode {
     }
 }
 
-class Solution100 {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        return check(p, q);
+class Solution101 {
+    public boolean isSymmetric(TreeNode root) {
+        return check(root, root);
     }
 
     public boolean check(TreeNode p, TreeNode q){
@@ -26,6 +25,6 @@ class Solution100 {
 
         if (p.val != q.val) return false;
 
-        return check(p.left, q.left) && check(p.right, q.right);
+        return check(p.left, q.right) && check(p.right, q.left);
     }
 }
