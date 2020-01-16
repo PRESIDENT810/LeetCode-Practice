@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/448. 找到所有数组中消失的数字/448. 找到所有数组中消失的数字.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,39 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider editor-type-id="Gfm" />
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="457">
-                <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java">
+        <entry file="file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="38">
+              <caret line="6" selection-start-line="6" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -94,10 +71,12 @@
         <option value="$PROJECT_DIR$/100. 相同的树/src/main.java" />
         <option value="$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java" />
+        <option value="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -117,13 +96,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="111. 二叉树的最小深度" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="111. 二叉树的最小深度" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="448. 找到所有数组中消失的数字" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,7 +185,8 @@
       <workItem from="1579001517862" duration="8088000" />
       <workItem from="1579100183189" duration="5066000" />
       <workItem from="1579107058692" duration="15000" />
-      <workItem from="1579107519538" duration="2836000" />
+      <workItem from="1579107519538" duration="3009000" />
+      <workItem from="1579163053728" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -424,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579111767290</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Finish Q111">
+      <created>1579112093943</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1579112093943</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65787000" />
+    <option name="totallyTimeSpent" value="67524000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +424,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23247497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2353362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -458,7 +439,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -520,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q12" />
     <MESSAGE value="Finish Q13" />
     <MESSAGE value="Finish Q14" />
     <MESSAGE value="Finish Q20" />
@@ -545,7 +525,8 @@
     <MESSAGE value="Finish Q101 (iteration)" />
     <MESSAGE value="Finish Q100 (iteration)" />
     <MESSAGE value="Finish Q104 (iteration)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q104 (iteration)" />
+    <MESSAGE value="Finish Q111" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q111" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -950,10 +931,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="457">
+          <first_editor relative-caret-position="505">
             <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
           </first_editor>
           <second_editor>
@@ -961,22 +941,26 @@
           </second_editor>
         </state>
       </provider>
+      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="323">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="228">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" selection-start-line="6" selection-end-line="60" />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1014,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>88. 合并两个有序数组</last-edited>
+          <last-edited>111. 二叉树的最小深度</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
