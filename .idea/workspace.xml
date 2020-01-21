@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="Finish Q107 (more concise)">
-      <change afterPath="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/108. 将有序数组转换为二叉搜索树.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/69. x 的平方根/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/69. x 的平方根/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,43 +16,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="146">
+              <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
               <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/69. x 的平方根/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <element signature="e#63#64#0" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider editor-type-id="Gfm" />
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1995">
-                <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
             </state>
           </provider>
         </entry>
@@ -107,9 +77,9 @@
         <option value="$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java" />
         <option value="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" />
         <option value="$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java" />
-        <option value="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java" />
         <option value="$PROJECT_DIR$/69. x 的平方根/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java" />
       </list>
     </option>
   </component>
@@ -123,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,23 +103,13 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="69. x 的平方根" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="69. x 的平方根" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="108. 将有序数组转换为二叉搜索树" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -199,7 +158,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="69. x 的平方根" />
+      <module name="108. 将有序数组转换为二叉搜索树" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,7 +200,7 @@
       <workItem from="1579418215283" duration="787000" />
       <workItem from="1579530423955" duration="6514000" />
       <workItem from="1579611025939" duration="264000" />
-      <workItem from="1579611305008" duration="217000" />
+      <workItem from="1579611305008" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -481,11 +440,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579593473038</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Update Q69 (add Gaussian Newton method)">
+      <created>1579611557609</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1579611557609</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77830000" />
+    <option name="totallyTimeSpent" value="78587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,7 +466,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26323318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -510,8 +476,8 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -577,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q21" />
     <MESSAGE value="Finish Q26" />
     <MESSAGE value="Finish Q27" />
     <MESSAGE value="Finish Q468" />
@@ -602,7 +567,8 @@
     <MESSAGE value="Finish Q448 (slow)" />
     <MESSAGE value="Finish Q107" />
     <MESSAGE value="Finish Q107 (more concise)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q107 (more concise)" />
+    <MESSAGE value="Update Q69 (add Gaussian Newton method)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Q69 (add Gaussian Newton method)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,6 +620,12 @@
           <line>16</line>
           <properties />
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1043,17 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1074,6 +1035,19 @@
           <folding>
             <element signature="e#63#64#0" expanded="true" />
             <element signature="e#121#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
