@@ -1,6 +1,6 @@
 public class main {
     public static void main(String args[]) {
-        System.out.print((new Solution69().mySqrt(2147395599)));
+        System.out.print((new Newton().mySqrt(8)));
     }
 }
 
@@ -21,5 +21,21 @@ class Solution69 {
         }
         if (tail*tail == x) return (int) tail;
         return (int) head;
+    }
+}
+
+class Newton {
+    public int mySqrt(int target) {
+        if (target == 0) return 0;
+        if (target < 2) return 1;
+
+        long x = target/2;
+
+        while (!(x*x <= target && (x+1)*(x+1) >= target)){
+            x -= (x*x-target)/2/x+1;
+        }
+
+        if ((x+1)*(x+1) == target) return (int) x+1;
+        return (int) x;
     }
 }

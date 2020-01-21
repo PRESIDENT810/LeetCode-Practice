@@ -83,13 +83,27 @@ Case: "a "
 ## 69. x 的平方根
 **Use long datatype to avoid integer overflow issue**
 
-Since the result keeps only integer part (left), when doing binary search, mid point should use left mid as well 
+Since the result keeps only integer part (left), when doing binary search, mid point should use left mid as well
+
+### Gaussian Newton method:
+
+To find the square root of target is equivalent to:
+
+maximize f(x), where f'(x)=x^2-target
+
+Then we can use Gaussian Newton to solve this optimization problem
+
+x_{k+1} = x_{k} - f'(x)/f''(x)
+
+where f'(x) = x^2-target, f''(x) = 2x 
+
+iterate until we find one that is close enough
 
 ## 88. 合并两个有序数组
 > 方法三 : 双指针 / 从后往前
 直觉: 方法二已经取得了最优的时间复杂度O(n+m), 但需要使用额外空间。这是由于在从头改变nums1的值时，需要把nums1中的元素存放在其他位置。
 
-> 如果我们从结尾开始改写 nums1 的值又会如何呢？这里没有信息，因此不需要额外空间。
+> 如果我们从结尾开始改写 nums1 的值又会如何呢？**这里没有信息，因此不需要额外空间**。
 这里的指针 p 用于追踪添加元素的位置。
 
 This is so fuckin' brilliant
