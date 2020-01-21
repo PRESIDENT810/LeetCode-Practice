@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/118. 杨辉三角/118. 杨辉三角.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/118. 杨辉三角/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/112. 路径总和/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/112. 路径总和/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/83. 删除排序链表中的重复元素/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/83. 删除排序链表中的重复元素/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/118. 杨辉三角/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/118. 杨辉三角/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/118. 杨辉三角/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -103,17 +95,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="118. 杨辉三角" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="118. 杨辉三角" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +191,7 @@
       <workItem from="1579418215283" duration="787000" />
       <workItem from="1579530423955" duration="6514000" />
       <workItem from="1579611025939" duration="264000" />
-      <workItem from="1579611305008" duration="3356000" />
+      <workItem from="1579611305008" duration="3615000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -478,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579619330540</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Finish Q118">
+      <created>1579620644756</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1579620644756</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80969000" />
+    <option name="totallyTimeSpent" value="81228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q35" />
     <MESSAGE value="Finish Q38 (recursion)" />
     <MESSAGE value="Finish Q38 (iteration)" />
     <MESSAGE value="Finish Q38 (StringBuilder)" />
@@ -599,7 +586,8 @@
     <MESSAGE value="Finish Q108" />
     <MESSAGE value="Finish Q110" />
     <MESSAGE value="Finish Q112" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q112" />
+    <MESSAGE value="Finish Q118" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q118" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1096,8 +1084,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/118. 杨辉三角/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="30" />
         </state>
       </provider>
     </entry>
