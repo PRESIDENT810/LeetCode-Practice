@@ -11,7 +11,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class Solution111 {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
         int min = Integer.MAX_VALUE;

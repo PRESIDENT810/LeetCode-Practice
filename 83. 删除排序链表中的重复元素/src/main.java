@@ -13,7 +13,7 @@ class ListNode {
     }
 }
 
-class Solution {
+class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) return null;
 

@@ -1,5 +1,3 @@
-import com.sun.source.tree.Tree;
-
 import java.util.*;
 
 public class main {
@@ -15,7 +13,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class Solution107 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         if (root == null) return new LinkedList<>();
 
