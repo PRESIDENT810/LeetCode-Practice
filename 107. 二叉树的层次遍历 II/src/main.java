@@ -16,15 +16,6 @@ class TreeNode {
 }
 
 class Solution {
-    public List<List<Integer>> reverse(Stack<LinkedList<Integer>> ans) {
-        List<List<Integer>> reverse = new LinkedList<>();
-        while (!ans.isEmpty()){
-            reverse.add(ans.pop());
-        }
-
-        return reverse;
-    }
-
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         if (root == null) return new LinkedList<>();
 
@@ -35,7 +26,7 @@ class Solution {
         level_queue.add(0);
         int current_level = 0;
         LinkedList<Integer> current_list = new LinkedList<>();
-        Stack<LinkedList<Integer>> ans = new Stack<>();
+        List<List<Integer>> ans = new LinkedList<>();
 
         while (!tree_queue.isEmpty()) {
             TreeNode current_node = tree_queue.remove();
@@ -53,7 +44,7 @@ class Solution {
 
             // if go to a new level, use a new list
             if (level != current_level) {
-                ans.push(current_list);
+                ans.add(current_list);
                 current_list = new LinkedList<>();
                 current_list.add(current_node.val);
                 current_level = level;
@@ -61,7 +52,8 @@ class Solution {
                 current_list.add(current_node.val);
             }
         }
-        ans.push(current_list);
-        return reverse(ans);
+        ans.add(current_list);
+        Collections.reverse(ans);
+        return ans;
     }
 }
