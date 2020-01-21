@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/107. 二叉树的层次遍历 II/107. 二叉树的层次遍历 II.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/69. x 的平方根/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/69. x 的平方根/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +20,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java">
+        <entry file="file://$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="-256">
+              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,6 +42,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,7 +68,6 @@
         <option value="$PROJECT_DIR$/53. 最大子序和/src/main.java" />
         <option value="$PROJECT_DIR$/58. 最后一个单词的长度/src/main.java" />
         <option value="$PROJECT_DIR$/67. 二进制求和/src/main.java" />
-        <option value="$PROJECT_DIR$/69. x 的平方根/src/main.java" />
         <option value="$PROJECT_DIR$/70. 爬楼梯/src/main.java" />
         <option value="$PROJECT_DIR$/83. 删除排序链表中的重复元素/src/main.java" />
         <option value="$PROJECT_DIR$/88. 合并两个有序数组/src/main.java" />
@@ -71,10 +77,12 @@
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java" />
         <option value="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" />
+        <option value="$PROJECT_DIR$/69. x 的平方根/src/main.java" />
+        <option value="$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -84,6 +92,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,14 +104,18 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="448. 找到所有数组中消失的数字" type="462c0819:PsiDirectoryNode" />
+              <item name="107. 二叉树的层次遍历 II" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="107. 二叉树的层次遍历 II" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,6 +199,11 @@
       <workItem from="1579107058692" duration="15000" />
       <workItem from="1579107519538" duration="3009000" />
       <workItem from="1579163053728" duration="4025000" />
+      <workItem from="1579418131559" duration="22000" />
+      <workItem from="1579418159883" duration="25000" />
+      <workItem from="1579418190016" duration="4000" />
+      <workItem from="1579418215283" duration="787000" />
+      <workItem from="1579530423955" duration="4962000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -414,7 +433,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69985000" />
+    <option name="totallyTimeSpent" value="75797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +448,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2353362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25965664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -444,7 +463,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -583,12 +602,6 @@
           <line>16</line>
           <properties />
           <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -868,17 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/69. x 的平方根/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/70. 爬楼梯/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -932,6 +934,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="505">
@@ -942,7 +945,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -984,8 +986,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/448. 找到所有数组中消失的数字.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/69. x 的平方根/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
