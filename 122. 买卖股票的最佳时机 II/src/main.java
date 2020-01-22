@@ -1,7 +1,7 @@
 public class main {
 }
 
-class Solution121 {
+class Solution122 {
     public int maxProfit(int[] prices) {
         if (prices.length == 1 || prices.length == 0) return 0;
         int total_profit = 0;

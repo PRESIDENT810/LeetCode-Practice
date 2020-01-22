@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/121. 买卖股票的最佳时机/121. 买卖股票的最佳时机.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/121. 买卖股票的最佳时机/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/125. 验证回文串/125. 验证回文串.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/125. 验证回文串/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/122. 买卖股票的最佳时机 II/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/122. 买卖股票的最佳时机 II/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +20,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/121. 买卖股票的最佳时机/src/main.java">
+        <entry file="file://$PROJECT_DIR$/125. 验证回文串/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="152">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="e#62#63#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,6 +86,8 @@
         <option value="$PROJECT_DIR$/119. 杨辉三角 II/src/main.java" />
         <option value="$PROJECT_DIR$/118. 杨辉三角/src/main.java" />
         <option value="$PROJECT_DIR$/121. 买卖股票的最佳时机/src/main.java" />
+        <option value="$PROJECT_DIR$/122. 买卖股票的最佳时机 II/src/main.java" />
+        <option value="$PROJECT_DIR$/125. 验证回文串/src/main.java" />
       </list>
     </option>
   </component>
@@ -104,7 +111,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="121. 买卖股票的最佳时机" type="462c0819:PsiDirectoryNode" />
+              <item name="125. 验证回文串" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +166,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="108. 将有序数组转换为二叉搜索树" />
+      <module name="125. 验证回文串" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,7 +208,7 @@
       <workItem from="1579418215283" duration="787000" />
       <workItem from="1579530423955" duration="6514000" />
       <workItem from="1579611025939" duration="264000" />
-      <workItem from="1579611305008" duration="4640000" />
+      <workItem from="1579611305008" duration="6100000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -483,11 +490,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579620897153</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Finish Q121">
+      <created>1579623289523</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623289523</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Finish Q122">
+      <created>1579623612038</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1579623612038</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82253000" />
+    <option name="totallyTimeSpent" value="83713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,7 +523,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -512,12 +533,12 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -579,8 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q38 (iteration)" />
-    <MESSAGE value="Finish Q38 (StringBuilder)" />
     <MESSAGE value="Finish Q53" />
     <MESSAGE value="Finish Q58 (slow)" />
     <MESSAGE value="Finish Q58 (slighter better)" />
@@ -604,7 +623,9 @@
     <MESSAGE value="Finish Q112" />
     <MESSAGE value="Finish Q118" />
     <MESSAGE value="Finish Q119" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q119" />
+    <MESSAGE value="Finish Q121" />
+    <MESSAGE value="Finish Q122" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q122" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="2642" column="18" selection-start-line="2642" selection-start-column="18" selection-end-line="2642" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/67. 二进制求和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1115,8 +1129,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/121. 买卖股票的最佳时机/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122. 买卖股票的最佳时机 II/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="16" selection-end-column="1" />
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="2124" column="18" selection-start-line="2124" selection-start-column="18" selection-end-line="2124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/125. 验证回文串/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#62#63#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
