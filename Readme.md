@@ -1,7 +1,7 @@
 ## 3. 无重复字符的最长子串
 - Case: very long String
 
-Cannot use recursion (each recursion with 1 less character), since the String is so fuckin' long, using recursion leads to **stack overflow**
+不能使用递归（每次递归判断多一个字符的字符串），如果初始字符串太长的话会导致栈溢出
 
 Standard answer:
 ```java
@@ -23,19 +23,20 @@ public class Solution {
 ## 7. 整数反转
 - Case: -2147483648
 
-Java integer only support number from -2147483648 (-2^31) to 2147483647 (2^31-1).
+Java整数只支持-2147483648 (-2^31) 到 2147483647 (2^31-1) 范围内的数字
 
-If you want to times -1 when negative, doing this leads to an error, since **-2147483648 is a valid java integer but 2147483648 is not (overflow)**, 
+如果遇到负数时乘-1处理, 遇到-2147483648会溢出, 因为**-2147483648是一个有效的java整数，但是2147483648并不是！（溢出）**, 
 
-(**The only case that java supports a negative number, but not its corresponding positive number !**)
+(**唯一java支持某个负数，但不支持其对应相反数（正数）的情况!**)
   
-Note: take care when handling integer overflow cases!
+Note：使用long类型避免整数溢出情况!
 
 ## 27. 移除元素
-Apart from moving different elements forward, one can also move duplicate elements afterwords
+除了把不同的数字向前移动，也可以把重复的数字向后移动
+
 
 ## 35. 搜索插入位置
-When doing binary search, at first the tail should be the length of the array, **not the length-1**
+执行二分搜索时，初始时tail应该是数组长度**而不是数组长度-1**
 ```java
         int head = 0;
         int tail = nums.length; // not "nums.length-1"
@@ -58,7 +59,7 @@ this is much faster than
 ```
 
 ## 53 最大字序和
-Common extreme case:
+常见极端情况:
 - Array with only one element
 - Empty array
 - `Integer.MAX_VALUE/MIN_VALUE`
@@ -134,3 +135,7 @@ Fuck trees, always beware of an empty tree (`Tree = []`)
 只有唯一一个只出现一次的数字与0异或，结果仍然是这个数字
 
 **常规算法无法解决问题时，记得考虑能否使用位运算解决问题!!!**
+
+
+## 141. 环形链表
+擦，还以为自己的做法会是标准答案，然后看了一下答案...发现貌似没有我这种思路诶

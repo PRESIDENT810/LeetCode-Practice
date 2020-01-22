@@ -11,7 +11,7 @@ class ListNode {
     }
 }
 
-class Solution {
+class Solution141 {
     public boolean hasCycle(ListNode head) {
         if (head == null) return false;
 
