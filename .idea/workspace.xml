@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,19 +17,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/136. 只出现一次的数字/src/main.java">
+        <entry file="file://$PROJECT_DIR$/141. 环形链表/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="457">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/141. 环形链表/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider editor-type-id="Gfm" />
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="446">
+                <caret line="141" selection-start-line="141" selection-end-line="141" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -87,6 +96,7 @@
         <option value="$PROJECT_DIR$/122. 买卖股票的最佳时机 II/src/main.java" />
         <option value="$PROJECT_DIR$/125. 验证回文串/src/main.java" />
         <option value="$PROJECT_DIR$/136. 只出现一次的数字/src/main.java" />
+        <option value="$PROJECT_DIR$/141. 环形链表/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
@@ -107,17 +117,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="141. 环形链表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="141. 环形链表" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +213,7 @@
       <workItem from="1579418215283" duration="787000" />
       <workItem from="1579530423955" duration="6514000" />
       <workItem from="1579611025939" duration="264000" />
-      <workItem from="1579611305008" duration="9191000" />
+      <workItem from="1579611305008" duration="10476000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -531,11 +530,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579716076239</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Finish Q141">
+      <created>1579716727090</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1579716727090</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Finish Q141 (kind of...original?)">
+      <created>1579718246933</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1579718246933</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86804000" />
+    <option name="totallyTimeSpent" value="88089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q67" />
-    <MESSAGE value="Finish Q69 (binary)" />
     <MESSAGE value="Finish Q70 (recursion, but actually you can use math method to solve)" />
     <MESSAGE value="Finish Q83" />
     <MESSAGE value="Finish Q88" />
@@ -652,7 +663,9 @@
     <MESSAGE value="Finish Q125" />
     <MESSAGE value="Update Q125" />
     <MESSAGE value="Pass Q136 by reading the answer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pass Q136 by reading the answer" />
+    <MESSAGE value="Finish Q141" />
+    <MESSAGE value="Finish Q141 (kind of...original?)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q141 (kind of...original?)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -948,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/35. 搜索插入位置/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="11" selection-start-line="11" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/38. 外观数列/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-281">
@@ -1169,19 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="429">
-            <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/136. 只出现一次的数字/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1189,12 +1182,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/141. 环形链表/src/main.java">
+    <entry file="file://$PROJECT_DIR$/35. 搜索插入位置/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="-36">
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/141. 环形链表/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="446">
+            <caret line="141" selection-start-line="141" selection-end-line="141" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
     </entry>
   </component>
   <component name="masterDetails">
