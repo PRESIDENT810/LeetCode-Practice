@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/155. 最小栈/155. 最小栈.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/155. 最小栈/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,26 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/141. 环形链表/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider editor-type-id="Gfm" />
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="446">
-                <caret line="141" selection-start-line="141" selection-end-line="141" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/155. 最小栈/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,10 +90,11 @@
         <option value="$PROJECT_DIR$/136. 只出现一次的数字/src/main.java" />
         <option value="$PROJECT_DIR$/141. 环形链表/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/155. 最小栈/src/main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -111,6 +104,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,12 +113,15 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="155. 最小栈" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +211,8 @@
       <workItem from="1579418215283" duration="787000" />
       <workItem from="1579530423955" duration="6514000" />
       <workItem from="1579611025939" duration="264000" />
-      <workItem from="1579611305008" duration="10476000" />
+      <workItem from="1579611305008" duration="10909000" />
+      <workItem from="1579784766079" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Q66">
       <created>1578329698788</created>
@@ -544,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579718246933</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Add some algorithm detail for Q141">
+      <created>1579718589909</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1579718589909</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88089000" />
+    <option name="totallyTimeSpent" value="89833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +569,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26680973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -578,7 +584,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -640,7 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q70 (recursion, but actually you can use math method to solve)" />
     <MESSAGE value="Finish Q83" />
     <MESSAGE value="Finish Q88" />
     <MESSAGE value="Finish Q100" />
@@ -665,7 +670,8 @@
     <MESSAGE value="Pass Q136 by reading the answer" />
     <MESSAGE value="Finish Q141" />
     <MESSAGE value="Finish Q141 (kind of...original?)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q141 (kind of...original?)" />
+    <MESSAGE value="Add some algorithm detail for Q141" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some algorithm detail for Q141" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,12 +842,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3. 无重复字符的最长子串/3. 无重复字符的最长子串.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1189,25 +1189,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/141. 环形链表/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="446">
-            <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <first_editor relative-caret-position="423">
+            <caret line="158" column="4" selection-start-line="158" selection-start-column="4" selection-end-line="158" selection-end-column="4" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/141. 环形链表/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="774" column="13" selection-start-line="774" selection-start-column="13" selection-end-line="774" selection-end-column="13" />
+          <folding>
+            <element signature="e#21310#21311#0" expanded="true" />
+            <element signature="e#21346#21347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="350" column="13" selection-start-line="350" selection-start-column="13" selection-end-line="350" selection-end-column="13" />
+          <folding>
+            <element signature="e#14140#14141#0" expanded="true" />
+            <element signature="e#14175#14176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/155. 最小栈/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
