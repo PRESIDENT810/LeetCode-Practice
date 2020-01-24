@@ -22,7 +22,7 @@ class Solution1 {
             }
             // no such key
             int complement = target-nums[idx];
-            m.put(nums[idx], idx);
+            m.put(complement, idx);
         }
         return result;
     }
