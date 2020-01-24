@@ -48,12 +48,12 @@ class Solution160 {
             }
         }
 
-        if (crt_A == crt_B) return crt_A;
         while (crt_A.next != null) {
             if (crt_A == crt_B) return crt_A;
             crt_A = crt_A.next;
             crt_B = crt_B.next;
         }
+        if (crt_A == crt_B) return crt_A;
 
         return null;
     }
