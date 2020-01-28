@@ -199,3 +199,29 @@ Note:
 2. 要**利用数组索引存储额外信息**，又**不能丢失原有信息**（不能替换数组中其它元素），可以**将数组对应位置的数字乘-1来表示已经遍历的数字**
 
 （由于数组中数字都大于0，所以乘-1不会丢失原有信息，负数则表示这个索引对应数字已被遍历）
+
+
+## 167. 两数之和 II - 输入有序数组
+
+有序数组时，考虑使用双指针
+
+当两数之和大于目标时，右指针左移使两数之和减小；当两数之和小于目标时，左指针右移使两数之和增大；
+
+**由于数组有序，所以使两数之和增加/减小只需将两个指针中的一个向一个方向移动即可**，
+
+左指针从左开始，故要减小只需要左移右指针；右指针从右开始，故要增大只需要右移左指针
+
+```java
+class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        int start = 0;
+        int end = numbers.length-1;
+
+        while (true) {
+            if (numbers[start] + numbers[end] == target) return new int[]{start + 1, end + 1};
+            else if (numbers[start] + numbers[end] > target) end--;
+            else start++;
+        }
+    }
+}
+```

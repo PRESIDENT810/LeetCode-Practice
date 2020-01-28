@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/167. 两数之和 II - 输入有序数组.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java">
+        <entry file="file://$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -34,8 +31,8 @@
           <provider editor-type-id="Gfm" />
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="189" column="33" lean-forward="true" selection-start-line="189" selection-start-column="33" selection-end-line="189" selection-end-column="33" />
+              <first_editor relative-caret-position="293">
+                <caret line="209" column="37" lean-forward="true" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="37" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -60,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1. 两数之和/src/main.java" />
         <option value="$PROJECT_DIR$/2. 两数相加/src/main.java" />
         <option value="$PROJECT_DIR$/66. 加一/src/main.java" />
         <option value="$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java" />
@@ -103,8 +99,11 @@
         <option value="$PROJECT_DIR$/155. 最小栈/src/main.java" />
         <option value="$PROJECT_DIR$/1323. 6 和 9 组成的最大数字/src/main.java" />
         <option value="$PROJECT_DIR$/160. 相交链表/src/main.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" />
+        <option value="$PROJECT_DIR$/1. 两数之和/src/main.java" />
+        <option value="$PROJECT_DIR$/15. 三数之和/src/main.java" />
+        <option value="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -126,29 +125,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="167. 两数之和 II - 输入有序数组" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="448. 找到所有数组中消失的数字" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="448. 找到所有数组中消失的数字" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="448. 找到所有数组中消失的数字" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -245,20 +221,6 @@
       <workItem from="1579611025939" duration="264000" />
       <workItem from="1579611305008" duration="10909000" />
       <workItem from="1579784766079" duration="4782000" />
-    </task>
-    <task id="LOCAL-00004" summary="Finish Q9">
-      <created>1578467962073</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1578467962073</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Finish Q12">
-      <created>1578470857821</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1578470857821</updated>
     </task>
     <task id="LOCAL-00006" summary="Finish Q13">
       <created>1578473561624</created>
@@ -589,11 +551,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579866483959</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Update Q448">
+      <created>1579870799676</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1579870799676</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Fix Q1">
+      <created>1579871412894</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1579871412894</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94500000" />
+    <option name="totallyTimeSpent" value="98272000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,7 +599,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -685,8 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q101 (iteration)" />
-    <MESSAGE value="Finish Q100 (iteration)" />
     <MESSAGE value="Finish Q104 (iteration)" />
     <MESSAGE value="Finish Q111" />
     <MESSAGE value="Finish Q448 (slow)" />
@@ -710,7 +684,9 @@
     <MESSAGE value="Finish Q155 (stack)" />
     <MESSAGE value="Finish Q160" />
     <MESSAGE value="Fix Q160 (a minor mistake)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Q160 (a minor mistake)" />
+    <MESSAGE value="Update Q448" />
+    <MESSAGE value="Fix Q1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Q1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,13 +863,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7. 整数反转/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12. 整数转罗马数字/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1242,24 +1211,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1323. 6 和 9 组成的最大数字/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1270,12 +1225,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15. 三数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="189" column="33" lean-forward="true" selection-start-line="189" selection-start-column="33" selection-end-line="189" selection-end-column="33" />
+          <first_editor relative-caret-position="293">
+            <caret line="209" column="37" lean-forward="true" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="37" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -1333,7 +1309,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>121. 买卖股票的最佳时机</last-edited>
+          <last-edited>15. 三数之和</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
