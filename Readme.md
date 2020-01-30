@@ -255,3 +255,26 @@ class Solution168 {
     }
 }
 ``` 
+
+## 171. Excel表列序号
+正着做就不需要考虑满26的边界情况了，Z的时候直接乘26即可
+
+Note：做进制转换的时候不需要傻乎乎的用Math.pow()，用一个
+int base = 1; 循环内 base *= 26; 可以大幅节省时间
+
+```java
+class Solution171 {
+    public int titleToNumber(String s) {
+        int ans = 0;
+        int len = s.length();
+        int base = 1; // 每一轮循环的base
+
+        for (int i=0; i<len; i++){
+            ans += base*(s.charAt(len-1-i)-'A'+1);
+            base *= 26; // 进入下一轮循环时base*26，这样就不需要使用pow函数计算幂了
+        }
+
+        return ans;
+    }
+}
+``` 
