@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/168. Excel表列名称/168. Excel表列名称.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/168. Excel表列名称/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/169. 多数元素/169. 多数元素.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/169. 多数元素/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,38 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/168. Excel表列名称/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="e#62#63#0" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="178">
-                <caret line="233" column="16" lean-forward="true" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
-                <folding>
-                  <element signature="e#55#56#0" expanded="true" />
-                  <element signature="e#129#130#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/169. 多数元素/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
-          <provider editor-type-id="Gfm" />
         </entry>
       </file>
     </leaf>
@@ -117,7 +90,9 @@
         <option value="$PROJECT_DIR$/15. 三数之和/src/main.java" />
         <option value="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" />
         <option value="$PROJECT_DIR$/168. Excel表列名称/src/main.java" />
+        <option value="$PROJECT_DIR$/171. Excel表列序号/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/169. 多数元素/src/main.java" />
       </list>
     </option>
   </component>
@@ -138,6 +113,11 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="169. 多数元素" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,21 +217,7 @@
       <workItem from="1579784766079" duration="4782000" />
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
-      <workItem from="1580368948523" duration="3066000" />
-    </task>
-    <task id="LOCAL-00007" summary="Finish Q14">
-      <created>1578494937783</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1578494937783</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Finish Q20">
-      <created>1578497331461</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1578497331461</updated>
+      <workItem from="1580368948523" duration="3939000" />
     </task>
     <task id="LOCAL-00009" summary="Finish Q21">
       <created>1578581801366</created>
@@ -582,11 +548,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580218415520</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Finish Q168">
+      <created>1580373755288</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1580373755289</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Finish Q171">
+      <created>1580374264474</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1580374264474</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107520000" />
+    <option name="totallyTimeSpent" value="108393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,12 +591,12 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -678,8 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q111" />
-    <MESSAGE value="Finish Q448 (slow)" />
     <MESSAGE value="Finish Q107" />
     <MESSAGE value="Finish Q107 (more concise)" />
     <MESSAGE value="Update Q69 (add Gaussian Newton method)" />
@@ -703,7 +681,9 @@
     <MESSAGE value="Update Q448" />
     <MESSAGE value="Fix Q1" />
     <MESSAGE value="Finish Q167" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q167" />
+    <MESSAGE value="Finish Q168" />
+    <MESSAGE value="Finish Q171" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q171" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -880,20 +860,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20. 有效的括号/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21. 合并两个有序链表/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="16" selection-start-line="16" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/26. 删除排序数组中的重复项/26. 删除排序数组中的重复项.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1249,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/168. Excel表列名称/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="e#62#63#0" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
@@ -1263,8 +1229,8 @@
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="178">
-            <caret line="233" column="16" lean-forward="true" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
+          <first_editor relative-caret-position="355">
+            <caret line="273" column="59" selection-start-line="273" selection-start-column="59" selection-end-line="273" selection-end-column="59" />
             <folding>
               <element signature="e#55#56#0" expanded="true" />
               <element signature="e#129#130#0" expanded="true" />
@@ -1276,6 +1242,20 @@
         </state>
       </provider>
       <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/171. Excel表列序号/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/169. 多数元素/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
