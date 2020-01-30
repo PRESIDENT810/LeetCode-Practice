@@ -294,3 +294,25 @@ class Solution171 {
     }
 }
 ``` 
+
+
+## 172. 阶乘后的零
+
+一开始以为直接返回n/5即可（几个含因子5的数字就是几个0）
+
+但是测试样例为30时有7个而不是6个0，原因是25含有两个5因子...
+那就多计算一遍含有5的幂的数字有几个，再加上对应的幂大小即可
+```java
+class Solution {
+    public int trailingZeroes(int n) {
+        long base = 5;
+        int zeroes = 0;
+        while (n >= base) {
+            zeroes += n/base;
+            base*=5;
+        }
+
+        return zeroes;
+    }
+}
+```

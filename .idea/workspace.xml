@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/172. 阶乘后的零/172. 阶乘后的零.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/172. 阶乘后的零/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/169. 多数元素/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/169. 多数元素/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/169. 多数元素/src/main.java">
+        <entry file="file://$PROJECT_DIR$/172. 阶乘后的零/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="114">
+              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -30,8 +32,12 @@
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="266">
-                <caret line="272" selection-start-line="272" selection-end-line="272" />
+              <first_editor relative-caret-position="681">
+                <caret line="303" column="30" selection-start-line="303" selection-start-column="30" selection-end-line="303" selection-end-column="30" />
+                <folding>
+                  <element signature="e#55#56#0" expanded="true" />
+                  <element signature="e#129#130#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -105,8 +111,9 @@
         <option value="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" />
         <option value="$PROJECT_DIR$/168. Excel表列名称/src/main.java" />
         <option value="$PROJECT_DIR$/171. Excel表列序号/src/main.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/169. 多数元素/src/main.java" />
+        <option value="$PROJECT_DIR$/172. 阶乘后的零/src/main.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -127,11 +134,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="169. 多数元素" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,14 +233,7 @@
       <workItem from="1579784766079" duration="4782000" />
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
-      <workItem from="1580368948523" duration="4666000" />
-    </task>
-    <task id="LOCAL-00011" summary="Finish Q27">
-      <created>1578585880295</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1578585880295</updated>
+      <workItem from="1580368948523" duration="5658000" />
     </task>
     <task id="LOCAL-00012" summary="Finish Q27">
       <created>1578586020445</created>
@@ -576,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580375760157</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Finish Q169 (Boyer-Moore)">
+      <created>1580378789604</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1580378789604</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109120000" />
+    <option name="totallyTimeSpent" value="110112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +612,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -672,7 +674,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Q69 (add Gaussian Newton method)" />
     <MESSAGE value="Finish Q108" />
     <MESSAGE value="Finish Q110" />
     <MESSAGE value="Finish Q112" />
@@ -697,7 +698,8 @@
     <MESSAGE value="Finish Q171" />
     <MESSAGE value="Finish Q169 (sort)" />
     <MESSAGE value="Finish Q169 (hash)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q169 (hash)" />
+    <MESSAGE value="Finish Q169 (Boyer-Moore)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q169 (Boyer-Moore)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -874,9 +876,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/26. 删除排序数组中的重复项/26. 删除排序数组中的重复项.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringLatin1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1249,16 +1248,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/169. 多数元素/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="152">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/172. 阶乘后的零/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="272" selection-start-line="272" selection-end-line="272" />
+          <first_editor relative-caret-position="681">
+            <caret line="303" column="30" selection-start-line="303" selection-start-column="30" selection-end-line="303" selection-end-column="30" />
+            <folding>
+              <element signature="e#55#56#0" expanded="true" />
+              <element signature="e#129#130#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
