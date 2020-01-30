@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/169. 多数元素/169. 多数元素.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/169. 多数元素/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/169. 多数元素/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/169. 多数元素/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +17,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/169. 多数元素/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="266">
+                <caret line="272" selection-start-line="272" selection-end-line="272" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+          <provider editor-type-id="Gfm" />
         </entry>
       </file>
     </leaf>
@@ -217,21 +231,7 @@
       <workItem from="1579784766079" duration="4782000" />
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
-      <workItem from="1580368948523" duration="3939000" />
-    </task>
-    <task id="LOCAL-00009" summary="Finish Q21">
-      <created>1578581801366</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1578581801366</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Finish Q26">
-      <created>1578585709518</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1578585709518</updated>
+      <workItem from="1580368948523" duration="4666000" />
     </task>
     <task id="LOCAL-00011" summary="Finish Q27">
       <created>1578585880295</created>
@@ -562,11 +562,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580374264474</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Finish Q169 (sort)">
+      <created>1580375425674</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1580375425674</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Finish Q169 (hash)">
+      <created>1580375760157</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1580375760157</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108393000" />
+    <option name="totallyTimeSpent" value="109120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,8 +672,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q107" />
-    <MESSAGE value="Finish Q107 (more concise)" />
     <MESSAGE value="Update Q69 (add Gaussian Newton method)" />
     <MESSAGE value="Finish Q108" />
     <MESSAGE value="Finish Q110" />
@@ -683,7 +695,9 @@
     <MESSAGE value="Finish Q167" />
     <MESSAGE value="Finish Q168" />
     <MESSAGE value="Finish Q171" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q171" />
+    <MESSAGE value="Finish Q169 (sort)" />
+    <MESSAGE value="Finish Q169 (hash)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q169 (hash)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1226,23 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="355">
-            <caret line="273" column="59" selection-start-line="273" selection-start-column="59" selection-end-line="273" selection-end-column="59" />
-            <folding>
-              <element signature="e#55#56#0" expanded="true" />
-              <element signature="e#129#130#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/171. Excel表列序号/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1252,10 +1249,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/169. 多数元素/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="272" selection-start-line="272" selection-end-line="272" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
     </entry>
   </component>
   <component name="masterDetails">
