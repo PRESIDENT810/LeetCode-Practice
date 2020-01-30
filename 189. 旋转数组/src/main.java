@@ -2,18 +2,20 @@ public class main {
 }
 
 class Solution {
-    public void move(int[] nums){
-        int last = nums[0];
+    public void reverse(int[] nums, int start, int end){
         int temp;
-        for (int i=1; i<nums.length; i++){
-            temp = nums[i];
-            nums[i] = last;
-            last = temp;
+        while (start != end && start != end+1) {
+            temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
         }
-        nums[0] = last;
     }
 
     public void rotate(int[] nums, int k) {
-        for (int i=0; i<k; i++) move(nums);
+        reverse(nums, 0, nums.length-1);
+        reverse(nums, 0, k-1);
+        reverse(nums, k, nums.length-1);
     }
 }
