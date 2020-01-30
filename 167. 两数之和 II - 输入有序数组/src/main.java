@@ -1,9 +1,7 @@
-import java.util.*;
-
 public class main {
 }
 
-class Solution {
+class Solution167 {
     public int[] twoSum(int[] numbers, int target) {
         int start = 0;
         int end = numbers.length-1;

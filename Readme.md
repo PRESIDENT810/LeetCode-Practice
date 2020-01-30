@@ -225,3 +225,33 @@ class Solution {
     }
 }
 ```
+
+## 168. Excel表列名称
+莫名其妙一个题...卡的时候卡了一个多小时，最后随手一改过了
+
+问题关键是**模26的时候，余0实际上要减掉26**...
+
+因为在**满26的时候实际上是Z而不是进位**，所以模出0的时候需要特殊处理，即减去26取消进位
+```java
+class Solution168 {
+    public char map(int remainder) {
+        return (char) (remainder+64); // 0-'Z' 1-'A' 2-'B'...25-'Y'
+    }
+
+    public String convertToTitle(int n) {
+        StringBuilder ans = new StringBuilder();
+        int remainder;
+
+        while (n > 26) {
+            // 如果满26的话不是进位而是Z，所以把余数换成26
+            // 这样转化为字符的时候不会出错，除的时候先减去余数也不会导致进位
+            remainder = n%26==0 ? 26: n%26; 
+            ans.append(map(remainder));
+            n -= remainder;
+            n = n/26;
+        }
+        ans.append(map(n));
+        return new String(ans.reverse());
+    }
+}
+``` 
