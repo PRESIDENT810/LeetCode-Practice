@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/217. 存在重复元素/217. 存在重复元素.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/217. 存在重复元素/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/219. 存在重复元素 II/219. 存在重复元素 II.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/219. 存在重复元素 II/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/217. 存在重复元素/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/219. 存在重复元素 II/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -42,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/26. 删除排序数组中的重复项/src/main.java" />
         <option value="$PROJECT_DIR$/27. 移除元素/src/main.java" />
         <option value="$PROJECT_DIR$/28. 实现 strStr()/src/main.java" />
         <option value="$PROJECT_DIR$/468. 验证IP地址/src/main.java" />
@@ -93,6 +102,7 @@
         <option value="$PROJECT_DIR$/206. 反转链表/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/217. 存在重复元素/src/main.java" />
+        <option value="$PROJECT_DIR$/219. 存在重复元素 II/src/main.java" />
       </list>
     </option>
   </component>
@@ -117,7 +127,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="217. 存在重复元素" type="462c0819:PsiDirectoryNode" />
+              <item name="219. 存在重复元素 II" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,28 +228,7 @@
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
       <workItem from="1580368948523" duration="9142000" />
-      <workItem from="1580392877863" duration="22670000" />
-    </task>
-    <task id="LOCAL-00030" summary="Finish Q104 (iteration)">
-      <created>1579111767290</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1579111767290</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Finish Q111">
-      <created>1579112093943</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1579112093943</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Finish Q448 (slow)">
-      <created>1579180541456</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1579180541457</updated>
+      <workItem from="1580392877863" duration="23707000" />
     </task>
     <task id="LOCAL-00033" summary="Finish Q107">
       <created>1579593216981</created>
@@ -563,11 +552,32 @@
       <option name="project" value="LOCAL" />
       <updated>1580479582179</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Finish Q217 (Hashset)">
+      <created>1580480420795</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1580480420796</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Finish Q217 (sort)">
+      <created>1580480518067</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1580480518067</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Update Q217">
+      <created>1580480935790</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1580480935790</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136266000" />
+    <option name="totallyTimeSpent" value="137303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,7 +607,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -659,9 +669,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix Q1" />
-    <MESSAGE value="Finish Q167" />
-    <MESSAGE value="Finish Q168" />
     <MESSAGE value="Finish Q171" />
     <MESSAGE value="Finish Q169 (sort)" />
     <MESSAGE value="Finish Q169 (hash)" />
@@ -684,7 +691,10 @@
     <MESSAGE value="Update 205" />
     <MESSAGE value="Finish Q206 (iteration)" />
     <MESSAGE value="Finish Q206 (recursion)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q206 (recursion)" />
+    <MESSAGE value="Finish Q217 (Hashset)" />
+    <MESSAGE value="Finish Q217 (sort)" />
+    <MESSAGE value="Update Q217" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Q217" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -884,17 +894,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/67. 二进制求和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#62#63#0" expanded="true" />
-            <element signature="e#83#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/70. 爬楼梯/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1276,23 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="149">
-            <caret line="465" column="50" selection-start-line="465" selection-start-column="50" selection-end-line="465" selection-end-column="50" />
-            <folding>
-              <element signature="e#55#56#0" expanded="true" />
-              <element signature="e#129#130#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/206. 反转链表/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1304,10 +1286,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="Gfm" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="537">
+            <caret line="505" column="31" selection-start-line="505" selection-start-column="31" selection-end-line="505" selection-end-column="31" />
+            <folding>
+              <element signature="e#55#56#0" expanded="true" />
+              <element signature="e#129#130#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/217. 存在重复元素/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/219. 存在重复元素 II/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
