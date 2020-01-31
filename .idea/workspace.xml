@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/203. 移除链表元素/203. 移除链表元素.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/203. 移除链表元素/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,24 +18,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/190. 颠倒二进制位/src/main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/203. 移除链表元素/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
-                <element signature="e#62#63#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/191. 位1的个数/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -51,9 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java" />
-        <option value="$PROJECT_DIR$/9. 回文数/src/main.java" />
-        <option value="$PROJECT_DIR$/7. 整数反转/src/main.java" />
         <option value="$PROJECT_DIR$/12. 整数转罗马数字/src/main.java" />
         <option value="$PROJECT_DIR$/13. 罗马数字转整数/src/main.java" />
         <option value="$PROJECT_DIR$/14. 最长公共前缀/src/main.java" />
@@ -102,6 +95,9 @@
         <option value="$PROJECT_DIR$/189. 旋转数组/src/main.java" />
         <option value="$PROJECT_DIR$/190. 颠倒二进制位/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/191. 位1的个数/src/main.java" />
+        <option value="$PROJECT_DIR$/198. 打家劫舍/src/main.java" />
+        <option value="$PROJECT_DIR$/203. 移除链表元素/src/main.java" />
       </list>
     </option>
   </component>
@@ -126,13 +122,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="191. 位1的个数" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="191. 位1的个数" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="203. 移除链表元素" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,21 +223,7 @@
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
       <workItem from="1580368948523" duration="9142000" />
-      <workItem from="1580392877863" duration="5961000" />
-    </task>
-    <task id="LOCAL-00016" summary="Finish Q38 (iteration)">
-      <created>1578900210054</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1578900210054</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Finish Q38 (StringBuilder)">
-      <created>1578900632524</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1578900632524</updated>
+      <workItem from="1580392877863" duration="7139000" />
     </task>
     <task id="LOCAL-00018" summary="Finish Q53">
       <created>1578902570859</created>
@@ -578,11 +554,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580442520746</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Finish Q191">
+      <created>1580442695972</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1580442695972</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Finish Q198">
+      <created>1580444057931</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1580444057931</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119557000" />
+    <option name="totallyTimeSpent" value="120735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,8 +664,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q119" />
-    <MESSAGE value="Finish Q121" />
     <MESSAGE value="Finish Q122" />
     <MESSAGE value="Finish Q125" />
     <MESSAGE value="Update Q125" />
@@ -699,7 +687,9 @@
     <MESSAGE value="Finish Q189 (time: O(kn); space: O(1))" />
     <MESSAGE value="Fuck ring replacement&#10;Fuck this shit&#10;Stupid bitch ass&#10;Fuck you little fucker" />
     <MESSAGE value="Finish Q190" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q190" />
+    <MESSAGE value="Finish Q191" />
+    <MESSAGE value="Finish Q198" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q198" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -888,26 +878,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/468. 验证IP地址/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/26. 删除排序数组中的重复项/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/14. 最长公共前缀/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1300,8 +1270,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/191. 位1的个数/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/198. 打家劫舍/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/203. 移除链表元素/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1355,7 +1343,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>168. Excel表列名称</last-edited>
+          <last-edited>203. 移除链表元素</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
