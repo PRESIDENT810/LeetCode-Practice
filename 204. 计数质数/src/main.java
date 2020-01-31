@@ -12,7 +12,6 @@ class Solution204 {
         boolean[] Primes = new boolean[n];
         int ans = 0;
 
-
         for (int i=2; i<n; i++){
             if (!Primes[i]) {
                 ans++;
