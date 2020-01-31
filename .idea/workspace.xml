@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/202. 快乐数/202. 快乐数.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/202. 快乐数/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/204. 计数质数/204. 计数质数.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/204. 计数质数/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,43 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/202. 快乐数/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-              <folding>
-                <element signature="e#62#63#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider editor-type-id="Gfm" />
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="370">
-                <caret line="346" selection-start-line="346" selection-end-line="346" />
-                <folding>
-                  <element signature="e#55#56#0" expanded="true" />
-                  <element signature="e#129#130#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+        <entry file="file://$PROJECT_DIR$/204. 计数质数/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -76,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/13. 罗马数字转整数/src/main.java" />
         <option value="$PROJECT_DIR$/14. 最长公共前缀/src/main.java" />
         <option value="$PROJECT_DIR$/20. 有效的括号/src/main.java" />
         <option value="$PROJECT_DIR$/21. 合并两个有序链表/src/main.java" />
@@ -127,6 +93,7 @@
         <option value="$PROJECT_DIR$/203. 移除链表元素/src/main.java" />
         <option value="$PROJECT_DIR$/202. 快乐数/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/204. 计数质数/src/main.java" />
       </list>
     </option>
   </component>
@@ -151,7 +118,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="202. 快乐数" type="462c0819:PsiDirectoryNode" />
+              <item name="204. 计数质数" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,14 +219,7 @@
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
       <workItem from="1580368948523" duration="9142000" />
-      <workItem from="1580392877863" duration="8588000" />
-    </task>
-    <task id="LOCAL-00019" summary="Finish Q58 (slow)">
-      <created>1578903694821</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1578903694821</updated>
+      <workItem from="1580392877863" duration="10298000" />
     </task>
     <task id="LOCAL-00020" summary="Finish Q58 (slighter better)">
       <created>1578904647330</created>
@@ -597,11 +557,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580444562721</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Finish Q202">
+      <created>1580447860104</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1580447860104</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122184000" />
+    <option name="totallyTimeSpent" value="123894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,7 +593,7 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -693,7 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q125" />
     <MESSAGE value="Update Q125" />
     <MESSAGE value="Pass Q136 by reading the answer" />
     <MESSAGE value="Finish Q141" />
@@ -718,7 +684,8 @@
     <MESSAGE value="Finish Q191" />
     <MESSAGE value="Finish Q198" />
     <MESSAGE value="Finish Q203" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q203" />
+    <MESSAGE value="Finish Q202" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q202" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,13 +880,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/13. 罗马数字转整数/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9. 回文数/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1304,23 +1264,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/202. 快乐数/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#62#63#0" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="370">
-            <caret line="346" selection-start-line="346" selection-end-line="346" />
+          <first_editor relative-caret-position="529">
+            <caret line="350" selection-start-line="350" selection-end-line="350" />
             <folding>
               <element signature="e#55#56#0" expanded="true" />
               <element signature="e#129#130#0" expanded="true" />
@@ -1329,6 +1278,23 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/202. 快乐数/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/204. 计数质数/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
