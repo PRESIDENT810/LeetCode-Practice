@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/205. 同构字符串/205. 同构字符串.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/205. 同构字符串/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +16,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/205. 同构字符串/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider editor-type-id="Gfm" />
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="965">
+                <caret line="440" column="64" selection-start-line="440" selection-start-column="64" selection-end-line="440" selection-end-column="64" />
+                <folding>
+                  <element signature="e#55#56#0" expanded="true" />
+                  <element signature="e#129#130#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -91,8 +109,8 @@
         <option value="$PROJECT_DIR$/203. 移除链表元素/src/main.java" />
         <option value="$PROJECT_DIR$/202. 快乐数/src/main.java" />
         <option value="$PROJECT_DIR$/204. 计数质数/src/main.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/205. 同构字符串/src/main.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -113,11 +131,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="205. 同构字符串" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,28 +231,7 @@
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
       <workItem from="1580368948523" duration="9142000" />
-      <workItem from="1580392877863" duration="16258000" />
-    </task>
-    <task id="LOCAL-00024" summary="Finish Q83">
-      <created>1579009510843</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1579009510843</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Finish Q88">
-      <created>1579011204663</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1579011204663</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Finish Q100">
-      <created>1579100987580</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1579100987580</updated>
+      <workItem from="1580392877863" duration="17331000" />
     </task>
     <task id="LOCAL-00027" summary="Finish Q101">
       <created>1579102261496</created>
@@ -563,11 +555,32 @@
       <option name="project" value="LOCAL" />
       <updated>1580459771612</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Finish Q205 (two Hashmaps)">
+      <created>1580460351517</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1580460351518</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Finish Q205 (one Hashmaps)">
+      <created>1580460413218</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1580460413219</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Finish Q205 (replace Hashmap with array)">
+      <created>1580461000647</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1580461000647</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129854000" />
+    <option name="totallyTimeSpent" value="130927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,12 +610,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -659,9 +672,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add some algorithm detail for Q141" />
-    <MESSAGE value="Finish Q155 (Heap)" />
-    <MESSAGE value="Finish Q155 (stack)" />
     <MESSAGE value="Finish Q160" />
     <MESSAGE value="Fix Q160 (a minor mistake)" />
     <MESSAGE value="Update Q448" />
@@ -684,7 +694,10 @@
     <MESSAGE value="Finish Q204 (filter)" />
     <MESSAGE value="Finish Q204 (improved filter)" />
     <MESSAGE value="Update Q204" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Q204" />
+    <MESSAGE value="Finish Q205 (two Hashmaps)" />
+    <MESSAGE value="Finish Q205 (one Hashmaps)" />
+    <MESSAGE value="Finish Q205 (replace Hashmap with array)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q205 (replace Hashmap with array)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1272,23 +1285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="561">
-            <caret line="377" column="24" selection-start-line="377" selection-start-column="24" selection-end-line="377" selection-end-column="24" />
-            <folding>
-              <element signature="e#55#56#0" expanded="true" />
-              <element signature="e#129#130#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/204. 计数质数/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1302,8 +1298,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/205. 同构字符串/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="Gfm" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="965">
+            <caret line="440" column="64" selection-start-line="440" selection-start-column="64" selection-end-line="440" selection-end-column="64" />
+            <folding>
+              <element signature="e#55#56#0" expanded="true" />
+              <element signature="e#129#130#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

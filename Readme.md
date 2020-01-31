@@ -380,3 +380,62 @@ class Solution {
 所以如果一个数（i）在之前没被划掉，则它一定是质数
 
 将遍历时遇到没被划掉的数字计数，则得到小于N的质数的总数
+
+## 205. 同构字符串
+
+Tips:
+1. 遍历字符串时，先将字符串转为数组再访问会比直接访问字符串中的每个字符快
+
+```java
+// 遍历字符串：
+...
+        for (int i = 0; i < len; i++) {
+            c1 = s.charAt(i);
+            c2 = t.charAt(i);
+...
+
+// 遍历数组：
+...
+        char[] arr1 = s.toCharArray();
+        char[] arr2 = t.toCharArray();
+
+        for (int i = 0; i < len; i++) {
+            c1 = arr1[i]-' '+1;
+            c2 = arr2[i]-' '+1;
+...
+```
+
+2. 空间允许时，直接使用一个很大长度的数组比使用Hashmap更快
+```java
+// Hashmap
+...
+        Map map = new HashMap();
+        ...
+        
+            if (map.containsKey(c1)) {
+                if ((char) map.get(c1) != c2) return false;
+            } else if (map.containsValue(c2)) return false;
+            else {
+                map.put(c1, c2);
+            }
+...
+         
+// int[]
+...
+        int[] map1 = new int[100];
+        int[] map2 = new int[100];
+        ...
+        
+            if (map1[c1] != 0) {
+                if (map1[c1] != c2) return false;
+            }
+            else if (map2[c2] != 0) {
+                if (map2[c2] != c1) return false;
+            }
+            else {
+                map1[c1] = c2;
+                map2[c2] = c1;
+            }
+...
+```
+（使用数组的话无法像Hashmap一样使用Hashmap.containsValue()，所以使用两个数组避免遍历查找value）
