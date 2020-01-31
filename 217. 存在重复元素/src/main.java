@@ -3,7 +3,7 @@ import java.util.*;
 public class main {
 }
 
-class Solution {
+class Solution217 {
     public boolean containsDuplicate(int[] nums) {
         if (nums.length == 0) return false;
         Arrays.sort(nums);
