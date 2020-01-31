@@ -5,11 +5,13 @@ public class main {
 
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        Set set = new HashSet();
+        if (nums.length == 0) return false;
+        Arrays.sort(nums);
+        int last_num = nums[0]-1;
 
         for (int num: nums){
-            if (set.contains(num)) return true;
-            set.add(num);
+            if (last_num == num) return true;
+            last_num = num;
         }
         return false;
     }
