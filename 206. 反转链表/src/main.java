@@ -11,20 +11,14 @@ class ListNode {
     }
 }
 
-class Solution {
+class Solution206 {
     public ListNode reverseList(ListNode head) {
-        if (head == null) return head;
+        if (head.next == null) return head;
 
-        ListNode current = head;
-        ListNode temp;
-        ListNode reverse_head = null;
+        ListNode tail = reverseList(head.next);
+        head.next.next = head; // fuck this step, bitch ass tricky
+        head.next = null;
 
-        while (current != null) {
-            temp = current;
-            current = current.next;
-            temp.next = reverse_head;
-            reverse_head = temp;
-        }
-        return reverse_head;
+        return tail;
     }
 }

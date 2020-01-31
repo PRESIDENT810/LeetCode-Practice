@@ -439,3 +439,61 @@ Tips:
 ...
 ```
 （使用数组的话无法像Hashmap一样使用Hashmap.containsValue()，所以使用两个数组避免遍历查找value）
+
+## 206. 反转链表
+
+迭代的话很好写，递归很tricky
+
+错误的想法是每次递归返回一个逆转链表的头和尾，然后把节点一个个加在逆转链表的尾部；
+
+这样写由于每次return的必须有头节点（否则最后得到结果只有链表的尾节点）和尾节点（不然无法快速把一个节点附加在逆转链表尾部）
+
+tricky的做法是返回的不是一个标准的链表，而只是后半部分连接顺序反向的V字形链表，
+**正向链表和反向链表指向同一个尾节点，每次递归将这个尾节点向左移动，即只改变正向部分最后一个节点和逆向部分最后一个节点间指向的方向**
+
+**每次递归结束之后正向部分节点数-1，逆向部分节点数+1**
+
+这样做无需每次递归保留头节点和尾节点的信息了，因为在每次递归中：
+
+**head是正向部分的最后一个节点，而head指向的下一个节点又是逆向链表的尾节点**，
+这样就不需要特地保存逆向链表的尾节点信息了
+
+并且**每次递归只是把这个head节点加在逆向链表的尾节点之后，返回的仍旧是逆向链表的头节点（tail，表示整个链表的尾部最后一个节点）**
+
+`head.next.next = head;`
+head.next是逆向部分的最后一个节点，head.next.next = head等于给逆向部分增加一个head节点
+
+`head.next = null;` 最后将head指向null，将head节点从正向链表上拆下来
+
+等于只是将head与head.next两个节点的指向方向逆转一下，每次递归逆转一对节点间连接的方向，
+最后递归完成时整个链表被逆转
+
+
+- 递归
+
+递归版本稍微复杂一些，其关键在于反向工作。假设列表的其余部分已经被反转，现在我该如何反转它前面的部分？
+
+假设列表为：
+
+n1 → ... → nk−1 → nk → nk+1 → ... → nm → null
+​	
+若从节点nk+1到nm已经被反转，而我们正处于nk
+ 
+n1 → ... → nk−1 → nk → nk+1 ← ... ← nm
+ 
+我们希望nk+1的下一个节点指向nk；所以，nk.next.next = nk
+
+```java
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        if (head == null) return null;
+        if (head.next == null) return head;
+
+        ListNode tail = reverseList(head.next);
+        head.next.next = head; // fuck this step, bitch ass tricky
+        head.next = null;
+        
+        return tail;
+    }
+}
+```

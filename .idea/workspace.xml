@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/206. 反转链表/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/206. 反转链表/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +18,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/205. 同构字符串/src/main.java">
+        <entry file="file://$PROJECT_DIR$/206. 反转链表/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="247">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,8 +35,8 @@
           <provider editor-type-id="Gfm" />
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="965">
-                <caret line="440" column="64" selection-start-line="440" selection-start-column="64" selection-end-line="440" selection-end-column="64" />
+              <first_editor relative-caret-position="149">
+                <caret line="465" column="50" selection-start-line="465" selection-start-column="50" selection-end-line="465" selection-end-column="50" />
                 <folding>
                   <element signature="e#55#56#0" expanded="true" />
                   <element signature="e#129#130#0" expanded="true" />
@@ -60,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20. 有效的括号/src/main.java" />
         <option value="$PROJECT_DIR$/21. 合并两个有序链表/src/main.java" />
         <option value="$PROJECT_DIR$/26. 删除排序数组中的重复项/src/main.java" />
         <option value="$PROJECT_DIR$/27. 移除元素/src/main.java" />
@@ -110,6 +114,7 @@
         <option value="$PROJECT_DIR$/202. 快乐数/src/main.java" />
         <option value="$PROJECT_DIR$/204. 计数质数/src/main.java" />
         <option value="$PROJECT_DIR$/205. 同构字符串/src/main.java" />
+        <option value="$PROJECT_DIR$/206. 反转链表/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
@@ -231,21 +236,7 @@
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
       <workItem from="1580368948523" duration="9142000" />
-      <workItem from="1580392877863" duration="17331000" />
-    </task>
-    <task id="LOCAL-00027" summary="Finish Q101">
-      <created>1579102261496</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1579102261496</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Finish Q101 (iteration)">
-      <created>1579111066118</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1579111066118</updated>
+      <workItem from="1580392877863" duration="22241000" />
     </task>
     <task id="LOCAL-00029" summary="Finish Q100 (iteration)">
       <created>1579111250357</created>
@@ -576,11 +567,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580461000647</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Update 205">
+      <created>1580461443290</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1580461443290</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Finish Q206 (iteration)">
+      <created>1580475051394</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1580475051395</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130927000" />
+    <option name="totallyTimeSpent" value="135837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -595,7 +600,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20386267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -615,7 +620,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -672,8 +677,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q160" />
-    <MESSAGE value="Fix Q160 (a minor mistake)" />
     <MESSAGE value="Update Q448" />
     <MESSAGE value="Fix Q1" />
     <MESSAGE value="Finish Q167" />
@@ -697,7 +700,9 @@
     <MESSAGE value="Finish Q205 (two Hashmaps)" />
     <MESSAGE value="Finish Q205 (one Hashmaps)" />
     <MESSAGE value="Finish Q205 (replace Hashmap with array)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q205 (replace Hashmap with array)" />
+    <MESSAGE value="Update 205" />
+    <MESSAGE value="Finish Q206 (iteration)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q206 (iteration)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -897,13 +902,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/38. 外观数列/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/53. 最大子序和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1298,8 +1296,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/205. 同构字符串/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="33">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/206. 反转链表/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,8 +1316,8 @@
       <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="965">
-            <caret line="440" column="64" selection-start-line="440" selection-start-column="64" selection-end-line="440" selection-end-column="64" />
+          <first_editor relative-caret-position="149">
+            <caret line="465" column="50" selection-start-line="465" selection-start-column="50" selection-end-line="465" selection-end-column="50" />
             <folding>
               <element signature="e#55#56#0" expanded="true" />
               <element signature="e#129#130#0" expanded="true" />
