@@ -3,22 +3,85 @@
 
 不能使用递归（每次递归判断多一个字符的字符串），如果初始字符串太长的话会导致栈溢出
 
-Standard answer:
+- 优化的滑动窗口
+如果s\[j\]在[i,j)范围内有与j'重复的字符，我们不需要逐渐增加i；
+我们可以直接跳过\[i，j'\]范围内的所有元素，并将i变为j'+1
+
+算法：
+
+保持一个int max变量来记录最长子串的长度，每次移动右指针时都重新比较当前窗口
+的长度与max，如果当前窗口表示的子串长度大于max，则更新max
+
+当s\[j'\] = s\[j\]时，如果[i, j)范围内都没有重复的元素，
+那么最长的子串一定至少是s\[i, j-1\]，
+将i移动到这个范围中的任何位置得到的都不会比这个子串长，
+所以可以直接移动i到j'+1位置寻找下一个可能的最长子串
+
+最后返回max即可
+
+Note：
+1. 使用哈希表来记录当前滑动窗口内有哪些字符，
+当移动右指针时向表内添加新遍历到的字符，
+当移动左指针时从表内删除从窗口中排除掉的字符
+2. 简化掉删除操作：如果哈希表保存的是"某字符在出现的最靠右位置的索引"而不是"是否在滑动窗口中出现"的话，
+就可以通过这个索引判断字符是否在滑动窗口内，而不需要进行删除操作
+
+原理：通过判断表内字符对应的索引是否在左指针左边；
+原本在左指针左边的字符应该从表内删除，现在如果对应索引在左指针左边则忽略，若在右边，
+则改变左指针位置；由于每次移动右指针都会更新右指针对应字符的索引，
+发生s\[j'\] = s\[j\]情况时，左指针被移动到j+1位置，而此字符对应索引j'被更新到j
+
+3. 哈希表将一个字符映射到其对应索引上，而使用一个散列表
+（索引为对应字符的ASCII编码减去' '的编码，值为字符对应索引）
+可以用空间换时间来提高效率
+
+
 ```java
-public class Solution {
+class Solution3 { // Hashmap
     public int lengthOfLongestSubstring(String s) {
-        int n = s.length(), ans = 0;
-        int[] index = new int[128]; // current index of character
-        // try to extend the range [i, j]
-        for (int j = 0, i = 0; j < n; j++) {
-            i = Math.max(index[s.charAt(j)], i);
-            ans = Math.max(ans, j - i + 1);
-            index[s.charAt(j)] = j + 1;
+        char[] arr = s.toCharArray();
+        if (arr.length == 0) return 0;
+        int ptr1 = 0;
+        int ptr2 = 0;
+
+        int max = 1;
+        Map map = new HashMap();
+
+        while (ptr2 != arr.length) {
+            if (map.containsKey(arr[ptr2])){
+                if ((int) map.get(arr[ptr2]) >= ptr1) ptr1 = (int) map.get(arr[ptr2])+1;
+            }
+            map.put(arr[ptr2], ptr2);
+            if (ptr2 - ptr1 + 1 > max) max = ptr2-ptr1+1;
+            ptr2++;
         }
-        return ans;
+        return max;
     }
 }
-```  
+``` 
+
+```java
+class Solution3 { // Array
+    public int lengthOfLongestSubstring(String s) {
+        char[] arr = s.toCharArray();
+        if (arr.length == 0) return 0;
+        int ptr1 = 0;
+        int ptr2 = 0;
+
+        int max = 1;
+        int[] map = new int[128];
+        for (int i=0; i<128; i++) map[i] = -1;
+
+        while (ptr2 != arr.length) {
+            if (map[arr[ptr2]-' '] >= ptr1) ptr1 = map[arr[ptr2]-' '] + 1;
+            map[arr[ptr2]-' '] = ptr2;
+            if (ptr2 - ptr1 + 1 > max) max = ptr2 - ptr1 + 1;
+            ptr2++;
+        }
+        return max;
+    }
+}
+```
 
 ## 7. 整数反转
 - Case: -2147483648
