@@ -1,7 +1,7 @@
 public class main {
 }
 
-class Solution {
+class Solution127 {
     public int trailingZeroes(int n) {
         long base = 5;
         int zeroes = 0;
