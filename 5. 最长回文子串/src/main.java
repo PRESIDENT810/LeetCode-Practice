@@ -1,6 +1,6 @@
 public class main {
     public static void main(String args[]) {
-        System.out.print(new Solution5().longestPalindrome("acbb"));
+        System.out.print(new Solution5().longestPalindrome("ac"));
     }
 }
 
@@ -12,7 +12,6 @@ class Solution5 {
     public String longestPalindrome(String s) {
         if (s.length() == 0) return "";
         this.arr = s.toCharArray();
-        boolean res;
         for (int i=0; i<arr.length*2-1; i++) {
             double center = (double) i/2;
             bottom2top(center);
@@ -24,30 +23,26 @@ class Solution5 {
     public void bottom2top(double center){
         if (center%1 == 0){ // odd length Padlindrome
             int half = 0;
-            int len = -1;
             while (arr[(int) (center-half)] == arr[(int) (center+half)]) {
-                len+=2;
                 half++;
                 if (center-half < 0 || center+half > this.arr.length-1) break;
             }
-            if (len > this.max){
+            if (2*half-1 > this.max){
                 this.start = (int) (center-half+1);
                 this.end = (int) (center+half-1);
-                this.max = len;
+                this.max = 2*half-1;
             }
         }
-        else {
+        else { // even Padlindrome
             int half = 1;
-            int len = 0;
             while (arr[(int) (center+0.5-half)] == arr[(int) (center-0.5+half)]) {
-                len+=2;
                 half++;
                 if (center+0.5-half < 0 || center-0.5+half > this.arr.length-1) break;
             }
-            if (len > this.max){
+            if (2*(half-1) > this.max){
                 this.start = (int) (center-half+0.5+1);
                 this.end = (int) (center+half-0.5-1);
-                this.max = len;
+                this.max = 2*(half-1);
             }
         }
         return;
