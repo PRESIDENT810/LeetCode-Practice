@@ -1,6 +1,6 @@
 public class main {
     public static void main(String args[]) {
-        System.out.print(new Solution5().longestPalindrome("cbbd"));
+        System.out.print(new Solution5().longestPalindrome("acbb"));
     }
 }
 
@@ -9,27 +9,47 @@ class Solution5 {
     int max = 0;
     char[] arr;
 
-    public boolean recursion(int head, int tail) {
-        if (head < 0 || tail < 0) return true;
-        if (head > tail) return true;
-
-        boolean res = recursion(head+1, tail-1) && (this.arr[head] == this.arr[tail] );
-
-        if (res && tail-head > max ){
-            this.start = head;
-            this.end = tail;
-            this.max = tail - head;
-        }
-        return res;
-    }
-
     public String longestPalindrome(String s) {
         if (s.length() == 0) return "";
         this.arr = s.toCharArray();
         boolean res;
-        for (int i=0; i<arr.length; i++) res = recursion(0, i);
-        for (int i=0; i<arr.length; i++) res = recursion(i, arr.length-1);
+        for (int i=0; i<arr.length*2-1; i++) {
+            double center = (double) i/2;
+            bottom2top(center);
+        }
 
         return s.substring(this.start, this.end+1);
+    }
+
+    public void bottom2top(double center){
+        if (center%1 == 0){ // odd length Padlindrome
+            int half = 0;
+            int len = -1;
+            while (arr[(int) (center-half)] == arr[(int) (center+half)]) {
+                len+=2;
+                half++;
+                if (center-half < 0 || center+half > this.arr.length-1) break;
+            }
+            if (len > this.max){
+                this.start = (int) (center-half+1);
+                this.end = (int) (center+half-1);
+                this.max = len;
+            }
+        }
+        else {
+            int half = 1;
+            int len = 0;
+            while (arr[(int) (center+0.5-half)] == arr[(int) (center-0.5+half)]) {
+                len+=2;
+                half++;
+                if (center+0.5-half < 0 || center-0.5+half > this.arr.length-1) break;
+            }
+            if (len > this.max){
+                this.start = (int) (center-half+0.5+1);
+                this.end = (int) (center+half-0.5-1);
+                this.max = len;
+            }
+        }
+        return;
     }
 }
