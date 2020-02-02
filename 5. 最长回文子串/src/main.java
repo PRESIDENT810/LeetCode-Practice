@@ -1,45 +1,35 @@
 public class main {
     public static void main(String args[]) {
-        System.out.print(new Solution5().longestPalindrome("babab"));
+        System.out.print(new Solution5().longestPalindrome("cbbd"));
     }
 }
 
 class Solution5 {
+    int start, end;
+    int max = 0;
+    char[] arr;
+
+    public boolean recursion(int head, int tail) {
+        if (head < 0 || tail < 0) return true;
+        if (head > tail) return true;
+
+        boolean res = recursion(head+1, tail-1) && (this.arr[head] == this.arr[tail] );
+
+        if (res && tail-head > max ){
+            this.start = head;
+            this.end = tail;
+            this.max = tail - head;
+        }
+        return res;
+    }
+
     public String longestPalindrome(String s) {
         if (s.length() == 0) return "";
-        char[] arr = s.toCharArray();
-        int n = s.length();
+        this.arr = s.toCharArray();
+        boolean res;
+        for (int i=0; i<arr.length; i++) res = recursion(0, i);
+        for (int i=0; i<arr.length; i++) res = recursion(i, arr.length-1);
 
-        boolean[][] table = new boolean[n][n];
-
-        for (int height = 0; height < n; height++) { // iterate x ptr
-            for (int x = 0; x < n; x++) { // iterate y ptr
-                if (x + height > n - 1) continue;
-
-                if (height == 0) table[x][x + height] = true;
-                else {
-                    boolean eq = arr[x] == arr[x + height];
-                    if (height == 1) table[x][x + height] = eq;
-                    else table[x][x + height] = eq && table[x + 1][x + height - 1];
-                }
-            }
-        }
-
-        int max_len = 0;
-        int start = 0;
-        int end = 0;
-
-        for (int height = 0; height < n; height++) { // iterate x ptr
-            for (int x = 0; x < n; x++) { // iterate y ptr
-                if (x + height > n - 1) continue;
-
-                if (table[x][x + height] && height > max_len) {
-                    start = x;
-                    end = x + height;
-                    max_len = height;
-                }
-            }
-        }
-        return s.substring(start, end + 1);
+        return s.substring(this.start, this.end+1);
     }
 }
