@@ -5,9 +5,9 @@ public class main {
 }
 
 class Solution5 {
-    int start, end;
-    int max = 0;
-    char[] arr;
+    private int start, end;
+    private int max = 0;
+    private char[] arr;
 
     public String longestPalindrome(String s) {
         if (s.length() == 0) return "";

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. 最长回文子串/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/5. 最长回文子串/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,30 +32,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/5. 最长回文子串/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+            <state>
               <folding>
-                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider editor-type-id="Gfm" />
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="657">
-                <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
-                <folding>
-                  <element signature="e#55#56#0" expanded="true" />
-                  <element signature="e#129#130#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
             </state>
           </provider>
         </entry>
@@ -126,8 +105,8 @@
         <option value="$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java" />
         <option value="$PROJECT_DIR$/4. 寻找两个有序数组的中位数/src/main.java" />
         <option value="$PROJECT_DIR$/172. 阶乘后的零/src/main.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/5. 最长回文子串/src/main.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -254,21 +233,7 @@
       <workItem from="1580218859259" duration="1976000" />
       <workItem from="1580221046623" duration="3570000" />
       <workItem from="1580368948523" duration="9142000" />
-      <workItem from="1580392877863" duration="43685000" />
-    </task>
-    <task id="LOCAL-00040" summary="Finish Q119">
-      <created>1579620897153</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1579620897153</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Finish Q121">
-      <created>1579623289523</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1579623289523</updated>
+      <workItem from="1580392877863" duration="45842000" />
     </task>
     <task id="LOCAL-00042" summary="Finish Q122">
       <created>1579623612038</created>
@@ -599,11 +564,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580627275385</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Finish Q5 (DP - Bottom to top)">
+      <created>1580628943204</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1580628943205</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Update Q5&#10;&#10;Fuck WUHAN gov, a bunch of stupid fuck.&#10;&#10;Is my tax paid to feed these shit bird idiot pig?">
+      <created>1580629678523</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1580629678523</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157281000" />
+    <option name="totallyTimeSpent" value="159438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,9 +595,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20386267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -628,7 +606,7 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -695,9 +673,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q190" />
-    <MESSAGE value="Finish Q191" />
-    <MESSAGE value="Finish Q198" />
     <MESSAGE value="Finish Q203" />
     <MESSAGE value="Finish Q202" />
     <MESSAGE value="Finish Q204 (violent)" />
@@ -720,7 +695,10 @@
     <MESSAGE value="Update Q3" />
     <MESSAGE value="Finish Q5 (rudimentary)" />
     <MESSAGE value="Finish Q5 (DP - recursion)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q5 (DP - recursion)" />
+    <MESSAGE value="Finish Q5 (DP - Bottom to top)" />
+    <MESSAGE value="Update Q5" />
+    <MESSAGE value="Update Q5&#10;&#10;Fuck WUHAN gov, a bunch of stupid fuck.&#10;&#10;Is my tax paid to feed these shit bird idiot pig?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Q5&#10;&#10;Fuck WUHAN gov, a bunch of stupid fuck.&#10;&#10;Is my tax paid to feed these shit bird idiot pig?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,14 +777,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/5. 最长回文子串/src/main.java</url>
+          <line>41</line>
           <properties />
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/5. 最长回文子串/src/main.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="131" />
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -822,6 +795,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>center == 2.5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>this.max == 3</expression-string>
         <language-id>JAVA</language-id>
@@ -864,11 +842,6 @@
       </expression>
       <expression>
         <expression-string>n==5</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>last==&quot;1211&quot;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -917,6 +890,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>2*half-1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>map.get(arr[ptr2])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -953,11 +931,6 @@
       </expression>
       <expression>
         <expression-string>nums.length-k+cnt+1;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(x*x-target)/2/x</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1349,23 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="657">
-            <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
-            <folding>
-              <element signature="e#55#56#0" expanded="true" />
-              <element signature="e#129#130#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1373,12 +1329,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="Gfm" />
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1180">
+            <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/5. 最长回文子串/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        <state>
           <folding>
-            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
