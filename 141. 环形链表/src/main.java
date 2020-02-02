@@ -15,15 +15,19 @@ class Solution141 {
     public boolean hasCycle(ListNode head) {
         if (head == null) return false;
 
-        ListNode current = head;
+        ListNode fast_ptr = head.next;
+        ListNode slow_ptr = head;
         ListNode temp;
 
-        while (current.next != null) {
-            if (current.next == head) return true;
+        while (fast_ptr != null && slow_ptr != null) {
+            if (fast_ptr == slow_ptr) return true;
 
-            temp = current.next;
-            current.next = head;
-            current = temp;
+            if (fast_ptr == null) continue;
+
+            if (fast_ptr.next != null) fast_ptr = fast_ptr.next.next;
+            slow_ptr = slow_ptr.next;
+
+            if (slow_ptr.next == null) return false;
         }
         return false;
     }
