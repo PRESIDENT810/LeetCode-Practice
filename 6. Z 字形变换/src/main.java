@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class main {
     public static void main(String args[]) {
         System.out.print(new Solution6().convert("A", 1));
@@ -10,23 +12,24 @@ class Solution6 {
         // Otherwise Gap could be 0, and the loop never quits because always gap=0 < arr.length
 
         char[] arr = s.toCharArray();
-        StringBuilder res = new StringBuilder();
+        List<StringBuilder> res_rows = new ArrayList<>();
+        for (int i = 0; i < Math.min(numRows, s.length()); i++)
+            res_rows.add(new StringBuilder());
 
-        int Gap = numRows * 2 - 2;
-        int gap, idx1, idx2;
+        int row = 0;
+        int flag = 1;
 
-        for (int Row = 0; Row < numRows; Row++) {
-            gap = Row * 2;
-            for (int start = Row; start < arr.length; start += gap) {
-                res.append(arr[start]);
-                if (gap == Row * 2 || Row * 2 == 0) {
-                    gap = Gap - Row * 2;
-                    if (gap == 0) gap = Row * 2;
-                }
-                else gap = Row * 2;
-            }
+        for (char c: arr){
+            res_rows.get(row).append(c);
+            if (row == numRows-1) flag = -1;
+            if (row == 0) flag = 1;
+            row += flag;
         }
 
+        StringBuilder res = new StringBuilder();
+        for (StringBuilder res_row: res_rows){
+            res.append(new String(res_row));
+        }
 
         return new String(res);
     }
