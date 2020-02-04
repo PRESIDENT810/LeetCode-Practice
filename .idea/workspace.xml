@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="Update Q5 (this is getting ridiculous...)">
-      <change afterPath="$PROJECT_DIR$/6. Z 字形变换/6. Z 字形变换.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6. Z 字形变换/src/main.java" afterDir="false" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/11. 盛最多水的容器/11. 盛最多水的容器.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11. 盛最多水的容器/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +33,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6. Z 字形变换/src/main.java">
+        <entry file="file://$PROJECT_DIR$/11. 盛最多水的容器/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -61,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/38. 外观数列/src/main.java" />
         <option value="$PROJECT_DIR$/53. 最大子序和/src/main.java" />
         <option value="$PROJECT_DIR$/58. 最后一个单词的长度/src/main.java" />
         <option value="$PROJECT_DIR$/67. 二进制求和/src/main.java" />
@@ -112,6 +107,7 @@
         <option value="$PROJECT_DIR$/8. 字符串转换整数 (atoi)/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/6. Z 字形变换/src/main.java" />
+        <option value="$PROJECT_DIR$/11. 盛最多水的容器/src/main.java" />
       </list>
     </option>
   </component>
@@ -142,7 +138,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="6. Z 字形变换" type="462c0819:PsiDirectoryNode" />
+              <item name="11. 盛最多水的容器" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +192,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="6. Z 字形变换" />
+      <module name="11. 盛最多水的容器" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,14 +242,7 @@
       <workItem from="1580392877863" duration="49786000" />
       <workItem from="1580657665990" duration="79000" />
       <workItem from="1580657748090" duration="26000" />
-      <workItem from="1580657784175" duration="6406000" />
-    </task>
-    <task id="LOCAL-00045" summary="Pass Q136 by reading the answer">
-      <created>1579716076239</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1579716076239</updated>
+      <workItem from="1580657784175" duration="7621000" />
     </task>
     <task id="LOCAL-00046" summary="Finish Q141">
       <created>1579716727090</created>
@@ -591,11 +580,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580651294923</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Finish Q6（艹...）">
+      <created>1580752493399</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1580752493400</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169893000" />
+    <option name="totallyTimeSpent" value="171108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,8 +604,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -624,7 +621,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -686,7 +683,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q204 (improved filter)" />
     <MESSAGE value="Update Q204" />
     <MESSAGE value="Finish Q205 (two Hashmaps)" />
     <MESSAGE value="Finish Q205 (one Hashmaps)" />
@@ -711,7 +707,8 @@
     <MESSAGE value="Finish Q141 (fast/slow pointer)" />
     <MESSAGE value="Finish Q8 (real fuckin' nasty)" />
     <MESSAGE value="Update Q5 (this is getting ridiculous...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Q5 (this is getting ridiculous...)" />
+    <MESSAGE value="Finish Q6（艹...）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q6（艹...）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,6 +784,12 @@
           <line>20</line>
           <properties />
           <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/11. 盛最多水的容器/src/main.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -944,17 +947,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/69. x 的平方根/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/112. 路径总和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1185,13 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/191. 位1的个数/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/203. 移除链表元素/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1337,13 +1322,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6. Z 字形变换/src/main.java">
+    <entry file="file://$PROJECT_DIR$/191. 位1的个数/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6. Z 字形变换/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
           <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
           <folding>
             <element signature="e#128#129#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11. 盛最多水的容器/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1397,7 +1396,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>203. 移除链表元素</last-edited>
+          <last-edited>11. 盛最多水的容器</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
