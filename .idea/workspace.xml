@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/19. 删除链表的倒数第N个节点/19. 删除链表的倒数第N个节点.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. 三数之和/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/15. 三数之和/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="509">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
                 <element signature="e#116#117#0" expanded="true" />
@@ -257,14 +253,7 @@
       <workItem from="1580657665990" duration="79000" />
       <workItem from="1580657748090" duration="26000" />
       <workItem from="1580657784175" duration="9464000" />
-      <workItem from="1580876894975" duration="3690000" />
-    </task>
-    <task id="LOCAL-00050" summary="Finish Q155 (stack)">
-      <created>1579786829596</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1579786829596</updated>
+      <workItem from="1580876894975" duration="4394000" />
     </task>
     <task id="LOCAL-00051" summary="Finish Q160">
       <created>1579788642978</created>
@@ -602,11 +591,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580897322680</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Finish Q19 (O(2n))">
+      <created>1580907484996</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1580907484996</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176641000" />
+    <option name="totallyTimeSpent" value="177345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,7 +694,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update 205" />
     <MESSAGE value="Finish Q206 (iteration)" />
     <MESSAGE value="Finish Q206 (recursion)" />
     <MESSAGE value="Finish Q217 (Hashset)" />
@@ -723,7 +718,8 @@
     <MESSAGE value="Update Q6 (I personally think this solution wastes more time...)" />
     <MESSAGE value="Update Readme.md" />
     <MESSAGE value="Finish Q455 (this question sucks)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q455 (this question sucks)" />
+    <MESSAGE value="Finish Q19 (O(2n))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q19 (O(2n))" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -808,9 +804,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java</url>
-          <line>23</line>
+          <line>26</line>
           <properties />
-          <option name="timeStamp" value="107" />
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1363,8 +1359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="509">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#116#117#0" expanded="true" />

@@ -22,10 +22,10 @@ class Solution19 {
         ListNode new_head = new ListNode(-999);
         new_head.next = head;
         ListNode crt = new_head;
-        Map<Integer, ListNode> map = new HashMap<>();
+        ArrayList<ListNode> map = new ArrayList<>();
 
         while (crt != null) {
-            map.put(cnt, crt);
+            map.add(crt);
             cnt++;
             crt = crt.next;
         }
