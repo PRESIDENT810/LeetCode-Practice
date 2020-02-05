@@ -22,15 +22,15 @@ class Solution19 {
         ListNode new_head = new ListNode(-999);
         new_head.next = head;
         ListNode crt = new_head;
-        ArrayList<ListNode> map = new ArrayList<>();
+        ListNode[] map = new ListNode[1000];
 
         while (crt != null) {
-            map.add(crt);
+            map[cnt] = crt;
             cnt++;
             crt = crt.next;
         }
 
-        ListNode cut = map.get(cnt-1-n);
+        ListNode cut = map[cnt-1-n];
         cut.next = cut.next.next;
         return new_head.next;
     }
