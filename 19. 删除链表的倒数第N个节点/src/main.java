@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class main {
     public static void main(String args[]){
         ListNode head = new ListNode(1);
@@ -16,22 +18,20 @@ class ListNode {
 
 class Solution19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode ptr1 = new ListNode(0);
-        ptr1.next = head;
-        head = ptr1;
-        ListNode ptr2 = head;
+        int cnt = 0;
+        ListNode new_head = new ListNode(-999);
+        new_head.next = head;
+        ListNode crt = new_head;
+        Map<Integer, ListNode> map = new HashMap<>();
 
-        while (n != 0) {
-            ptr2 = ptr2.next;
-            n--;
+        while (crt != null) {
+            map.put(cnt, crt);
+            cnt++;
+            crt = crt.next;
         }
 
-        while (ptr2 != null) {
-            ptr1 = ptr1.next;
-            ptr2 = ptr2.next;
-        }
-
-        ptr1.next = ptr1.next.next;
-        return head.next;
+        ListNode cut = map.get(cnt-1-n);
+        cut.next = cut.next.next;
+        return new_head.next;
     }
 }
