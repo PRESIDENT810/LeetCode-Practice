@@ -37,7 +37,7 @@ class Solution15 {
             else right++;
         }
 
-        for (List<Integer> ans: ans_set) all_ans.add(ans);
+        all_ans.addAll(ans_set);
         return all_ans;
     }
 }
