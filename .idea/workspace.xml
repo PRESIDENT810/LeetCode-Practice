@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16. 最接近的三数之和/16. 最接近的三数之和.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16. 最接近的三数之和/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17. 电话号码的字母组合/17. 电话号码的字母组合.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,10 +33,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/16. 最接近的三数之和/src/main.java">
+        <entry file="file://$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="114">
+              <caret line="8" selection-start-line="8" selection-end-line="48" />
+              <folding>
+                <element signature="e#84#85#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/70. 爬楼梯/src/main.java" />
         <option value="$PROJECT_DIR$/88. 合并两个有序数组/src/main.java" />
         <option value="$PROJECT_DIR$/101. 对称二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/100. 相同的树/src/main.java" />
@@ -106,8 +109,9 @@
         <option value="$PROJECT_DIR$/455. 分发饼干/src/main.java" />
         <option value="$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java" />
         <option value="$PROJECT_DIR$/15. 三数之和/src/main.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/16. 最接近的三数之和/src/main.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java" />
       </list>
     </option>
   </component>
@@ -137,20 +141,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="16. 最接近的三数之和" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="16. 最接近的三数之和" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="16. 最接近的三数之和" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="17. 电话号码的字母组合" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,7 +196,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="16. 最接近的三数之和" />
+      <module name="17. 电话号码的字母组合" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,21 +249,7 @@
       <workItem from="1580657784175" duration="9464000" />
       <workItem from="1580876894975" duration="8458000" />
       <workItem from="1580915467513" duration="6000" />
-      <workItem from="1580915483443" duration="1479000" />
-    </task>
-    <task id="LOCAL-00056" summary="Finish Q168">
-      <created>1580373755288</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1580373755289</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Finish Q171">
-      <created>1580374264474</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1580374264474</updated>
+      <workItem from="1580915483443" duration="6248000" />
     </task>
     <task id="LOCAL-00058" summary="Finish Q169 (sort)">
       <created>1580375425674</created>
@@ -603,11 +580,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580915999394</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Finish Q16（我草了。。。这个x数之和真的操蛋）">
+      <created>1580917096134</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1580917096134</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Update Readme.md">
+      <created>1580917199969</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1580917199970</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182894000" />
+    <option name="totallyTimeSpent" value="187663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q219 (Hashmap)" />
     <MESSAGE value="Finish Q219 (Hashset)" />
     <MESSAGE value="Finish Q3 (I'm so noob...)" />
     <MESSAGE value="Finish Q3 (Array is faster than Hashmap)" />
@@ -716,7 +706,6 @@
     <MESSAGE value="Finish Q6（艹...）" />
     <MESSAGE value="Finish Q11（我草了。。。）" />
     <MESSAGE value="Update Q6 (I personally think this solution wastes more time...)" />
-    <MESSAGE value="Update Readme.md" />
     <MESSAGE value="Finish Q455 (this question sucks)" />
     <MESSAGE value="Finish Q19 (O(2n))" />
     <MESSAGE value="Finish Q19 (Hashmap, O(n))" />
@@ -724,7 +713,9 @@
     <MESSAGE value="Finish Q19 (Array, O(n)) &#10;我艹了，怎么还是慢" />
     <MESSAGE value="Finish Q15（我操了）" />
     <MESSAGE value="Update Q15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Q15" />
+    <MESSAGE value="Finish Q16（我草了。。。这个x数之和真的操蛋）" />
+    <MESSAGE value="Update Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -814,13 +805,18 @@
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/16. 最接近的三数之和/src/main.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="133" />
+          <option name="timeStamp" value="139" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="(char) (3*arr[i]+j%degree-53)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -881,6 +877,26 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>(char) (3*arr[i]+j%degree-53)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(char) (3*arr[i]+j%degree-89)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(char) (3*arr[i]+j%degree+47)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(char) (3*arr[i]+j%degree+91)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>start-Row*2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -910,23 +926,33 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>mid*mid</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mid*mid &gt; x</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>s.length()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>len</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i/3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len/3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i/(len/3)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(char) (mapping(c)+i/(len/3))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>(int) c-'0'</expression-string>
         <language-id>JAVA</language-id>
@@ -952,36 +978,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>(int) map.get(arr[ptr2])+1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums.length-k+cnt+1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums.length-k</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums.length</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1337,23 +1336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="279">
-            <caret line="267" column="23" lean-forward="true" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
-            <folding>
-              <element signature="e#55#56#0" expanded="true" />
-              <element signature="e#129#130#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/15. 三数之和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1368,10 +1350,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="Gfm" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="355">
+            <caret line="271" column="44" selection-start-line="271" selection-start-column="44" selection-end-line="271" selection-end-column="44" />
+            <folding>
+              <element signature="e#55#56#0" expanded="true" />
+              <element signature="e#129#130#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/16. 最接近的三数之和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="273">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" selection-start-line="8" selection-end-line="48" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
