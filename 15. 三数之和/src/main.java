@@ -1,37 +1,25 @@
 import java.util.*;
 
 public class main {
+    public static void main(String args[]){
+        int[] arr = {-1, 0, 1, 2, -1, -4};
+        List<List<Integer>> all_ans = new Solution15().threeSum(arr);
+    }
 }
 
-class Solution {
+class Solution15 {
+    // TODO: 我他娘真是不会这个题
     public List<List<Integer>> threeSum(int[] nums) {
-        List<Integer> negs = new LinkedList<>();
-        List<List<Integer>> ans = new LinkedList<>();
+        Set<Integer> targets = new HashSet<>();
+        List<List<Integer>> all_ans = new LinkedList<>();
 
         for (int num: nums){
-            if (num <= 0) negs.add(num);
+            targets.add(-1*num);
         }
 
-        for (Integer neg: negs){
+        for (Integer target: targets){
 
         }
-    }
-
-    public int[] twoSum(int[] nums, int target) {
-        int[] result = new int[2];
-        Map m = new HashMap();
-
-        for (int idx=0; idx<nums.length; idx++){
-            // check whether contain this key
-            if (m.containsKey(nums[idx])){
-                List<Integer> ans = new LinkedList<>();
-                ans.add(target);
-                ans.add()
-            }
-            // no such key
-            int complement = target-nums[idx];
-            m.put(complement, idx);
-        }
-        return result;
+        return all_ans;
     }
 }
