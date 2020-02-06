@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17. 电话号码的字母组合/17. 电话号码的字母组合.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +28,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" selection-start-line="8" selection-end-line="48" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="Gfm" />
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="355">
+                <caret line="271" column="44" selection-start-line="271" selection-start-column="44" selection-end-line="271" selection-end-column="44" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -108,10 +105,10 @@
         <option value="$PROJECT_DIR$/6. Z 字形变换/src/main.java" />
         <option value="$PROJECT_DIR$/455. 分发饼干/src/main.java" />
         <option value="$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java" />
-        <option value="$PROJECT_DIR$/15. 三数之和/src/main.java" />
         <option value="$PROJECT_DIR$/16. 最接近的三数之和/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java" />
+        <option value="$PROJECT_DIR$/15. 三数之和/src/main.java" />
       </list>
     </option>
   </component>
@@ -137,11 +134,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="17. 电话号码的字母组合" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,14 +241,7 @@
       <workItem from="1580657784175" duration="9464000" />
       <workItem from="1580876894975" duration="8458000" />
       <workItem from="1580915467513" duration="6000" />
-      <workItem from="1580915483443" duration="6248000" />
-    </task>
-    <task id="LOCAL-00058" summary="Finish Q169 (sort)">
-      <created>1580375425674</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1580375425674</updated>
+      <workItem from="1580915483443" duration="8205000" />
     </task>
     <task id="LOCAL-00059" summary="Finish Q169 (hash)">
       <created>1580375760157</created>
@@ -594,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580917199970</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Finish Q17 (fuck this shit)">
+      <created>1580922020680</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1580922020680</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187663000" />
+    <option name="totallyTimeSpent" value="189620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,7 +605,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -624,7 +616,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -690,7 +682,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q219 (Hashset)" />
     <MESSAGE value="Finish Q3 (I'm so noob...)" />
     <MESSAGE value="Finish Q3 (Array is faster than Hashmap)" />
     <MESSAGE value="Update Q3" />
@@ -715,7 +706,8 @@
     <MESSAGE value="Update Q15" />
     <MESSAGE value="Finish Q16（我草了。。。这个x数之和真的操蛋）" />
     <MESSAGE value="Update Readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Readme.md" />
+    <MESSAGE value="Finish Q17 (fuck this shit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q17 (fuck this shit)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -797,18 +789,6 @@
           <line>15</line>
           <properties />
           <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/15. 三数之和/src/main.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="139" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1336,34 +1316,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15. 三数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="355">
-            <caret line="271" column="44" selection-start-line="271" selection-start-column="44" selection-end-line="271" selection-end-column="44" />
-            <folding>
-              <element signature="e#55#56#0" expanded="true" />
-              <element signature="e#129#130#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
         </state>
       </provider>
     </entry>
@@ -1374,14 +1330,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/15. 三数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" selection-start-line="8" selection-end-line="48" />
+        <state relative-caret-position="-110">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
             <element signature="e#84#85#0" expanded="true" />
             <element signature="e#115#116#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="Gfm" />
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="355">
+            <caret line="271" column="44" selection-start-line="271" selection-start-column="44" selection-end-line="271" selection-end-column="44" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
