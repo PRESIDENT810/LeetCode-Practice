@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/142. 环形链表 II/142. 环形链表 II.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/142. 环形链表 II/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,32 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/142. 环形链表 II/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="1045">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="595">
-                <caret line="414" selection-start-line="414" selection-end-line="414" />
-                <folding>
-                  <element signature="e#55#56#0" expanded="true" />
-                  <element signature="e#129#130#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-          <provider editor-type-id="Gfm" />
         </entry>
       </file>
     </leaf>
@@ -154,11 +129,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="142. 环形链表 II" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,14 +237,7 @@
       <workItem from="1580915467513" duration="6000" />
       <workItem from="1580915483443" duration="8373000" />
       <workItem from="1581098480009" duration="5000" />
-      <workItem from="1581098497223" duration="831000" />
-    </task>
-    <task id="LOCAL-00060" summary="Finish Q169 (Boyer-Moore)">
-      <created>1580378789604</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1580378789604</updated>
+      <workItem from="1581098497223" duration="1024000" />
     </task>
     <task id="LOCAL-00061" summary="Finish Q172">
       <created>1580380373046</created>
@@ -612,11 +575,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581003020321</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Finish Q142">
+      <created>1581099501959</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1581099501960</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190624000" />
+    <option name="totallyTimeSpent" value="190817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,7 +601,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22389127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -708,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q3 (Array is faster than Hashmap)" />
     <MESSAGE value="Update Q3" />
     <MESSAGE value="Finish Q5 (rudimentary)" />
     <MESSAGE value="Finish Q5 (DP - recursion)" />
@@ -733,7 +702,8 @@
     <MESSAGE value="Update Readme.md" />
     <MESSAGE value="Finish Q17 (fuck this shit)" />
     <MESSAGE value="Finish Q258" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q258" />
+    <MESSAGE value="Finish Q142" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q142" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1368,18 +1338,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/142. 环形链表 II/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="595">
-            <caret line="414" selection-start-line="414" selection-end-line="414" />
+          <first_editor relative-caret-position="613">
+            <caret line="433" column="2" selection-start-line="433" selection-start-column="2" selection-end-line="433" selection-end-column="2" />
             <folding>
               <element signature="e#55#56#0" expanded="true" />
               <element signature="e#129#130#0" expanded="true" />
@@ -1391,6 +1354,13 @@
         </state>
       </provider>
       <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/142. 环形链表 II/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1442,7 +1412,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>142. 环形链表 II</last-edited>
+          <last-edited>258. 各位相加</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
