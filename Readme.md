@@ -412,6 +412,29 @@ O(1)。慢指针每次移动一步，而快指针每次移动两步。
 其他情况又会怎样呢？例如，我们没有考虑快跑者在慢跑者之后两步或三步的情况。但其实不难想到，因为在下一次或者下下次迭代后，又会变成上面提到的情况 A。
 
 
+## 142. 环形链表 II
+
+服气算法。。。
+
+o(n)算法，应该是最快的。 堆的地址从低到高，LeetCode的链表内存是顺序申请的，
+如果有环，head->next一定小于或等于head，哈哈哈哈哈
+
+```c++
+class Solution {
+public:
+    ListNode *detectCycle(ListNode *head) {
+        while(head) {
+            if(!less<ListNode *>()(head, head->next)) {
+                return head->next;
+            }
+            head = head->next;
+        }
+        return nullptr;
+    }
+};
+```
+
+
 ## 155. 最小栈
 
 - 一开始的思路：维护一个堆来存储所有放入栈的数字，获取最小值时返回堆顶部的数字即可

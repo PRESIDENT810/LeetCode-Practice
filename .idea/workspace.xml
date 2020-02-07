@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/142. 环形链表 II/142. 环形链表 II.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/142. 环形链表 II/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,19 +33,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/142. 环形链表 II/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="Gfm" />
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="355">
-                <caret line="271" column="44" selection-start-line="271" selection-start-column="44" selection-end-line="271" selection-end-column="44" />
+              <first_editor relative-caret-position="595">
+                <caret line="414" selection-start-line="414" selection-end-line="414" />
+                <folding>
+                  <element signature="e#55#56#0" expanded="true" />
+                  <element signature="e#129#130#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
               </second_editor>
             </state>
           </provider>
+          <provider editor-type-id="Gfm" />
         </entry>
       </file>
     </leaf>
@@ -58,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/88. 合并两个有序数组/src/main.java" />
-        <option value="$PROJECT_DIR$/101. 对称二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/100. 相同的树/src/main.java" />
         <option value="$PROJECT_DIR$/69. x 的平方根/src/main.java" />
         <option value="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java" />
@@ -106,9 +123,11 @@
         <option value="$PROJECT_DIR$/455. 分发饼干/src/main.java" />
         <option value="$PROJECT_DIR$/19. 删除链表的倒数第N个节点/src/main.java" />
         <option value="$PROJECT_DIR$/16. 最接近的三数之和/src/main.java" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java" />
         <option value="$PROJECT_DIR$/15. 三数之和/src/main.java" />
+        <option value="$PROJECT_DIR$/258. 各位相加/src/main.java" />
+        <option value="$PROJECT_DIR$/142. 环形链表 II/src/main.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -128,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,12 +155,16 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="142. 环形链表 II" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +212,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="17. 电话号码的字母组合" />
+      <module name="142. 环形链表 II" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,14 +265,9 @@
       <workItem from="1580657784175" duration="9464000" />
       <workItem from="1580876894975" duration="8458000" />
       <workItem from="1580915467513" duration="6000" />
-      <workItem from="1580915483443" duration="8205000" />
-    </task>
-    <task id="LOCAL-00059" summary="Finish Q169 (hash)">
-      <created>1580375760157</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1580375760157</updated>
+      <workItem from="1580915483443" duration="8373000" />
+      <workItem from="1581098480009" duration="5000" />
+      <workItem from="1581098497223" duration="831000" />
     </task>
     <task id="LOCAL-00060" summary="Finish Q169 (Boyer-Moore)">
       <created>1580378789604</created>
@@ -586,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580922020680</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Finish Q258">
+      <created>1581003020321</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1581003020321</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189620000" />
+    <option name="totallyTimeSpent" value="190624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,7 +631,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22389127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -682,7 +708,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q3 (I'm so noob...)" />
     <MESSAGE value="Finish Q3 (Array is faster than Hashmap)" />
     <MESSAGE value="Update Q3" />
     <MESSAGE value="Finish Q5 (rudimentary)" />
@@ -707,7 +732,8 @@
     <MESSAGE value="Finish Q16（我草了。。。这个x数之和真的操蛋）" />
     <MESSAGE value="Update Readme.md" />
     <MESSAGE value="Finish Q17 (fuck this shit)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q17 (fuck this shit)" />
+    <MESSAGE value="Finish Q258" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q258" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,7 +820,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="(char) (3*arr[i]+j%degree-53)" language="JAVA" />
+        <watch expression="fast_ptr.val" language="JAVA" />
+        <watch expression="slow_ptr.val" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -857,6 +884,16 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>slow_ptr.val</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fast_ptr.val</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>(char) (3*arr[i]+j%degree-53)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -893,16 +930,6 @@
       </expression>
       <expression>
         <expression-string>nums</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums[mid_idx]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -961,20 +988,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/104. 二叉树的最大深度/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/83. 删除排序链表中的重复元素/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1316,13 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16. 最接近的三数之和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1348,18 +1354,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/258. 各位相加/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/142. 环形链表 II/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="Gfm" />
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="355">
-            <caret line="271" column="44" selection-start-line="271" selection-start-column="44" selection-end-line="271" selection-end-column="44" />
+          <first_editor relative-caret-position="595">
+            <caret line="414" selection-start-line="414" selection-end-line="414" />
+            <folding>
+              <element signature="e#55#56#0" expanded="true" />
+              <element signature="e#129#130#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
         </state>
       </provider>
+      <provider editor-type-id="Gfm" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1411,7 +1442,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>455. 分发饼干</last-edited>
+          <last-edited>142. 环形链表 II</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
