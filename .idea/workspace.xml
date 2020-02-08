@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/459. 重复的子字符串/459. 重复的子字符串.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/459. 重复的子字符串/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +33,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/142. 环形链表 II/src/main.java">
+        <entry file="file://$PROJECT_DIR$/459. 重复的子字符串/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="304">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/100. 相同的树/src/main.java" />
-        <option value="$PROJECT_DIR$/69. x 的平方根/src/main.java" />
         <option value="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java" />
         <option value="$PROJECT_DIR$/110. 平衡二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/112. 路径总和/src/main.java" />
@@ -103,6 +109,8 @@
         <option value="$PROJECT_DIR$/258. 各位相加/src/main.java" />
         <option value="$PROJECT_DIR$/142. 环形链表 II/src/main.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/24. 两两交换链表中的节点/src/main.java" />
+        <option value="$PROJECT_DIR$/459. 重复的子字符串/src/main.java" />
       </list>
     </option>
   </component>
@@ -129,6 +137,11 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="459. 重复的子字符串" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,7 +195,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="142. 环形链表 II" />
+      <module name="459. 重复的子字符串" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,14 +250,7 @@
       <workItem from="1580915467513" duration="6000" />
       <workItem from="1580915483443" duration="8373000" />
       <workItem from="1581098480009" duration="5000" />
-      <workItem from="1581098497223" duration="1024000" />
-    </task>
-    <task id="LOCAL-00061" summary="Finish Q172">
-      <created>1580380373046</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1580380373046</updated>
+      <workItem from="1581098497223" duration="2800000" />
     </task>
     <task id="LOCAL-00062" summary="Finish Q189 (time: O(kn); space: O(1))">
       <created>1580380676709</created>
@@ -582,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581099501960</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Finish Q24">
+      <created>1581099930177</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1581099930177</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190817000" />
+    <option name="totallyTimeSpent" value="192593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Q3" />
     <MESSAGE value="Finish Q5 (rudimentary)" />
     <MESSAGE value="Finish Q5 (DP - recursion)" />
     <MESSAGE value="Finish Q5 (DP - Bottom to top)" />
@@ -703,7 +715,8 @@
     <MESSAGE value="Finish Q17 (fuck this shit)" />
     <MESSAGE value="Finish Q258" />
     <MESSAGE value="Finish Q142" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q142" />
+    <MESSAGE value="Finish Q24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -790,8 +803,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="fast_ptr.val" language="JAVA" />
-        <watch expression="slow_ptr.val" language="JAVA" />
+        <watch expression="arr[ptr1]" language="JAVA" />
+        <watch expression="arr[ptr2]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -801,6 +814,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>ptr2 == 5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Row==1</expression-string>
         <language-id>JAVA</language-id>
@@ -846,13 +864,18 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+    </expressions>
+    <expressions id="watch">
       <expression>
-        <expression-string>x==0 &amp;&amp; height==2</expression-string>
+        <expression-string>arr[ptr2]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-    </expressions>
-    <expressions id="watch">
+      <expression>
+        <expression-string>arr[ptr1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>slow_ptr.val</expression-string>
         <language-id>JAVA</language-id>
@@ -885,21 +908,6 @@
       </expression>
       <expression>
         <expression-string>start-Row*2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr[ptr2]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Primes.size()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -958,20 +966,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/83. 删除排序链表中的重复元素/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/58. 最后一个单词的长度/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/119. 杨辉三角 II/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1331,13 +1325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1359,6 +1346,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24. 两两交换链表中的节点/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/459. 重复的子字符串/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
