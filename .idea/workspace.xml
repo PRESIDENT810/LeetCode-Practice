@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/459. 重复的子字符串/459. 重复的子字符串.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/459. 重复的子字符串/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/263. 丑数/263. 丑数.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/263. 丑数/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,12 +33,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/459. 重复的子字符串/src/main.java">
+        <entry file="file://$PROJECT_DIR$/263. 丑数/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="193">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
-                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#62#63#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树/src/main.java" />
         <option value="$PROJECT_DIR$/110. 平衡二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/112. 路径总和/src/main.java" />
         <option value="$PROJECT_DIR$/111. 二叉树的最小深度/src/main.java" />
@@ -111,6 +111,7 @@
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/24. 两两交换链表中的节点/src/main.java" />
         <option value="$PROJECT_DIR$/459. 重复的子字符串/src/main.java" />
+        <option value="$PROJECT_DIR$/263. 丑数/src/main.java" />
       </list>
     </option>
   </component>
@@ -131,6 +132,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,13 +143,12 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="459. 重复的子字符串" type="462c0819:PsiDirectoryNode" />
+              <item name="263. 丑数" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +196,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="459. 重复的子字符串" />
+      <module name="263. 丑数" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -250,14 +251,9 @@
       <workItem from="1580915467513" duration="6000" />
       <workItem from="1580915483443" duration="8373000" />
       <workItem from="1581098480009" duration="5000" />
-      <workItem from="1581098497223" duration="2800000" />
-    </task>
-    <task id="LOCAL-00062" summary="Finish Q189 (time: O(kn); space: O(1))">
-      <created>1580380676709</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1580380676709</updated>
+      <workItem from="1581098497223" duration="3245000" />
+      <workItem from="1581523658679" duration="24000" />
+      <workItem from="1581523691194" duration="541000" />
     </task>
     <task id="LOCAL-00063" summary="Fuck ring replacement&#10;Fuck this shit&#10;Stupid bitch ass&#10;Fuck you little fucker">
       <created>1580398653928</created>
@@ -595,11 +591,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581099930177</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Finish Q459">
+      <created>1581169694427</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1581169694427</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192593000" />
+    <option name="totallyTimeSpent" value="193603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,7 +617,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -624,7 +627,7 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -691,7 +694,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q5 (rudimentary)" />
     <MESSAGE value="Finish Q5 (DP - recursion)" />
     <MESSAGE value="Finish Q5 (DP - Bottom to top)" />
     <MESSAGE value="Update Q5" />
@@ -716,7 +718,8 @@
     <MESSAGE value="Finish Q258" />
     <MESSAGE value="Finish Q142" />
     <MESSAGE value="Finish Q24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q24" />
+    <MESSAGE value="Finish Q459" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q459" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -966,13 +969,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/119. 杨辉三角 II/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/118. 杨辉三角/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1371,10 +1367,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/459. 重复的子字符串/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
+            <element signature="e#63#64#0" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/263. 丑数/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#62#63#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
