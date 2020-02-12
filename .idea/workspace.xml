@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/1346. 检查整数及其两倍数是否存在.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,20 +31,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="209">
-                <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
-          <provider editor-type-id="Gfm" />
         </entry>
       </file>
     </leaf>
@@ -61,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/122. 买卖股票的最佳时机 II/src/main.java" />
         <option value="$PROJECT_DIR$/125. 验证回文串/src/main.java" />
         <option value="$PROJECT_DIR$/136. 只出现一次的数字/src/main.java" />
         <option value="$PROJECT_DIR$/155. 最小栈/src/main.java" />
@@ -112,6 +107,7 @@
         <option value="$PROJECT_DIR$/237. 删除链表中的节点/src/main.java" />
         <option value="$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java" />
       </list>
     </option>
   </component>
@@ -131,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,11 +135,15 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="1346. 检查整数及其两倍数是否存在" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -249,14 +250,9 @@
       <workItem from="1581098497223" duration="3245000" />
       <workItem from="1581523658679" duration="24000" />
       <workItem from="1581523691194" duration="1348000" />
-      <workItem from="1581525447516" duration="2067000" />
-    </task>
-    <task id="LOCAL-00068" summary="Finish Q202">
-      <created>1580447860104</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1580447860104</updated>
+      <workItem from="1581525447516" duration="2356000" />
+      <workItem from="1581528325872" duration="4000" />
+      <workItem from="1581528342625" duration="243000" />
     </task>
     <task id="LOCAL-00069" summary="Finish Q204 (violent)">
       <created>1580451572637</created>
@@ -594,11 +590,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581526563479</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Add new readme">
+      <created>1581527864561</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1581527864561</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196477000" />
+    <option name="totallyTimeSpent" value="197013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,7 +616,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23247497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23819743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -628,7 +631,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -690,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q141 (fast/slow pointer)" />
     <MESSAGE value="Finish Q8 (real fuckin' nasty)" />
     <MESSAGE value="Update Q5 (this is getting ridiculous...)" />
     <MESSAGE value="Finish Q6（艹...）" />
@@ -715,7 +717,8 @@
     <MESSAGE value="Finish Q226" />
     <MESSAGE value="Finish Q231" />
     <MESSAGE value="Finish Q237" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q237" />
+    <MESSAGE value="Add new readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -965,17 +968,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="350" column="13" selection-start-line="350" selection-start-column="13" selection-end-line="350" selection-end-column="13" />
-          <folding>
-            <element signature="e#14140#14141#0" expanded="true" />
-            <element signature="e#14175#14176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/155. 最小栈/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1333,6 +1325,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q101-200.md">
+      <provider selected="true" editor-type-id="Gfm" />
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="695">
@@ -1343,9 +1336,9 @@
           </second_editor>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Q1-100.md">
+      <provider selected="true" editor-type-id="Gfm" />
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="666">
@@ -1356,9 +1349,9 @@
           </second_editor>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Q201-300.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="365">
@@ -1369,7 +1362,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/231. 2的幂/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1394,18 +1386,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
     <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="209">
@@ -1416,7 +1399,13 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
