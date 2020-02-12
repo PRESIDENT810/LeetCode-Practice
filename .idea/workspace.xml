@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/263. 丑数/263. 丑数.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/263. 丑数/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +30,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/263. 丑数/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="114">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
-                <element signature="e#62#63#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -253,21 +247,7 @@
       <workItem from="1581098480009" duration="5000" />
       <workItem from="1581098497223" duration="3245000" />
       <workItem from="1581523658679" duration="24000" />
-      <workItem from="1581523691194" duration="541000" />
-    </task>
-    <task id="LOCAL-00063" summary="Fuck ring replacement&#10;Fuck this shit&#10;Stupid bitch ass&#10;Fuck you little fucker">
-      <created>1580398653928</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1580398653929</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Finish Q190">
-      <created>1580442520746</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1580442520746</updated>
+      <workItem from="1581523691194" duration="799000" />
     </task>
     <task id="LOCAL-00065" summary="Finish Q191">
       <created>1580442695972</created>
@@ -598,11 +578,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581169694427</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Finish Q263">
+      <created>1581524425640</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1581524425642</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Finish Q263 (O(lgn))">
+      <created>1581524503152</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1581524503152</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193603000" />
+    <option name="totallyTimeSpent" value="193861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,8 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q5 (DP - recursion)" />
-    <MESSAGE value="Finish Q5 (DP - Bottom to top)" />
     <MESSAGE value="Update Q5" />
     <MESSAGE value="Update Q5&#10;&#10;Fuck WUHAN gov, a bunch of stupid fuck.&#10;&#10;Is my tax paid to feed these shit bird idiot pig?" />
     <MESSAGE value="Update Q5 again" />
@@ -719,7 +711,9 @@
     <MESSAGE value="Finish Q142" />
     <MESSAGE value="Finish Q24" />
     <MESSAGE value="Finish Q459" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q459" />
+    <MESSAGE value="Finish Q263" />
+    <MESSAGE value="Finish Q263 (O(lgn))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q263 (O(lgn))" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1378,11 +1372,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/263. 丑数/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
-            <element signature="e#62#63#0" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
