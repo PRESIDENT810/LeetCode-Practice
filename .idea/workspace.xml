@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +31,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/237. 删除链表中的节点/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="209">
+                <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
+          <provider editor-type-id="Gfm" />
         </entry>
       </file>
     </leaf>
@@ -52,9 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/119. 杨辉三角 II/src/main.java" />
-        <option value="$PROJECT_DIR$/118. 杨辉三角/src/main.java" />
-        <option value="$PROJECT_DIR$/121. 买卖股票的最佳时机/src/main.java" />
         <option value="$PROJECT_DIR$/122. 买卖股票的最佳时机 II/src/main.java" />
         <option value="$PROJECT_DIR$/125. 验证回文串/src/main.java" />
         <option value="$PROJECT_DIR$/136. 只出现一次的数字/src/main.java" />
@@ -103,6 +109,9 @@
         <option value="$PROJECT_DIR$/Q301-400" />
         <option value="$PROJECT_DIR$/Q201-300.md" />
         <option value="$PROJECT_DIR$/231. 2的幂/src/main.java" />
+        <option value="$PROJECT_DIR$/237. 删除链表中的节点/src/main.java" />
+        <option value="$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -128,17 +137,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="237. 删除链表中的节点" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="237. 删除链表中的节点" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,14 +249,7 @@
       <workItem from="1581098497223" duration="3245000" />
       <workItem from="1581523658679" duration="24000" />
       <workItem from="1581523691194" duration="1348000" />
-      <workItem from="1581525447516" duration="1001000" />
-    </task>
-    <task id="LOCAL-00067" summary="Finish Q203">
-      <created>1580444562721</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1580444562721</updated>
+      <workItem from="1581525447516" duration="2067000" />
     </task>
     <task id="LOCAL-00068" summary="Finish Q202">
       <created>1580447860104</created>
@@ -596,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581526276656</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Finish Q237">
+      <created>1581526563479</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1581526563479</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195411000" />
+    <option name="totallyTimeSpent" value="196477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,7 +628,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -692,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Q5 again" />
     <MESSAGE value="Finish Q141 (fast/slow pointer)" />
     <MESSAGE value="Finish Q8 (real fuckin' nasty)" />
     <MESSAGE value="Update Q5 (this is getting ridiculous...)" />
@@ -717,7 +714,8 @@
     <MESSAGE value="Finish Q263 (O(lgn))" />
     <MESSAGE value="Finish Q226" />
     <MESSAGE value="Finish Q231" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q231" />
+    <MESSAGE value="Finish Q237" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q237" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -967,24 +965,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/35. 搜索插入位置/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="774" column="13" selection-start-line="774" selection-start-column="13" selection-end-line="774" selection-end-column="13" />
-          <folding>
-            <element signature="e#21310#21311#0" expanded="true" />
-            <element signature="e#21346#21347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -1405,10 +1385,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/237. 删除链表中的节点/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
     </entry>
   </component>
   <component name="masterDetails">
