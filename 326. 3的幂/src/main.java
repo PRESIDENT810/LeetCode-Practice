@@ -3,8 +3,6 @@ public class main {
 
 class Solution326 {
     public boolean isPowerOfThree(int n) {
-        if (n == 0) return false;
-        while (n%3 == 0) n /= 3;
-        return n == 1;
+        return n <= 0 ? false : 1162261467%n == 0;
     }
 }
