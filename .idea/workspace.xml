@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/326. 3的幂/326. 3的幂.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22. 括号生成/22. 括号生成.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22. 括号生成/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/326. 3的幂/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/326. 3的幂/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,20 +33,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/268. 缺失数字/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/326. 3的幂/src/main.java">
+        <entry file="file://$PROJECT_DIR$/22. 括号生成/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="241">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,10 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/136. 只出现一次的数字/src/main.java" />
-        <option value="$PROJECT_DIR$/155. 最小栈/src/main.java" />
-        <option value="$PROJECT_DIR$/1323. 6 和 9 组成的最大数字/src/main.java" />
-        <option value="$PROJECT_DIR$/160. 相交链表/src/main.java" />
         <option value="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" />
         <option value="$PROJECT_DIR$/1. 两数之和/src/main.java" />
         <option value="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" />
@@ -116,6 +108,10 @@
         <option value="$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java" />
         <option value="$PROJECT_DIR$/268. 缺失数字/src/main.java" />
         <option value="$PROJECT_DIR$/Q201-300.md" />
+        <option value="$PROJECT_DIR$/Q301-400.md" />
+        <option value="$PROJECT_DIR$/283. 移动零/src/main.java" />
+        <option value="$PROJECT_DIR$/326. 3的幂/src/main.java" />
+        <option value="$PROJECT_DIR$/22. 括号生成/src/main.java" />
       </list>
     </option>
   </component>
@@ -125,7 +121,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -135,8 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,23 +141,14 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="268. 缺失数字" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="326. 3的幂" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="326. 3的幂" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="22. 括号生成" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +196,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="263. 丑数" />
+      <module name="22. 括号生成" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,21 +258,10 @@
       <workItem from="1581528325872" duration="4000" />
       <workItem from="1581528342625" duration="661000" />
       <workItem from="1581610531867" duration="23000" />
-      <workItem from="1581610570977" duration="1357000" />
-    </task>
-    <task id="LOCAL-00074" summary="Finish Q205 (one Hashmaps)">
-      <created>1580460413218</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1580460413219</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Finish Q205 (replace Hashmap with array)">
-      <created>1580461000647</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1580461000647</updated>
+      <workItem from="1581610570977" duration="1664000" />
+      <workItem from="1581613481126" duration="7000" />
+      <workItem from="1581613495716" duration="339000" />
+      <workItem from="1582363948680" duration="3567000" />
     </task>
     <task id="LOCAL-00076" summary="Update 205">
       <created>1580461443290</created>
@@ -618,11 +592,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581612382391</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Finish Q326">
+      <created>1581613090301</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1581613090301</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Update Q326 (O(1)...)">
+      <created>1581613376982</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1581613376982</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198811000" />
+    <option name="totallyTimeSpent" value="203031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +625,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -647,7 +635,7 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -714,8 +702,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q455 (this question sucks)" />
-    <MESSAGE value="Finish Q19 (O(2n))" />
     <MESSAGE value="Finish Q19 (Hashmap, O(n))" />
     <MESSAGE value="Finish Q19 (ArrayList, O(n))" />
     <MESSAGE value="Finish Q19 (Array, O(n)) &#10;我艹了，怎么还是慢" />
@@ -739,7 +725,9 @@
     <MESSAGE value="Finish Q268" />
     <MESSAGE value="Finish Q268 (bit operation)" />
     <MESSAGE value="Update Q268" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Q268" />
+    <MESSAGE value="Finish Q326" />
+    <MESSAGE value="Update Q326 (O(1)...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Q326 (O(1)...)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -989,20 +977,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/160. 相交链表/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1323. 6 和 9 组成的最大数字/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1315,24 +1289,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q301-400.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q101-200.md">
-      <provider selected="true" editor-type-id="Gfm" />
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="695">
@@ -1343,9 +1300,9 @@
           </second_editor>
         </state>
       </provider>
+      <provider selected="true" editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Q1-100.md">
-      <provider selected="true" editor-type-id="Gfm" />
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="666">
@@ -1356,6 +1313,7 @@
           </second_editor>
         </state>
       </provider>
+      <provider selected="true" editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/231. 2的幂/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1382,7 +1340,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
     <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="209">
@@ -1393,6 +1350,7 @@
           </second_editor>
         </state>
       </provider>
+      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1402,7 +1360,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q201-300.md">
-      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="676">
@@ -1413,6 +1370,7 @@
           </second_editor>
         </state>
       </provider>
+      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/268. 缺失数字/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1421,10 +1379,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Q301-400.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="48" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="48" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/283. 移动零/src/main.java" />
     <entry file="file://$PROJECT_DIR$/326. 3的幂/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="95">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22. 括号生成/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1478,7 +1465,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>326. 3的幂</last-edited>
+          <last-edited>22. 括号生成</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
