@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/5323. 根据数字二进制下 1 的数目排序.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22. 括号生成/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/22. 括号生成/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/22. 括号生成/src/main.java">
+        <entry file="file://$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -58,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java" />
         <option value="$PROJECT_DIR$/1. 两数之和/src/main.java" />
         <option value="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java" />
         <option value="$PROJECT_DIR$/168. Excel表列名称/src/main.java" />
@@ -109,6 +107,7 @@
         <option value="$PROJECT_DIR$/283. 移动零/src/main.java" />
         <option value="$PROJECT_DIR$/326. 3的幂/src/main.java" />
         <option value="$PROJECT_DIR$/22. 括号生成/src/main.java" />
+        <option value="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java" />
       </list>
     </option>
   </component>
@@ -138,7 +137,25 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="22. 括号生成" type="462c0819:PsiDirectoryNode" />
+              <item name="191. 位1的个数" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="191. 位1的个数" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="191. 位1的个数" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="5323. 根据数字二进制下 1 的数目排序" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,7 +210,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="22. 括号生成" />
+      <module name="5323. 根据数字二进制下 1 的数目排序" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,20 +276,6 @@
       <workItem from="1581613481126" duration="7000" />
       <workItem from="1581613495716" duration="339000" />
       <workItem from="1582363948680" duration="3567000" />
-    </task>
-    <task id="LOCAL-00077" summary="Finish Q206 (iteration)">
-      <created>1580475051394</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1580475051395</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Finish Q206 (recursion)">
-      <created>1580479582179</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1580479582179</updated>
     </task>
     <task id="LOCAL-00079" summary="Finish Q217 (Hashset)">
       <created>1580480420795</created>
@@ -603,11 +606,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582377050175</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Finish Q22 (why use a tree when you understand the principle?)">
+      <created>1582377309531</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1582377309531</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Finish Q22 (why use a string when you can use integer to indicate the string?)">
+      <created>1582377635162</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1582377635162</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203775000" />
+    <option name="totallyTimeSpent" value="205998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,7 +650,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -699,8 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q19 (ArrayList, O(n))" />
-    <MESSAGE value="Finish Q19 (Array, O(n)) &#10;我艹了，怎么还是慢" />
     <MESSAGE value="Finish Q15（我操了）" />
     <MESSAGE value="Update Q15" />
     <MESSAGE value="Finish Q16（我草了。。。这个x数之和真的操蛋）" />
@@ -724,7 +739,9 @@
     <MESSAGE value="Finish Q326" />
     <MESSAGE value="Update Q326 (O(1)...)" />
     <MESSAGE value="Finish Q22 (slightly improved)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q22 (slightly improved)" />
+    <MESSAGE value="Finish Q22 (why use a tree when you understand the principle?)" />
+    <MESSAGE value="Finish Q22 (why use a string when you can use integer to indicate the string?)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q22 (why use a string when you can use integer to indicate the string?)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,12 +824,17 @@
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="arr[ptr1]" language="JAVA" />
-        <watch expression="arr[ptr2]" language="JAVA" />
+        <watch expression="cp1 &gt; cp2" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -822,6 +844,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i == 3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>ptr2 == 5</expression-string>
         <language-id>JAVA</language-id>
@@ -862,18 +894,13 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>head == 0 &amp;&amp; tail ==</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>x==4 &amp;&amp; height==4</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>cp1 &gt; cp2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>arr[ptr2]</expression-string>
         <language-id>JAVA</language-id>
@@ -974,13 +1001,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/448. 找到所有数组中消失的数字/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/167. 两数之和 II - 输入有序数组/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1141,13 +1161,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5. 最长回文子串/src/test.java" />
-    <entry file="file://$PROJECT_DIR$/191. 位1的个数/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11. 盛最多水的容器/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1299,19 +1312,6 @@
       </provider>
       <provider selected="true" editor-type-id="Gfm" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q1-100.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="666">
-            <caret line="357" column="22" selection-start-line="357" selection-start-column="22" selection-end-line="357" selection-end-column="22" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="Gfm" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/231. 2的幂/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1404,11 +1404,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/22. 括号生成/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="384">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q1-100.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="666">
+            <caret line="357" column="22" selection-start-line="357" selection-start-column="22" selection-end-line="357" selection-end-column="22" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/191. 位1的个数/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
