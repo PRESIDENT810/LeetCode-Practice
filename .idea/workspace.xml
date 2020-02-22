@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/22. 括号生成/22. 括号生成.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22. 括号生成/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/326. 3的幂/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/326. 3的幂/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22. 括号生成/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/22. 括号生成/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/22. 括号生成/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
               </folding>
@@ -262,13 +259,6 @@
       <workItem from="1581613481126" duration="7000" />
       <workItem from="1581613495716" duration="339000" />
       <workItem from="1582363948680" duration="3567000" />
-    </task>
-    <task id="LOCAL-00076" summary="Update 205">
-      <created>1580461443290</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1580461443290</updated>
     </task>
     <task id="LOCAL-00077" summary="Finish Q206 (iteration)">
       <created>1580475051394</created>
@@ -606,11 +596,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581613376982</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Finish Q22 (slightly improved)">
+      <created>1582377050175</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1582377050175</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203031000" />
+    <option name="totallyTimeSpent" value="203775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,7 +699,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q19 (Hashmap, O(n))" />
     <MESSAGE value="Finish Q19 (ArrayList, O(n))" />
     <MESSAGE value="Finish Q19 (Array, O(n)) &#10;我艹了，怎么还是慢" />
     <MESSAGE value="Finish Q15（我操了）" />
@@ -727,7 +723,8 @@
     <MESSAGE value="Update Q268" />
     <MESSAGE value="Finish Q326" />
     <MESSAGE value="Update Q326 (O(1)...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Q326 (O(1)...)" />
+    <MESSAGE value="Finish Q22 (slightly improved)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q22 (slightly improved)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1407,8 +1404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/22. 括号生成/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
           </folding>

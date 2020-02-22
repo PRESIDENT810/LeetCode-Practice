@@ -6,52 +6,29 @@ public class main {
     }
 }
 
-class Node {
-    Node left;
-    Node right;
-    int l_cnt;
-    int r_cnt;
-    int layer;
-    StringBuilder str_builder = new StringBuilder();
-}
-
 class Solution22 {
     List<String> ans = new LinkedList<>();
 
     public List<String> generateParenthesis(int n) {
-        Node root = new Node();
-        root.layer = 1;
-        root.l_cnt = 1;
-        root.str_builder = new StringBuilder("(");
-        root = recursion(root, 2 * n);
+        StringBuilder str_builder = new StringBuilder("(");
+        recursion(1, 0, 2*n, str_builder);
         return this.ans;
     }
 
-    public Node recursion(Node parent, int depth) {
-        if (parent.layer == depth) {
-            this.ans.add(new String(parent.str_builder));
-            return parent;
+    public void recursion(int l_cnt, int r_cnt, int depth, StringBuilder sb) {
+        if (l_cnt+r_cnt == depth) {
+            this.ans.add(new String(sb));
+            return;
         }
 
-        Node l_child = new Node();
-        l_child.l_cnt = parent.l_cnt + 1;
-        l_child.r_cnt = parent.r_cnt;
-        l_child.layer = parent.layer + 1;
-        l_child.str_builder = new StringBuilder(parent.str_builder).append('(');
-        Node r_child = new Node();
-        r_child.l_cnt = parent.l_cnt;
-        r_child.r_cnt = parent.r_cnt + 1;
-        r_child.layer = parent.layer + 1;
-        r_child.str_builder = new StringBuilder(parent.str_builder).append(')');
-
-        if (parent.l_cnt == depth / 2) {
-            parent.right = recursion(r_child, depth);
-        } else if (parent.l_cnt == parent.r_cnt) {
-            parent.left = recursion(l_child, depth);
+        if (l_cnt == depth / 2) {
+            recursion(l_cnt, r_cnt+1, depth, new StringBuilder(sb).append(')'));
+        } else if (l_cnt == r_cnt) {
+            recursion(l_cnt+1, r_cnt, depth, new StringBuilder(sb).append('('));
         } else {
-            parent.left = recursion(l_child, depth);
-            parent.right = recursion(r_child, depth);
+            recursion(l_cnt, r_cnt+1, depth, new StringBuilder(sb).append(')'));
+            recursion(l_cnt+1, r_cnt, depth, new StringBuilder(sb).append('('));
         }
-        return parent;
+        return;
     }
 }
