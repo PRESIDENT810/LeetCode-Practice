@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/283. 移动零/283. 移动零.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/283. 移动零/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/234. 回文链表/234. 回文链表.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/234. 回文链表/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,10 +33,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/283. 移动零/src/main.java">
+        <entry file="file://$PROJECT_DIR$/234. 回文链表/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="299">
+              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+              <folding>
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/169. 多数元素/src/main.java" />
         <option value="$PROJECT_DIR$/189. 旋转数组/src/main.java" />
         <option value="$PROJECT_DIR$/190. 颠倒二进制位/src/main.java" />
         <option value="$PROJECT_DIR$/191. 位1的个数/src/main.java" />
@@ -108,6 +111,7 @@
         <option value="$PROJECT_DIR$/33. 搜索旋转排序数组/src/main.java" />
         <option value="$PROJECT_DIR$/Q1-100.md" />
         <option value="$PROJECT_DIR$/283. 移动零/src/main.java" />
+        <option value="$PROJECT_DIR$/234. 回文链表/src/main.java" />
       </list>
     </option>
   </component>
@@ -138,7 +142,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="283. 移动零" type="462c0819:PsiDirectoryNode" />
+              <item name="234. 回文链表" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +196,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="33. 搜索旋转排序数组" />
+      <module name="234. 回文链表" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,13 +263,6 @@
       <workItem from="1581613495716" duration="339000" />
       <workItem from="1582363948680" duration="3567000" />
       <workItem from="1582695665109" duration="1436000" />
-    </task>
-    <task id="LOCAL-00086" summary="Update Q3">
-      <created>1580534063006</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1580534063006</updated>
     </task>
     <task id="LOCAL-00087" summary="Finish Q5 (rudimentary)">
       <created>1580577684244</created>
@@ -603,11 +600,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582723987136</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Finish Q283 (为啥第一次做半天想不到。。。)">
+      <created>1582724405889</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1582724405889</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216657000" />
+    <option name="totallyTimeSpent" value="219091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,11 +637,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.2554217" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -699,7 +703,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q24" />
     <MESSAGE value="Finish Q459" />
     <MESSAGE value="Finish Q263" />
     <MESSAGE value="Finish Q263 (O(lgn))" />
@@ -724,7 +727,8 @@
     <MESSAGE value="Finish Q31 (almost done with one try! I rock)" />
     <MESSAGE value="Finish Q33 (二分查找写了一个小时 我是最差劲的程序猿)" />
     <MESSAGE value="Update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
+    <MESSAGE value="Finish Q283 (为啥第一次做半天想不到。。。)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q283 (为啥第一次做半天想不到。。。)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -818,6 +822,12 @@
           <line>24</line>
           <properties />
           <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/234. 回文链表/src/main.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -980,13 +990,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/189. 旋转数组/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/190. 颠倒二进制位/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1417,8 +1420,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/283. 移动零/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/234. 回文链表/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
