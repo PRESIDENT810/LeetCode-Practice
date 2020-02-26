@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/234. 回文链表/234. 回文链表.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/234. 回文链表/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/278. 第一个错误的版本/278. 第一个错误的版本.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/278. 第一个错误的版本/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q201-300.md" beforeDir="false" afterPath="$PROJECT_DIR$/Q201-300.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,15 +33,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/234. 回文链表/src/main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/278. 第一个错误的版本/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+            <state relative-caret-position="383">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
-                <element signature="e#93#94#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#62#63#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#79#80#0" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q201-300.md">
+          <provider editor-type-id="Gfm" />
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="239">
+                <caret line="238" column="23" selection-start-line="238" selection-start-column="23" selection-end-line="238" selection-end-column="23" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -61,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/189. 旋转数组/src/main.java" />
         <option value="$PROJECT_DIR$/190. 颠倒二进制位/src/main.java" />
         <option value="$PROJECT_DIR$/191. 位1的个数/src/main.java" />
         <option value="$PROJECT_DIR$/198. 打家劫舍/src/main.java" />
@@ -100,7 +117,6 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java" />
         <option value="$PROJECT_DIR$/268. 缺失数字/src/main.java" />
-        <option value="$PROJECT_DIR$/Q201-300.md" />
         <option value="$PROJECT_DIR$/326. 3的幂/src/main.java" />
         <option value="$PROJECT_DIR$/22. 括号生成/src/main.java" />
         <option value="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java" />
@@ -112,6 +128,8 @@
         <option value="$PROJECT_DIR$/Q1-100.md" />
         <option value="$PROJECT_DIR$/283. 移动零/src/main.java" />
         <option value="$PROJECT_DIR$/234. 回文链表/src/main.java" />
+        <option value="$PROJECT_DIR$/278. 第一个错误的版本/src/main.java" />
+        <option value="$PROJECT_DIR$/Q201-300.md" />
       </list>
     </option>
   </component>
@@ -138,11 +156,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="234. 回文链表" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +209,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="234. 回文链表" />
+      <module name="278. 第一个错误的版本" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,13 +276,6 @@
       <workItem from="1581613495716" duration="339000" />
       <workItem from="1582363948680" duration="3567000" />
       <workItem from="1582695665109" duration="1436000" />
-    </task>
-    <task id="LOCAL-00087" summary="Finish Q5 (rudimentary)">
-      <created>1580577684244</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1580577684244</updated>
     </task>
     <task id="LOCAL-00088" summary="Finish Q5 (DP - recursion)">
       <created>1580627275385</created>
@@ -607,11 +613,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582724405889</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Finish Q234 (反转链表有点烦啊。。。)">
+      <created>1582728309265</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1582728309266</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219091000" />
+    <option name="totallyTimeSpent" value="219908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,7 +639,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20314735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -637,7 +650,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -703,7 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q459" />
     <MESSAGE value="Finish Q263" />
     <MESSAGE value="Finish Q263 (O(lgn))" />
     <MESSAGE value="Finish Q226" />
@@ -728,7 +740,8 @@
     <MESSAGE value="Finish Q33 (二分查找写了一个小时 我是最差劲的程序猿)" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Finish Q283 (为啥第一次做半天想不到。。。)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q283 (为啥第一次做半天想不到。。。)" />
+    <MESSAGE value="Finish Q234 (反转链表有点烦啊。。。)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q234 (反转链表有点烦啊。。。)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -822,12 +835,6 @@
           <line>24</line>
           <properties />
           <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/234. 回文链表/src/main.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="161" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -990,17 +997,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/190. 颠倒二进制位/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#62#63#0" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/203. 移除链表元素/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1297,19 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q201-300.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="676">
-            <caret line="234" column="40" selection-start-line="234" selection-start-column="40" selection-end-line="234" selection-end-column="40" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/268. 缺失数字/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1427,12 +1410,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/234. 回文链表/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="1045">
           <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#116#117#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/278. 第一个错误的版本/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#62#63#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q201-300.md">
+      <provider editor-type-id="Gfm" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="239">
+            <caret line="238" column="23" selection-start-line="238" selection-start-column="23" selection-end-line="238" selection-end-column="23" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
