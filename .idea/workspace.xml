@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/34. 在排序数组中查找元素的第一个和最后一个位置/34. 在排序数组中查找元素的第一个和最后一个位置.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/34. 在排序数组中查找元素的第一个和最后一个位置/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/50. Pow(x, n)/50. Pow(x, n).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/50. Pow(x, n)/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,11 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/34. 在排序数组中查找元素的第一个和最后一个位置/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="517">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/50. Pow(x, n)/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -57,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/191. 位1的个数/src/main.java" />
         <option value="$PROJECT_DIR$/198. 打家劫舍/src/main.java" />
         <option value="$PROJECT_DIR$/203. 移除链表元素/src/main.java" />
         <option value="$PROJECT_DIR$/202. 快乐数/src/main.java" />
@@ -102,12 +110,13 @@
         <option value="$PROJECT_DIR$/29. 两数相除/src/main.java" />
         <option value="$PROJECT_DIR$/31. 下一个排列/src/main.java" />
         <option value="$PROJECT_DIR$/33. 搜索旋转排序数组/src/main.java" />
-        <option value="$PROJECT_DIR$/Q1-100.md" />
         <option value="$PROJECT_DIR$/283. 移动零/src/main.java" />
         <option value="$PROJECT_DIR$/234. 回文链表/src/main.java" />
         <option value="$PROJECT_DIR$/278. 第一个错误的版本/src/main.java" />
         <option value="$PROJECT_DIR$/Q201-300.md" />
         <option value="$PROJECT_DIR$/34. 在排序数组中查找元素的第一个和最后一个位置/src/main.java" />
+        <option value="$PROJECT_DIR$/Q1-100.md" />
+        <option value="$PROJECT_DIR$/50. Pow(x, n)/src/main.java" />
       </list>
     </option>
   </component>
@@ -137,7 +146,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="34. 在排序数组中查找元素的第一个和最后一个位置" type="462c0819:PsiDirectoryNode" />
+              <item name="50. Pow(x, n)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,7 +202,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="34. 在排序数组中查找元素的第一个和最后一个位置" />
+      <module name="50. Pow(x, n)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,21 +271,7 @@
       <workItem from="1582695665109" duration="1436000" />
       <workItem from="1582806979336" duration="359000" />
       <workItem from="1582808573287" duration="10000" />
-      <workItem from="1582808613570" duration="1764000" />
-    </task>
-    <task id="LOCAL-00089" summary="Finish Q5 (DP - Bottom to top)">
-      <created>1580628943204</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1580628943205</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Update Q5&#10;&#10;Fuck WUHAN gov, a bunch of stupid fuck.&#10;&#10;Is my tax paid to feed these shit bird idiot pig?">
-      <created>1580629678523</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1580629678523</updated>
+      <workItem from="1582808613570" duration="3131000" />
     </task>
     <task id="LOCAL-00091" summary="Update Q5 again">
       <created>1580647482896</created>
@@ -607,11 +602,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582730182356</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Finish Q34 (二分查找。。。醉了)">
+      <created>1582810872830</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1582810872831</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Finish Q34 (二分查找。。。醉了)">
+      <created>1582811749841</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1582811749841</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222326000" />
+    <option name="totallyTimeSpent" value="223693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,7 +635,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20886981" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -637,7 +646,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -703,7 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q263 (O(lgn))" />
     <MESSAGE value="Finish Q226" />
     <MESSAGE value="Finish Q231" />
     <MESSAGE value="Finish Q237" />
@@ -728,7 +736,8 @@
     <MESSAGE value="Finish Q283 (为啥第一次做半天想不到。。。)" />
     <MESSAGE value="Finish Q234 (反转链表有点烦啊。。。)" />
     <MESSAGE value="Finish Q278 (给我把二分查找他妈的背下来！！)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q278 (给我把二分查找他妈的背下来！！)" />
+    <MESSAGE value="Finish Q34 (二分查找。。。醉了)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q34 (二分查找。。。醉了)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -822,12 +831,6 @@
           <line>24</line>
           <properties />
           <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/34. 在排序数组中查找元素的第一个和最后一个位置/src/main.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="137" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -990,17 +993,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/202. 快乐数/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#62#63#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/205. 同构字符串/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -1363,19 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q1-100.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="205">
-            <caret line="282" column="11" selection-start-line="282" selection-start-column="11" selection-end-line="282" selection-end-column="11" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/33. 搜索旋转排序数组/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1425,10 +1404,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Q1-100.md">
+      <provider editor-type-id="Gfm" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="695">
+            <caret line="360" column="22" selection-start-line="360" selection-start-column="22" selection-end-line="360" selection-end-column="22" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/34. 在排序数组中查找元素的第一个和最后一个位置/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="517">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/50. Pow(x, n)/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
