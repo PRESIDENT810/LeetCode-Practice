@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/225. 用队列实现栈/225. 用队列实现栈.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/225. 用队列实现栈/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/225. 用队列实现栈/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="57">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding>
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#263#264#0" expanded="true" />
@@ -127,7 +122,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -143,11 +138,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="225. 用队列实现栈" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +193,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="50. Pow(x, n)" />
+      <module name="88. 合并两个有序数组" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,21 +265,7 @@
       <workItem from="1582808613570" duration="3487000" />
       <workItem from="1583043250595" duration="19000" />
       <workItem from="1583043278132" duration="30000" />
-      <workItem from="1583043314306" duration="508000" />
-    </task>
-    <task id="LOCAL-00092" summary="Finish Q141 (fast/slow pointer)">
-      <created>1580649615952</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1580649615952</updated>
-    </task>
-    <task id="LOCAL-00093" summary="Finish Q8 (real fuckin' nasty)">
-      <created>1580651294922</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1580651294923</updated>
+      <workItem from="1583043314306" duration="564000" />
     </task>
     <task id="LOCAL-00094" summary="Finish Q6（艹...）">
       <created>1580752493399</created>
@@ -620,11 +596,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582812584054</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Finish Q225">
+      <created>1583044177819</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1583044177820</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Update Q225">
+      <created>1583044212311</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1583044212311</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224606000" />
+    <option name="totallyTimeSpent" value="224662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +627,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
@@ -716,8 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q231" />
-    <MESSAGE value="Finish Q237" />
     <MESSAGE value="Add new readme" />
     <MESSAGE value="Finish Q1346" />
     <MESSAGE value="Update Q1346" />
@@ -741,7 +728,9 @@
     <MESSAGE value="Finish Q278 (给我把二分查找他妈的背下来！！)" />
     <MESSAGE value="Finish Q34 (二分查找。。。醉了)" />
     <MESSAGE value="Finish Q50 (草，这种题拿overflow恶心人是不是过分了)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q50 (草，这种题拿overflow恶心人是不是过分了)" />
+    <MESSAGE value="Finish Q225" />
+    <MESSAGE value="Update Q225" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Q225" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1434,8 +1423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/225. 用队列实现栈/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="57">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
           <folding>
             <element signature="e#222#223#0" expanded="true" />
             <element signature="e#263#264#0" expanded="true" />
