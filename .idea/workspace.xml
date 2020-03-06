@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/面试题57 - II. 和为s的连续正数序列.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="315">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -274,21 +271,7 @@
       <workItem from="1583328896511" duration="5287000" />
       <workItem from="1583419370350" duration="23000" />
       <workItem from="1583419579533" duration="2827000" />
-      <workItem from="1583467076055" duration="2302000" />
-    </task>
-    <task id="LOCAL-00097" summary="Update Readme.md">
-      <created>1580834132649</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1580834132650</updated>
-    </task>
-    <task id="LOCAL-00098" summary="Finish Q455 (this question sucks)">
-      <created>1580897322679</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1580897322680</updated>
+      <workItem from="1583467076055" duration="3732000" />
     </task>
     <task id="LOCAL-00099" summary="Finish Q19 (O(2n))">
       <created>1580907484996</created>
@@ -619,11 +602,25 @@
       <option name="project" value="LOCAL" />
       <updated>1583422433808</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Finish Q_57">
+      <created>1583469483785</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1583469483786</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Finish Q_57 (Hashmap)">
+      <created>1583470369797</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1583470369797</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235255000" />
+    <option name="totallyTimeSpent" value="236685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,8 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q268" />
-    <MESSAGE value="Finish Q268 (bit operation)" />
     <MESSAGE value="Update Q268" />
     <MESSAGE value="Finish Q326" />
     <MESSAGE value="Update Q326 (O(1)...)" />
@@ -740,7 +735,9 @@
     <MESSAGE value="Update Q88" />
     <MESSAGE value="Finish Q994" />
     <MESSAGE value="Finish Q1103 (神经病题目)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q1103 (神经病题目)" />
+    <MESSAGE value="Finish Q_57" />
+    <MESSAGE value="Finish Q_57 (Hashmap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q_57 (Hashmap)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -861,9 +858,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java</url>
-          <line>26</line>
+          <line>15</line>
           <properties />
-          <option name="timeStamp" value="178" />
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1477,11 +1474,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="52" />
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
