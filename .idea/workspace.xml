@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/322. 零钱兑换/322. 零钱兑换.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/322. 零钱兑换/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/322. 零钱兑换/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/322. 零钱兑换/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" selection-start-line="10" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="608">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -284,21 +273,7 @@
       <workItem from="1583559882970" duration="7000" />
       <workItem from="1583585067542" duration="1409000" />
       <workItem from="1583587048540" duration="213000" />
-      <workItem from="1583687632809" duration="3058000" />
-    </task>
-    <task id="LOCAL-00103" summary="Finish Q15（我操了）">
-      <created>1580912754971</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1580912754971</updated>
-    </task>
-    <task id="LOCAL-00104" summary="Update Q15">
-      <created>1580915999393</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1580915999394</updated>
+      <workItem from="1583687632809" duration="4123000" />
     </task>
     <task id="LOCAL-00105" summary="Finish Q16（我草了。。。这个x数之和真的操蛋）">
       <created>1580917096134</created>
@@ -629,11 +604,25 @@
       <option name="project" value="LOCAL" />
       <updated>1583587256539</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Not finish Q322 (exceed time limit...)">
+      <created>1583728887498</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1583728887499</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Not finish Q322 (still exceed time limit...)">
+      <created>1583729820334</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1583729820334</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242137000" />
+    <option name="totallyTimeSpent" value="243202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,8 +647,8 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -725,8 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q22 (why use a tree when you understand the principle?)" />
-    <MESSAGE value="Finish Q22 (why use a string when you can use integer to indicate the string?)" />
     <MESSAGE value="Finish Q5323" />
     <MESSAGE value="Finish Q5325" />
     <MESSAGE value="Update readme.md" />
@@ -750,7 +737,9 @@
     <MESSAGE value="Update Q_57 (better...)" />
     <MESSAGE value="Finish Q_59" />
     <MESSAGE value="Update Q_59" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Q_59" />
+    <MESSAGE value="Not finish Q322 (exceed time limit...)" />
+    <MESSAGE value="Not finish Q322 (still exceed time limit...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not finish Q322 (still exceed time limit...)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,15 +860,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/322. 零钱兑换/src/main.java</url>
-          <line>22</line>
+          <line>43</line>
           <properties />
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/322. 零钱兑换/src/main.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="174" />
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1494,17 +1477,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="10" selection-start-line="10" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
         </state>
       </provider>
     </entry>

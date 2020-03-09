@@ -30,6 +30,7 @@ class Solution322 {
             int sub_amount = i;
             add = false;
             for (int available : this.set) {
+                if (this.map[available] != 1) continue;
                 if (available*2 <= sub_amount+1 && this.set.contains(sub_amount - available)) {
                     add = true;
                     int cnt = this.map[available] + this.map[sub_amount - available];
