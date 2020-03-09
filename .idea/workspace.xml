@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/面试题59 - II. 队列的最大值/src/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题59 - II. 队列的最大值/面试题59 - II. 队列的最大值.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/322. 零钱兑换/322. 零钱兑换.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/322. 零钱兑换/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,11 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/面试题59 - II. 队列的最大值/src/main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="209">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="10" selection-start-line="10" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -57,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/217. 存在重复元素/src/main.java" />
         <option value="$PROJECT_DIR$/219. 存在重复元素 II/src/main.java" />
         <option value="$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java" />
         <option value="$PROJECT_DIR$/4. 寻找两个有序数组的中位数/src/main.java" />
@@ -106,8 +114,9 @@
         <option value="$PROJECT_DIR$/994. 腐烂的橘子/src/main.java" />
         <option value="$PROJECT_DIR$/1103. 分糖果 II/src/main.java" />
         <option value="$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java" />
-        <option value="$PROJECT_DIR$/Q301-400.md" />
         <option value="$PROJECT_DIR$/面试题59 - II. 队列的最大值/src/main.java" />
+        <option value="$PROJECT_DIR$/Q301-400.md" />
+        <option value="$PROJECT_DIR$/322. 零钱兑换/src/main.java" />
       </list>
     </option>
   </component>
@@ -117,7 +126,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -127,6 +136,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,27 +148,12 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="面试题59 - II. 队列的最大值" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="面试题59 - II. 队列的最大值" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="面试题59 - II. 队列的最大值" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="322. 零钱兑换" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +203,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="面试题57 - II. 和为s的连续正数序列" />
+      <module name="322. 零钱兑换" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -287,20 +283,8 @@
       <workItem from="1583467076055" duration="4497000" />
       <workItem from="1583559882970" duration="7000" />
       <workItem from="1583585067542" duration="1409000" />
-    </task>
-    <task id="LOCAL-00101" summary="Finish Q19 (ArrayList, O(n))">
-      <created>1580908292083</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1580908292083</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Finish Q19 (Array, O(n)) &#10;我艹了，怎么还是慢">
-      <created>1580908372466</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1580908372466</updated>
+      <workItem from="1583587048540" duration="213000" />
+      <workItem from="1583687632809" duration="3058000" />
     </task>
     <task id="LOCAL-00103" summary="Finish Q15（我操了）">
       <created>1580912754971</created>
@@ -631,11 +615,25 @@
       <option name="project" value="LOCAL" />
       <updated>1583471879950</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Finish Q_59">
+      <created>1583587123315</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1583587123316</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Update Q_59">
+      <created>1583587256539</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1583587256539</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238866000" />
+    <option name="totallyTimeSpent" value="242137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,7 +648,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -661,11 +659,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.25783134" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -727,8 +725,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Q326 (O(1)...)" />
-    <MESSAGE value="Finish Q22 (slightly improved)" />
     <MESSAGE value="Finish Q22 (why use a tree when you understand the principle?)" />
     <MESSAGE value="Finish Q22 (why use a string when you can use integer to indicate the string?)" />
     <MESSAGE value="Finish Q5323" />
@@ -752,7 +748,9 @@
     <MESSAGE value="Finish Q_57 (Hashmap)" />
     <MESSAGE value="Finish Q_57 (double ptr)" />
     <MESSAGE value="Update Q_57 (better...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Q_57 (better...)" />
+    <MESSAGE value="Finish Q_59" />
+    <MESSAGE value="Update Q_59" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Q_59" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,8 +869,26 @@
           <properties />
           <option name="timeStamp" value="166" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/322. 零钱兑换/src/main.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/322. 零钱兑换/src/main.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.map[available] + this.map[sub_amount - available]" language="JAVA" />
+        <watch expression="sub_amount-available" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -933,6 +949,21 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>this.map[available] + this.map[sub_amount - available]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sub_amount-available</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.map[i] = 1 + map[sub_amount - available]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>cp1 &gt; cp2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -964,21 +995,6 @@
       </expression>
       <expression>
         <expression-string>(char) (3*arr[i]+j%degree-89)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(char) (3*arr[i]+j%degree+47)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(char) (3*arr[i]+j%degree+91)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>start-Row*2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1032,13 +1048,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/198. 打家劫舍/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1210,6 +1219,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q101-200.md">
+      <provider selected="true" editor-type-id="Gfm" />
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="695">
@@ -1220,7 +1230,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/231. 2的幂/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1247,6 +1256,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
     <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="209">
@@ -1257,7 +1267,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1355,6 +1364,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q201-300.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="329">
@@ -1365,7 +1375,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/278. 第一个错误的版本/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1379,6 +1388,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q1-100.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="695">
@@ -1389,7 +1399,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/50. Pow(x, n)/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1431,13 +1440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/994. 腐烂的橘子/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1456,24 +1458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q301-400.md">
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="505">
-            <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1485,10 +1469,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Q301-400.md">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="676">
+            <caret line="110" selection-start-line="110" selection-end-line="110" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/面试题59 - II. 队列的最大值/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" selection-start-line="10" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
