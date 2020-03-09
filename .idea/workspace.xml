@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="321">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -274,13 +274,6 @@
       <workItem from="1583585067542" duration="1409000" />
       <workItem from="1583587048540" duration="213000" />
       <workItem from="1583687632809" duration="4123000" />
-    </task>
-    <task id="LOCAL-00105" summary="Finish Q16（我草了。。。这个x数之和真的操蛋）">
-      <created>1580917096134</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1580917096134</updated>
     </task>
     <task id="LOCAL-00106" summary="Update Readme.md">
       <created>1580917199969</created>
@@ -618,11 +611,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583729820334</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Finish Q322 (打扰了。。。是我犯蠢了)">
+      <created>1583732077232</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1583732077232</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243202000" />
+    <option name="totallyTimeSpent" value="244172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,8 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q5323" />
-    <MESSAGE value="Finish Q5325" />
     <MESSAGE value="Update readme.md" />
     <MESSAGE value="这题不允许long脑子真的有病&#10;智障题目" />
     <MESSAGE value="Finish Q31 (almost done with one try! I rock)" />
@@ -739,7 +737,9 @@
     <MESSAGE value="Update Q_59" />
     <MESSAGE value="Not finish Q322 (exceed time limit...)" />
     <MESSAGE value="Not finish Q322 (still exceed time limit...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Not finish Q322 (still exceed time limit...)" />
+    <MESSAGE value="打扰了。。。是我犯蠢了" />
+    <MESSAGE value="Finish Q322 (打扰了。。。是我犯蠢了)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q322 (打扰了。。。是我犯蠢了)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,12 +857,6 @@
           <line>24</line>
           <properties />
           <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/322. 零钱兑换/src/main.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="175" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1486,8 +1480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        <state relative-caret-position="321">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
         </state>
       </provider>
     </entry>
