@@ -23,11 +23,10 @@ class Solution322 {
         }
 
         for (int i = min; i < map.length; i++) {
-            int sub_amount = i;
             for (int coin : coins) {
                 if (coin >= amount) continue;
-                if (coin*2 <= sub_amount+1) {
-                    map[i] = Math.min(map[coin] + map[sub_amount - coin], map[i]);
+                if (coin*2 <= i+1) {
+                    map[i] = Math.min(map[coin] + map[i - coin], map[i]);
                 }
             }
         }
