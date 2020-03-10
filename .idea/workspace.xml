@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/543. 二叉树的直径/543. 二叉树的直径.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/543. 二叉树的直径/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/1013. 将数组分成和相等的三个部分.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,14 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/543. 二叉树的直径/src/main.java">
+        <entry file="file://$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="13" selection-start-line="13" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -61,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3. 无重复字符的最长子串/src/main.java" />
         <option value="$PROJECT_DIR$/4. 寻找两个有序数组的中位数/src/main.java" />
         <option value="$PROJECT_DIR$/172. 阶乘后的零/src/main.java" />
         <option value="$PROJECT_DIR$/5. 最长回文子串/src/main.java" />
@@ -112,6 +107,7 @@
         <option value="$PROJECT_DIR$/322. 零钱兑换/src/main.java" />
         <option value="$PROJECT_DIR$/Q301-400.md" />
         <option value="$PROJECT_DIR$/543. 二叉树的直径/src/main.java" />
+        <option value="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java" />
       </list>
     </option>
   </component>
@@ -142,7 +138,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="543. 二叉树的直径" type="462c0819:PsiDirectoryNode" />
+              <item name="1013. 将数组分成和相等的三个部分" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +194,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="322. 零钱兑换" />
+      <module name="1013. 将数组分成和相等的三个部分" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,14 +277,7 @@
       <workItem from="1583587048540" duration="213000" />
       <workItem from="1583687632809" duration="4123000" />
       <workItem from="1583733218749" duration="443000" />
-      <workItem from="1583855364278" duration="642000" />
-    </task>
-    <task id="LOCAL-00109" summary="Finish Q142">
-      <created>1581099501959</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1581099501960</updated>
+      <workItem from="1583855364278" duration="2003000" />
     </task>
     <task id="LOCAL-00110" summary="Finish Q24">
       <created>1581099930177</created>
@@ -626,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583733655932</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="Finish Q543">
+      <created>1583856495532</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1583856495533</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245340000" />
+    <option name="totallyTimeSpent" value="246701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,7 +641,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23032904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23032904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -660,7 +656,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.25783134" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.25783134" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -722,7 +718,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q31 (almost done with one try! I rock)" />
     <MESSAGE value="Finish Q33 (二分查找写了一个小时 我是最差劲的程序猿)" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Finish Q283 (为啥第一次做半天想不到。。。)" />
@@ -747,7 +742,8 @@
     <MESSAGE value="Finish Q322 (打扰了。。。是我犯蠢了)" />
     <MESSAGE value="Finish Q322 (slightly improved)" />
     <MESSAGE value="Update readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme.md" />
+    <MESSAGE value="Finish Q543" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q543" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1033,13 +1029,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/141. 环形链表/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/206. 反转链表/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1454,13 +1443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" selection-start-line="10" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Q301-400.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1489,11 +1471,25 @@
     <entry file="file://$PROJECT_DIR$/543. 二叉树的直径/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="13" selection-start-line="13" selection-end-line="30" selection-end-column="1" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="e#113#114#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="35" />
         </state>
       </provider>
     </entry>
