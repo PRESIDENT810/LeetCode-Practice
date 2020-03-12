@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class main {
     public static void main(String argsp[]) {
         int[] arr = {0, 2, 1, -6, 6, -7, 9, 1, 2, 0, 1};

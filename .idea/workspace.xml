@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/1013. 将数组分成和相等的三个部分.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1071. 字符串的最大公因子/1071. 字符串的最大公因子.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java">
+        <entry file="file://$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="35" />
+            <state relative-caret-position="308">
+              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -57,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4. 寻找两个有序数组的中位数/src/main.java" />
         <option value="$PROJECT_DIR$/172. 阶乘后的零/src/main.java" />
         <option value="$PROJECT_DIR$/5. 最长回文子串/src/main.java" />
         <option value="$PROJECT_DIR$/141. 环形链表/src/main.java" />
@@ -108,6 +108,7 @@
         <option value="$PROJECT_DIR$/Q301-400.md" />
         <option value="$PROJECT_DIR$/543. 二叉树的直径/src/main.java" />
         <option value="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java" />
+        <option value="$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java" />
       </list>
     </option>
   </component>
@@ -117,7 +118,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -128,6 +129,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,13 +140,12 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="1013. 将数组分成和相等的三个部分" type="462c0819:PsiDirectoryNode" />
+              <item name="1071. 字符串的最大公因子" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +195,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="1013. 将数组分成和相等的三个部分" />
+      <module name="1071. 字符串的最大公因子" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -277,14 +278,8 @@
       <workItem from="1583587048540" duration="213000" />
       <workItem from="1583687632809" duration="4123000" />
       <workItem from="1583733218749" duration="443000" />
-      <workItem from="1583855364278" duration="2003000" />
-    </task>
-    <task id="LOCAL-00110" summary="Finish Q24">
-      <created>1581099930177</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1581099930177</updated>
+      <workItem from="1583855364278" duration="2240000" />
+      <workItem from="1584023762229" duration="2551000" />
     </task>
     <task id="LOCAL-00111" summary="Finish Q459">
       <created>1581169694427</created>
@@ -622,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583856495533</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Finish Q1013">
+      <created>1583861350461</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1583861350461</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246701000" />
+    <option name="totallyTimeSpent" value="249489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,9 +641,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23032904" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -718,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q33 (二分查找写了一个小时 我是最差劲的程序猿)" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Finish Q283 (为啥第一次做半天想不到。。。)" />
     <MESSAGE value="Finish Q234 (反转链表有点烦啊。。。)" />
@@ -743,7 +743,8 @@
     <MESSAGE value="Finish Q322 (slightly improved)" />
     <MESSAGE value="Update readme.md" />
     <MESSAGE value="Finish Q543" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q543" />
+    <MESSAGE value="Finish Q1013" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q1013" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,14 +863,20 @@
           <properties />
           <option name="timeStamp" value="166" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="this.map[available] + this.map[sub_amount - available]" language="JAVA" />
-        <watch expression="sub_amount-available" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1029,13 +1036,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/206. 反转链表/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/66. 加一/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-265">
@@ -1186,6 +1186,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q101-200.md">
+      <provider selected="true" editor-type-id="Gfm" />
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="695">
@@ -1196,7 +1197,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/231. 2的幂/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1223,6 +1223,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
     <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="209">
@@ -1233,7 +1234,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1331,6 +1331,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q201-300.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="329">
@@ -1341,7 +1342,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/278. 第一个错误的版本/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1355,6 +1355,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q1-100.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="695">
@@ -1365,7 +1366,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/50. Pow(x, n)/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1444,6 +1444,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q301-400.md">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-398">
@@ -1454,12 +1460,6 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1479,6 +1479,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1486,10 +1493,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java">
+    <entry file="file://$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="35" />
+        <state relative-caret-position="308">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
