@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/215. 数组中的第K个最大元素/215. 数组中的第K个最大元素.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/86. 分隔链表/86. 分隔链表.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/86. 分隔链表/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,29 +143,6 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="86. 分隔链表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="215. 数组中的第K个最大元素" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="215. 数组中的第K个最大元素" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="215. 数组中的第K个最大元素" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,7 +197,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="86. 分隔链表" />
+      <module name="344. 反转字符串" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -326,14 +296,7 @@
       <workItem from="1585674863591" duration="1256000" />
       <workItem from="1586674388840" duration="17000" />
       <workItem from="1592035956320" duration="800000" />
-      <workItem from="1592038057918" duration="1307000" />
-    </task>
-    <task id="LOCAL-00115" summary="Finish Q231">
-      <created>1581526276655</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1581526276656</updated>
+      <workItem from="1592038057918" duration="1684000" />
     </task>
     <task id="LOCAL-00116" summary="Finish Q237">
       <created>1581526563479</created>
@@ -671,11 +634,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585319175693</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="Finish Q215 &amp; 86">
+      <created>1592039389296</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1592039389297</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259153000" />
+    <option name="totallyTimeSpent" value="259530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,7 +660,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21173105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -768,7 +738,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q34 (二分查找。。。醉了)" />
     <MESSAGE value="Finish Q50 (草，这种题拿overflow恶心人是不是过分了)" />
     <MESSAGE value="Finish Q225" />
     <MESSAGE value="Update Q225" />
@@ -793,7 +762,8 @@
     <MESSAGE value="Finish Q1071 (quite easy actually...)" />
     <MESSAGE value="Finish Q_16_17" />
     <MESSAGE value="Finish Q914" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q914" />
+    <MESSAGE value="Finish Q215 &amp; 86" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q215 &amp; 86" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -929,12 +899,6 @@
           <line>23</line>
           <properties />
           <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/86. 分隔链表/src/main.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="184" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
