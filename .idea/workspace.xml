@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +27,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/704. 二分查找/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Q301-400.md">
+        <entry file="file://$PROJECT_DIR$/328. 奇偶链表/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="130" column="54" selection-start-line="130" selection-start-column="54" selection-end-line="130" selection-end-column="54" />
+            <state relative-caret-position="213">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="Gfm" />
         </entry>
       </file>
     </leaf>
@@ -64,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/263. 丑数/src/main.java" />
         <option value="$PROJECT_DIR$/226. 翻转二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/Q101-200.md" />
         <option value="$PROJECT_DIR$/Q301-400" />
@@ -115,6 +106,7 @@
         <option value="$PROJECT_DIR$/面试题50. 第一个只出现一次的字符/src/main.java" />
         <option value="$PROJECT_DIR$/704. 二分查找/src/main.java" />
         <option value="$PROJECT_DIR$/Q301-400.md" />
+        <option value="$PROJECT_DIR$/328. 奇偶链表/src/main.java" />
       </list>
     </option>
   </component>
@@ -124,7 +116,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -299,13 +291,7 @@
       <workItem from="1592218656302" duration="9501000" />
       <workItem from="1592273190775" duration="1316000" />
       <workItem from="1592274962716" duration="44000" />
-    </task>
-    <task id="LOCAL-00124" summary="Update Q326 (O(1)...)">
-      <created>1581613376982</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1581613376982</updated>
+      <workItem from="1592275353540" duration="66000" />
     </task>
     <task id="LOCAL-00125" summary="Finish Q22 (slightly improved)">
       <created>1582377050175</created>
@@ -643,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1592275003066</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="Finish Q328">
+      <created>1592275411329</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1592275411332</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270488000" />
+    <option name="totallyTimeSpent" value="270554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,7 +654,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22317597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -739,7 +732,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q_57 (double ptr)" />
     <MESSAGE value="Update Q_57 (better...)" />
     <MESSAGE value="Finish Q_59" />
     <MESSAGE value="Update Q_59" />
@@ -764,7 +756,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="Finish Q704" />
     <MESSAGE value="Finish Q_04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q_04" />
+    <MESSAGE value="Finish Q328" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q328" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1057,13 +1050,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/283. 移动零/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/234. 回文链表/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
@@ -1376,12 +1362,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q1-100.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="300" column="30" lean-forward="true" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/912. 排序数组/912. 排序数组.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1437,12 +1423,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q301-400.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="130" column="54" selection-start-line="130" selection-start-column="54" selection-end-line="130" selection-end-column="54" />
+        <state relative-caret-position="59">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/328. 奇偶链表/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
