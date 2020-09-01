@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/841. 钥匙和房间/841. 钥匙和房间.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/841. 钥匙和房间/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/486. 预测赢家/486. 预测赢家.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/486. 预测赢家/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,24 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/337. 打家劫舍 III/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/841. 钥匙和房间/src/main.java">
+        <entry file="file://$PROJECT_DIR$/486. 预测赢家/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="219">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="47" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -70,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java" />
         <option value="$PROJECT_DIR$/268. 缺失数字/src/main.java" />
         <option value="$PROJECT_DIR$/326. 3的幂/src/main.java" />
         <option value="$PROJECT_DIR$/22. 括号生成/src/main.java" />
@@ -121,6 +107,7 @@
         <option value="$PROJECT_DIR$/143. 重排链表/src/main.java" />
         <option value="$PROJECT_DIR$/337. 打家劫舍 III/src/main.java" />
         <option value="$PROJECT_DIR$/841. 钥匙和房间/src/main.java" />
+        <option value="$PROJECT_DIR$/486. 预测赢家/src/main.java" />
       </list>
     </option>
   </component>
@@ -152,7 +139,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="841. 钥匙和房间" type="462c0819:PsiDirectoryNode" />
+              <item name="486. 预测赢家" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +194,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="143. 重排链表" />
+      <module name="486. 预测赢家" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -321,14 +308,7 @@
       <workItem from="1594985229489" duration="135000" />
       <workItem from="1596635666131" duration="2023000" />
       <workItem from="1598848415143" duration="15000" />
-      <workItem from="1598883132075" duration="3169000" />
-    </task>
-    <task id="LOCAL-00128" summary="Finish Q5323">
-      <created>1582383519767</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1582383519768</updated>
+      <workItem from="1598883132075" duration="6243000" />
     </task>
     <task id="LOCAL-00129" summary="Finish Q5325">
       <created>1582387909546</created>
@@ -666,11 +646,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596637735575</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Finish Q841">
+      <created>1598930076372</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1598930076373</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278885000" />
+    <option name="totallyTimeSpent" value="281959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,7 +672,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -696,7 +683,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -716,7 +703,7 @@
       <window_info anchor="right" id="Database" order="7" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="PlantUML" order="10" />
+      <window_info anchor="right" id="PlantUML" order="10" weight="0.3297568" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
@@ -797,7 +784,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Not finish Q322 (exceed time limit...)" />
     <MESSAGE value="Not finish Q322 (still exceed time limit...)" />
     <MESSAGE value="打扰了。。。是我犯蠢了" />
     <MESSAGE value="Finish Q322 (打扰了。。。是我犯蠢了)" />
@@ -822,7 +808,8 @@
     <MESSAGE value="Finish Q235 &amp; 242" />
     <MESSAGE value="Finish Q345" />
     <MESSAGE value="Finish Q337" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q337" />
+    <MESSAGE value="Finish Q841" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q841" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,6 +940,12 @@
           <line>56</line>
           <properties />
           <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/486. 预测赢家/src/main.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="207" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1115,17 +1108,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1103. 分糖果 II/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1488,7 +1470,14 @@
     <entry file="file://$PROJECT_DIR$/841. 钥匙和房间/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/486. 预测赢家/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="47" selection-end-column="60" />
         </state>
       </provider>
     </entry>
