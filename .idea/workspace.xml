@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/486. 预测赢家/486. 预测赢家.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/486. 预测赢家/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/415. 字符串相加/415. 字符串相加.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/415. 字符串相加/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,11 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/486. 预测赢家/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="874">
               <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="47" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/415. 字符串相加/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -57,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/268. 缺失数字/src/main.java" />
         <option value="$PROJECT_DIR$/326. 3的幂/src/main.java" />
         <option value="$PROJECT_DIR$/22. 括号生成/src/main.java" />
         <option value="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java" />
@@ -108,6 +116,7 @@
         <option value="$PROJECT_DIR$/337. 打家劫舍 III/src/main.java" />
         <option value="$PROJECT_DIR$/841. 钥匙和房间/src/main.java" />
         <option value="$PROJECT_DIR$/486. 预测赢家/src/main.java" />
+        <option value="$PROJECT_DIR$/415. 字符串相加/src/main.java" />
       </list>
     </option>
   </component>
@@ -139,7 +148,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="486. 预测赢家" type="462c0819:PsiDirectoryNode" />
+              <item name="415. 字符串相加" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +203,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="486. 预测赢家" />
+      <module name="415. 字符串相加" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -308,14 +317,7 @@
       <workItem from="1594985229489" duration="135000" />
       <workItem from="1596635666131" duration="2023000" />
       <workItem from="1598848415143" duration="15000" />
-      <workItem from="1598883132075" duration="6243000" />
-    </task>
-    <task id="LOCAL-00129" summary="Finish Q5325">
-      <created>1582387909546</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1582387909546</updated>
+      <workItem from="1598883132075" duration="7227000" />
     </task>
     <task id="LOCAL-00130" summary="Update readme.md">
       <created>1582388422025</created>
@@ -653,11 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598930076373</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Finish Q486">
+      <created>1598939434252</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1598939434252</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281959000" />
+    <option name="totallyTimeSpent" value="282943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,8 +691,8 @@
       <window_info id="Learn" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -784,7 +793,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Not finish Q322 (still exceed time limit...)" />
     <MESSAGE value="打扰了。。。是我犯蠢了" />
     <MESSAGE value="Finish Q322 (打扰了。。。是我犯蠢了)" />
     <MESSAGE value="Finish Q322 (slightly improved)" />
@@ -809,7 +817,8 @@
     <MESSAGE value="Finish Q345" />
     <MESSAGE value="Finish Q337" />
     <MESSAGE value="Finish Q841" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q841" />
+    <MESSAGE value="Finish Q486" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q486" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,6 +955,12 @@
           <line>67</line>
           <properties />
           <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/415. 字符串相加/src/main.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="211" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1108,24 +1123,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/322. 零钱兑换/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/543. 二叉树的直径/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1347,13 +1344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/232. 用栈实现队列/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -1476,8 +1466,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/486. 预测赢家/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="874">
           <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="47" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="438" column="25" selection-start-line="438" selection-start-column="25" selection-end-line="438" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/415. 字符串相加/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
