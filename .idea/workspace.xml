@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="Finish Q34">
-      <change afterPath="$PROJECT_DIR$/337. 打家劫舍 III/337. 打家劫舍 III.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/337. 打家劫舍 III/src/main.java" afterDir="false" />
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/841. 钥匙和房间/841. 钥匙和房间.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/841. 钥匙和房间/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,17 +32,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/337. 打家劫舍 III/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" selection-start-line="12" selection-end-line="53" selection-end-column="1" />
+            <state relative-caret-position="342">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/841. 钥匙和房间/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -63,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/src/main.java" />
         <option value="$PROJECT_DIR$/268. 缺失数字/src/main.java" />
         <option value="$PROJECT_DIR$/326. 3的幂/src/main.java" />
@@ -114,6 +120,7 @@
         <option value="$PROJECT_DIR$/5. 最长回文子串/src/main.java" />
         <option value="$PROJECT_DIR$/143. 重排链表/src/main.java" />
         <option value="$PROJECT_DIR$/337. 打家劫舍 III/src/main.java" />
+        <option value="$PROJECT_DIR$/841. 钥匙和房间/src/main.java" />
       </list>
     </option>
   </component>
@@ -133,6 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,14 +152,12 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="337. 打家劫舍 III" type="462c0819:PsiDirectoryNode" />
+              <item name="841. 钥匙和房间" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,14 +319,9 @@
       <workItem from="1593405964975" duration="18000" />
       <workItem from="1594726609748" duration="606000" />
       <workItem from="1594985229489" duration="135000" />
-      <workItem from="1596635666131" duration="1819000" />
-    </task>
-    <task id="LOCAL-00127" summary="Finish Q22 (why use a string when you can use integer to indicate the string?)">
-      <created>1582377635162</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1582377635162</updated>
+      <workItem from="1596635666131" duration="2023000" />
+      <workItem from="1598848415143" duration="15000" />
+      <workItem from="1598883132075" duration="3169000" />
     </task>
     <task id="LOCAL-00128" summary="Finish Q5323">
       <created>1582383519767</created>
@@ -657,11 +659,18 @@
       <option name="project" value="LOCAL" />
       <updated>1592564560476</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="Finish Q337">
+      <created>1596637735574</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1596637735575</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275497000" />
+    <option name="totallyTimeSpent" value="278885000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,7 +685,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2074392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -788,7 +797,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Q_59" />
     <MESSAGE value="Not finish Q322 (exceed time limit...)" />
     <MESSAGE value="Not finish Q322 (still exceed time limit...)" />
     <MESSAGE value="打扰了。。。是我犯蠢了" />
@@ -813,7 +821,8 @@
     <MESSAGE value="Finish Q328" />
     <MESSAGE value="Finish Q235 &amp; 242" />
     <MESSAGE value="Finish Q345" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q345" />
+    <MESSAGE value="Finish Q337" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q337" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,13 +1115,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/994. 腐烂的橘子/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" selection-start-line="9" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1103. 分糖果 II/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1474,14 +1476,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/337. 打家劫舍 III/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" selection-start-line="12" selection-end-line="53" selection-end-column="1" />
+        <state relative-caret-position="342">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/841. 钥匙和房间/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
