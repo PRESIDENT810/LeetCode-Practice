@@ -14,7 +14,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class Solution236 {
     public TreeNode resNode = null;
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
