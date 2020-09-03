@@ -23,7 +23,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class Solution814 {
     public TreeNode pruneTree(TreeNode root) {
         if (!detect(root)) return null;
         return root;
