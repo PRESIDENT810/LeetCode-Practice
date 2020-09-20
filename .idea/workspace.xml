@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/146. LRU缓存机制/146. LRU缓存机制.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/146. LRU缓存机制/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. 两数之和/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. 两数之和/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/1. 两数之和/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/1. 两数之和/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/1. 两数之和/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/2. 两数相加/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/2. 两数相加/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/2. 两数相加/main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,20 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/257. 二叉树的所有路径/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/107. 二叉树的层次遍历 II/src/main.java">
+        <entry file="file://$PROJECT_DIR$/146. LRU缓存机制/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="207">
+              <caret line="39" column="36" selection-end-line="54" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -63,9 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/29. 两数相除/src/main.java" />
-        <option value="$PROJECT_DIR$/31. 下一个排列/src/main.java" />
-        <option value="$PROJECT_DIR$/33. 搜索旋转排序数组/src/main.java" />
         <option value="$PROJECT_DIR$/283. 移动零/src/main.java" />
         <option value="$PROJECT_DIR$/234. 回文链表/src/main.java" />
         <option value="$PROJECT_DIR$/278. 第一个错误的版本/src/main.java" />
@@ -94,7 +90,6 @@
         <option value="$PROJECT_DIR$/912. 排序数组/src/main.java" />
         <option value="$PROJECT_DIR$/14. 最长公共前缀/src/main.java" />
         <option value="$PROJECT_DIR$/6. Z 字形变换/src/main.java" />
-        <option value="$PROJECT_DIR$/1. 两数之和/src/main.java" />
         <option value="$PROJECT_DIR$/232. 用栈实现队列/src/main.java" />
         <option value="$PROJECT_DIR$/面试题50. 第一个只出现一次的字符/src/main.java" />
         <option value="$PROJECT_DIR$/704. 二分查找/src/main.java" />
@@ -114,6 +109,10 @@
         <option value="$PROJECT_DIR$/236. 二叉树的最近公共祖先/src/main.java" />
         <option value="$PROJECT_DIR$/257. 二叉树的所有路径/src/main.java" />
         <option value="$PROJECT_DIR$/216. 组合总和 III/src/main.java" />
+        <option value="$PROJECT_DIR$/538. 把二叉搜索树转换为累加树/src/main.java" />
+        <option value="$PROJECT_DIR$/1. 两数之和/src/main.java" />
+        <option value="$PROJECT_DIR$/202. 快乐数/src/main.java" />
+        <option value="$PROJECT_DIR$/146. LRU缓存机制/src/main.java" />
       </list>
     </option>
   </component>
@@ -123,7 +122,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -140,12 +139,30 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="146. LRU缓存机制" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="146. LRU缓存机制" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="146. LRU缓存机制" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,17 +202,14 @@
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="1. 两数之和" />
-      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
+      <module name="146. LRU缓存机制" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="415. 字符串相加" />
+      <module name="146. LRU缓存机制" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -316,13 +330,8 @@
       <workItem from="1599393075656" duration="13000" />
       <workItem from="1599828641920" duration="1863000" />
       <workItem from="1599893208086" duration="7000" />
-    </task>
-    <task id="LOCAL-00136" summary="Finish Q234 (反转链表有点烦啊。。。)">
-      <created>1582728309265</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1582728309266</updated>
+      <workItem from="1600619007519" duration="1522000" />
+      <workItem from="1600620637935" duration="250000" />
     </task>
     <task id="LOCAL-00137" summary="Finish Q278 (给我把二分查找他妈的背下来！！)">
       <created>1582730182356</created>
@@ -660,11 +669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599227474303</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Finish Q538">
+      <created>1600619129960</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1600619129961</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290086000" />
+    <option name="totallyTimeSpent" value="291858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,8 +693,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23032904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -689,11 +706,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.25783134" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.25783134" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -790,7 +807,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q543" />
     <MESSAGE value="Finish Q1013" />
     <MESSAGE value="Finish Q1071" />
     <MESSAGE value="Finish Q1071 (quite easy actually...)" />
@@ -815,7 +831,8 @@
     <MESSAGE value="Finish Q814" />
     <MESSAGE value="update" />
     <MESSAGE value="Finish Q257" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q257" />
+    <MESSAGE value="Finish Q538" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q538" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -958,6 +975,12 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/146. LRU缓存机制/src/main.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="216" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1120,38 +1143,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/面试题 17.16. 按摩师/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="372" column="18" selection-start-line="372" selection-start-column="18" selection-end-line="372" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="32" selection-start-line="32" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/914. 卡牌分组/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -1434,20 +1425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/415. 字符串相加/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1501,6 +1478,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/538. 把二叉搜索树转换为累加树/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/415. 字符串相加/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. 两数相加/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1041">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/202. 快乐数/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/146. LRU缓存机制/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="36" selection-end-line="54" selection-end-column="3" />
         </state>
       </provider>
     </entry>

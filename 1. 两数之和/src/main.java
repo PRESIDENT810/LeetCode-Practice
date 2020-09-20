@@ -1,11 +1,10 @@
 import java.util.*;
 
-public class main {
+class main {
     public static void main(String[] args){
         Solution1 solu = new Solution1();
         int[] nums = {2,7,11,15};
         int[] result = solu.twoSum(nums, 9);
-
         Queue<Integer> q = new LinkedList<>();
 
     }
