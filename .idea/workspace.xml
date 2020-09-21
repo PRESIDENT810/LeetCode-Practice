@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/146. LRU缓存机制/146. LRU缓存机制.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/146. LRU缓存机制/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. 两数之和/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. 两数之和/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/1. 两数之和/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/1. 两数之和/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/1. 两数之和/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/2. 两数相加/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/2. 两数相加/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/2. 两数相加/main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/146. LRU缓存机制/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="39" column="36" selection-end-line="54" selection-end-column="3" />
+            <state relative-caret-position="152">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -122,7 +114,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -331,14 +323,7 @@
       <workItem from="1599828641920" duration="1863000" />
       <workItem from="1599893208086" duration="7000" />
       <workItem from="1600619007519" duration="1522000" />
-      <workItem from="1600620637935" duration="250000" />
-    </task>
-    <task id="LOCAL-00137" summary="Finish Q278 (给我把二分查找他妈的背下来！！)">
-      <created>1582730182356</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1582730182356</updated>
+      <workItem from="1600620637935" duration="567000" />
     </task>
     <task id="LOCAL-00138" summary="Finish Q34 (二分查找。。。醉了)">
       <created>1582810872830</created>
@@ -676,11 +661,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600619129961</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Finish Q146">
+      <created>1600621088364</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1600621088365</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291858000" />
+    <option name="totallyTimeSpent" value="292175000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,7 +685,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
@@ -706,7 +697,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -807,7 +798,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q1013" />
     <MESSAGE value="Finish Q1071" />
     <MESSAGE value="Finish Q1071 (quite easy actually...)" />
     <MESSAGE value="Finish Q_16_17" />
@@ -832,7 +822,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="Finish Q257" />
     <MESSAGE value="Finish Q538" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q538" />
+    <MESSAGE value="Finish Q146" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q146" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -975,12 +966,6 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="212" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/146. LRU缓存机制/src/main.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="216" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1525,8 +1510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/146. LRU缓存机制/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="39" column="36" selection-end-line="54" selection-end-column="3" />
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
