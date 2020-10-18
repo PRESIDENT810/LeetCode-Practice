@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/102. 二叉树的层序遍历/102. 二叉树的层序遍历.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/102. 二叉树的层序遍历/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +118,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -138,11 +135,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="102. 二叉树的层序遍历" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,14 +322,7 @@
       <workItem from="1603009550607" duration="789000" />
       <workItem from="1603022617377" duration="386000" />
       <workItem from="1603024093574" duration="529000" />
-      <workItem from="1603028502100" duration="356000" />
-    </task>
-    <task id="LOCAL-00143" summary="Update Q88">
-      <created>1583235611572</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1583235611573</updated>
+      <workItem from="1603028502100" duration="370000" />
     </task>
     <task id="LOCAL-00144" summary="Finish Q994">
       <created>1583335528434</created>
@@ -675,11 +660,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603022659589</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Finish Q102">
+      <created>1603029260119</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1603029260120</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301310000" />
+    <option name="totallyTimeSpent" value="301324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,7 +684,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21387696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
@@ -806,7 +797,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q344" />
     <MESSAGE value="Finish Q144" />
     <MESSAGE value="Finish Q94" />
     <MESSAGE value="Finish Q232" />
@@ -831,7 +821,8 @@
     <MESSAGE value="Finish Q347" />
     <MESSAGE value="Finish Q541" />
     <MESSAGE value="Finish Q64" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q64" />
+    <MESSAGE value="Finish Q102" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q102" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
