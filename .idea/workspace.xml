@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/54. 螺旋矩阵/54. 螺旋矩阵.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/844. 比较含退格的字符串/844. 比较含退格的字符串.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/844. 比较含退格的字符串/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +29,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/844. 比较含退格的字符串/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="152">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15. 三数之和/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/951. 翻转等价二叉树/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -58,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/面试题57 - II. 和为s的连续正数序列/src/main.java" />
         <option value="$PROJECT_DIR$/面试题59 - II. 队列的最大值/src/main.java" />
         <option value="$PROJECT_DIR$/322. 零钱兑换/src/main.java" />
         <option value="$PROJECT_DIR$/543. 二叉树的直径/src/main.java" />
@@ -109,6 +122,7 @@
         <option value="$PROJECT_DIR$/102. 二叉树的层序遍历/src/main.java" />
         <option value="$PROJECT_DIR$/54. 螺旋矩阵/src/main.java" />
         <option value="$PROJECT_DIR$/844. 比较含退格的字符串/src/main.java" />
+        <option value="$PROJECT_DIR$/15. 三数之和/src/main.java" />
       </list>
     </option>
   </component>
@@ -118,7 +132,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -139,7 +153,13 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="844. 比较含退格的字符串" type="462c0819:PsiDirectoryNode" />
+              <item name="951. 翻转等价二叉树" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="951. 翻转等价二叉树" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,14 +349,8 @@
       <workItem from="1603024093574" duration="529000" />
       <workItem from="1603028502100" duration="370000" />
       <workItem from="1603031043522" duration="44000" />
-      <workItem from="1603097648461" duration="310000" />
-    </task>
-    <task id="LOCAL-00145" summary="Finish Q1103 (神经病题目)">
-      <created>1583422433807</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1583422433808</updated>
+      <workItem from="1603097648461" duration="389000" />
+      <workItem from="1603103056576" duration="339000" />
     </task>
     <task id="LOCAL-00146" summary="Finish Q_57">
       <created>1583469483785</created>
@@ -674,11 +688,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603031080579</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="Finish Q844">
+      <created>1603098008134</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1603098008135</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301678000" />
+    <option name="totallyTimeSpent" value="302096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,7 +714,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21959943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -708,7 +729,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.28674698" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.25421688" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -805,7 +826,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q94" />
     <MESSAGE value="Finish Q232" />
     <MESSAGE value="Finish Q_50" />
     <MESSAGE value="Finish Q704" />
@@ -830,7 +850,8 @@
     <MESSAGE value="Finish Q64" />
     <MESSAGE value="Finish Q102" />
     <MESSAGE value="Finish Q54" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q54" />
+    <MESSAGE value="Finish Q844" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q844" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1141,20 +1162,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/14. 最长公共前缀/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12. 整数转罗马数字/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-205">
@@ -1513,8 +1520,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/844. 比较含退格的字符串/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15. 三数之和/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/951. 翻转等价二叉树/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
