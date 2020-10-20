@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/143. 重排链表/143. 重排链表.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/143. 重排链表/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/剑指 Offer 36. 二叉搜索树与双向链表.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,29 +35,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/844. 比较含退格的字符串/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15. 三数之和/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/951. 翻转等价二叉树/src/main.java">
+        <entry file="file://$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="25">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,11 +61,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/面试题59 - II. 队列的最大值/src/main.java" />
-        <option value="$PROJECT_DIR$/322. 零钱兑换/src/main.java" />
         <option value="$PROJECT_DIR$/543. 二叉树的直径/src/main.java" />
         <option value="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java" />
         <option value="$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java" />
@@ -98,7 +91,6 @@
         <option value="$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
         <option value="$PROJECT_DIR$/345. 反转字符串中的元音字母/src/main.java" />
         <option value="$PROJECT_DIR$/5. 最长回文子串/src/main.java" />
-        <option value="$PROJECT_DIR$/143. 重排链表/src/main.java" />
         <option value="$PROJECT_DIR$/337. 打家劫舍 III/src/main.java" />
         <option value="$PROJECT_DIR$/841. 钥匙和房间/src/main.java" />
         <option value="$PROJECT_DIR$/486. 预测赢家/src/main.java" />
@@ -113,7 +105,6 @@
         <option value="$PROJECT_DIR$/202. 快乐数/src/main.java" />
         <option value="$PROJECT_DIR$/146. LRU缓存机制/src/main.java" />
         <option value="$PROJECT_DIR$/145. 二叉树的后序遍历/src/main.java" />
-        <option value="$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java" />
         <option value="$PROJECT_DIR$/617. 合并二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/347. 前 K 个高频元素/src/main.java" />
         <option value="$PROJECT_DIR$/541. 反转字符串 II/src/main.java" />
@@ -123,6 +114,10 @@
         <option value="$PROJECT_DIR$/54. 螺旋矩阵/src/main.java" />
         <option value="$PROJECT_DIR$/844. 比较含退格的字符串/src/main.java" />
         <option value="$PROJECT_DIR$/15. 三数之和/src/main.java" />
+        <option value="$PROJECT_DIR$/951. 翻转等价二叉树/src/main.java" />
+        <option value="$PROJECT_DIR$/143. 重排链表/src/main.java" />
+        <option value="$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java" />
+        <option value="$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/src/main.java" />
       </list>
     </option>
   </component>
@@ -132,7 +127,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -142,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -153,19 +149,12 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="951. 翻转等价二叉树" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="951. 翻转等价二叉树" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="剑指 Offer 36. 二叉搜索树与双向链表" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +201,7 @@
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="556. 下一个更大元素 III" />
+      <module name="剑指 Offer 36. 二叉搜索树与双向链表" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -350,14 +339,8 @@
       <workItem from="1603028502100" duration="370000" />
       <workItem from="1603031043522" duration="44000" />
       <workItem from="1603097648461" duration="389000" />
-      <workItem from="1603103056576" duration="339000" />
-    </task>
-    <task id="LOCAL-00146" summary="Finish Q_57">
-      <created>1583469483785</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1583469483786</updated>
+      <workItem from="1603103056576" duration="4193000" />
+      <workItem from="1603204531955" duration="2382000" />
     </task>
     <task id="LOCAL-00147" summary="Finish Q_57 (Hashmap)">
       <created>1583470369797</created>
@@ -695,11 +678,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603098008135</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="Finish Q951">
+      <created>1603119873940</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1603119873941</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="302096000" />
+    <option name="totallyTimeSpent" value="308332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,7 +704,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -725,11 +715,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.25421688" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.25421688" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -826,7 +816,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q232" />
     <MESSAGE value="Finish Q_50" />
     <MESSAGE value="Finish Q704" />
     <MESSAGE value="Finish Q_04" />
@@ -851,7 +840,8 @@
     <MESSAGE value="Finish Q102" />
     <MESSAGE value="Finish Q54" />
     <MESSAGE value="Finish Q844" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q844" />
+    <MESSAGE value="Finish Q951" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q951" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -978,12 +968,6 @@
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/143. 重排链表/src/main.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/486. 预测赢家/src/main.java</url>
           <line>67</line>
           <properties />
@@ -1000,6 +984,12 @@
           <line>21</line>
           <properties />
           <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/src/main.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="215" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1063,6 +1053,11 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>LR</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>last.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1104,11 +1099,6 @@
       </expression>
       <expression>
         <expression-string>this.map[i] = 1 + map[sub_amount - available]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cp1 &gt; cp2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1162,13 +1152,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/17. 电话号码的字母组合/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/33. 搜索旋转排序数组/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1298,7 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/143. 重排链表/src/main.java" />
     <entry file="file://$PROJECT_DIR$/189. 旋转数组/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1464,13 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/617. 合并二叉树/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1534,8 +1509,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/951. 翻转等价二叉树/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="57">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/143. 重排链表/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

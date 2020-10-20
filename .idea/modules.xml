@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/14. 最长公共前缀/14. 最长公共前缀.iml" filepath="$PROJECT_DIR$/14. 最长公共前缀/14. 最长公共前缀.iml" />
       <module fileurl="file://$PROJECT_DIR$/141. 环形链表/141. 环形链表.iml" filepath="$PROJECT_DIR$/141. 环形链表/141. 环形链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/142. 环形链表 II/142. 环形链表 II.iml" filepath="$PROJECT_DIR$/142. 环形链表 II/142. 环形链表 II.iml" />
+      <module fileurl="file://$PROJECT_DIR$/143. 重排链表/143. 重排链表.iml" filepath="$PROJECT_DIR$/143. 重排链表/143. 重排链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/144. 二叉树的前序遍历/144. 二叉树的前序遍历.iml" filepath="$PROJECT_DIR$/144. 二叉树的前序遍历/144. 二叉树的前序遍历.iml" />
       <module fileurl="file://$PROJECT_DIR$/145. 二叉树的后序遍历/145. 二叉树的后序遍历.iml" filepath="$PROJECT_DIR$/145. 二叉树的后序遍历/145. 二叉树的后序遍历.iml" />
       <module fileurl="file://$PROJECT_DIR$/146. LRU缓存机制/146. LRU缓存机制.iml" filepath="$PROJECT_DIR$/146. LRU缓存机制/146. LRU缓存机制.iml" />
@@ -130,6 +131,7 @@
       <module fileurl="file://$PROJECT_DIR$/951. 翻转等价二叉树/951. 翻转等价二叉树.iml" filepath="$PROJECT_DIR$/951. 翻转等价二叉树/951. 翻转等价二叉树.iml" />
       <module fileurl="file://$PROJECT_DIR$/994. 腐烂的橘子/994. 腐烂的橘子.iml" filepath="$PROJECT_DIR$/994. 腐烂的橘子/994. 腐烂的橘子.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode.iml" filepath="$PROJECT_DIR$/.idea/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/剑指 Offer 36. 二叉搜索树与双向链表.iml" filepath="$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/剑指 Offer 36. 二叉搜索树与双向链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/面试题 17.16. 按摩师/面试题 17.16. 按摩师.iml" filepath="$PROJECT_DIR$/面试题 17.16. 按摩师/面试题 17.16. 按摩师.iml" />
       <module fileurl="file://$PROJECT_DIR$/面试题04. 二维数组中的查找/面试题04. 二维数组中的查找.iml" filepath="$PROJECT_DIR$/面试题04. 二维数组中的查找/面试题04. 二维数组中的查找.iml" />
       <module fileurl="file://$PROJECT_DIR$/面试题50. 第一个只出现一次的字符/面试题50. 第一个只出现一次的字符.iml" filepath="$PROJECT_DIR$/面试题50. 第一个只出现一次的字符/面试题50. 第一个只出现一次的字符.iml" />
