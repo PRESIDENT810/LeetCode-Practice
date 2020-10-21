@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,33 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/146. LRU缓存机制/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/925. 长按键入/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="19">
+              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -79,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/543. 二叉树的直径/src/main.java" />
         <option value="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/src/main.java" />
         <option value="$PROJECT_DIR$/1071. 字符串的最大公因子/src/main.java" />
         <option value="$PROJECT_DIR$/300. 最长上升子序列/src/main.java" />
@@ -130,6 +105,7 @@
         <option value="$PROJECT_DIR$/143. 重排链表/src/main.java" />
         <option value="$PROJECT_DIR$/215. 数组中的第K个最大元素/src/main.java" />
         <option value="$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/src/main.java" />
+        <option value="$PROJECT_DIR$/925. 长按键入/src/main.java" />
       </list>
     </option>
   </component>
@@ -139,7 +115,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -157,17 +133,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="925. 长按键入" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="925. 长按键入" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,14 +323,7 @@
       <workItem from="1603031043522" duration="44000" />
       <workItem from="1603097648461" duration="389000" />
       <workItem from="1603103056576" duration="4193000" />
-      <workItem from="1603204531955" duration="2708000" />
-    </task>
-    <task id="LOCAL-00148" summary="Finish Q_57 (double ptr)">
-      <created>1583471033002</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1583471033002</updated>
+      <workItem from="1603204531955" duration="2742000" />
     </task>
     <task id="LOCAL-00149" summary="Update Q_57 (better...)">
       <created>1583471879950</created>
@@ -703,11 +661,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603209861071</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="Finish Q925">
+      <created>1603252277573</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1603252277573</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308658000" />
+    <option name="totallyTimeSpent" value="308692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,7 +799,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q704" />
     <MESSAGE value="Finish Q_04" />
     <MESSAGE value="Finish Q328" />
     <MESSAGE value="Finish Q235 &amp; 242" />
@@ -859,7 +823,8 @@
     <MESSAGE value="Finish Q844" />
     <MESSAGE value="Finish Q951" />
     <MESSAGE value="Finish Q剑指36" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q剑指36" />
+    <MESSAGE value="Finish Q925" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q925" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1554,8 +1519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/925. 长按键入/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="19">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
