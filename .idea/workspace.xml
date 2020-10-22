@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/105. 从前序与中序遍历序列构造二叉树/105. 从前序与中序遍历序列构造二叉树.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/105. 从前序与中序遍历序列构造二叉树/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/763. 划分字母区间/763. 划分字母区间.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/763. 划分字母区间/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,25 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/56. 合并区间/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/105. 从前序与中序遍历序列构造二叉树/src/main.java">
+        <entry file="file://$PROJECT_DIR$/763. 划分字母区间/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -74,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/300. 最长上升子序列/src/main.java" />
         <option value="$PROJECT_DIR$/面试题40. 最小的k个数/src/main.java" />
         <option value="$PROJECT_DIR$/面试题 17.16. 按摩师/src/main.java" />
         <option value="$PROJECT_DIR$/914. 卡牌分组/src/main.java" />
@@ -125,6 +110,7 @@
         <option value="$PROJECT_DIR$/144. 二叉树的前序遍历/src/main.java" />
         <option value="$PROJECT_DIR$/56. 合并区间/src/main.java" />
         <option value="$PROJECT_DIR$/105. 从前序与中序遍历序列构造二叉树/src/main.java" />
+        <option value="$PROJECT_DIR$/763. 划分字母区间/src/main.java" />
       </list>
     </option>
   </component>
@@ -154,7 +140,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="105. 从前序与中序遍历序列构造二叉树" type="462c0819:PsiDirectoryNode" />
+              <item name="763. 划分字母区间" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,14 +335,7 @@
       <workItem from="1603103056576" duration="4193000" />
       <workItem from="1603204531955" duration="2742000" />
       <workItem from="1603253163731" duration="36000" />
-      <workItem from="1603259271430" duration="3521000" />
-    </task>
-    <task id="LOCAL-00151" summary="Update Q_59">
-      <created>1583587256539</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1583587256539</updated>
+      <workItem from="1603259271430" duration="3893000" />
     </task>
     <task id="LOCAL-00152" summary="Not finish Q322 (exceed time limit...)">
       <created>1583728887498</created>
@@ -694,11 +673,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603270637786</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="Finish Q105">
+      <created>1603368008198</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1603368008198</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312249000" />
+    <option name="totallyTimeSpent" value="312621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +811,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q235 &amp; 242" />
     <MESSAGE value="Finish Q345" />
     <MESSAGE value="Finish Q337" />
     <MESSAGE value="Finish Q841" />
@@ -850,7 +835,8 @@
     <MESSAGE value="Finish Q925" />
     <MESSAGE value="Update Q剑指36" />
     <MESSAGE value="Finish Q56" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q56" />
+    <MESSAGE value="Finish Q105" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q105" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1155,14 +1141,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Q1-100.md">
-      <provider editor-type-id="Gfm" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="300" column="30" lean-forward="true" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/912. 排序数组/912. 排序数组.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1548,6 +1526,13 @@
             <element signature="e#113#114#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/763. 划分字母区间/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
