@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/763. 划分字母区间/763. 划分字母区间.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/763. 划分字母区间/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1024. 视频拼接/1024. 视频拼接.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1024. 视频拼接/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/763. 划分字母区间/src/main.java">
+        <entry file="file://$PROJECT_DIR$/1024. 视频拼接/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="95">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -60,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/面试题40. 最小的k个数/src/main.java" />
         <option value="$PROJECT_DIR$/面试题 17.16. 按摩师/src/main.java" />
         <option value="$PROJECT_DIR$/914. 卡牌分组/src/main.java" />
         <option value="$PROJECT_DIR$/86. 分隔链表/src/main.java" />
@@ -111,6 +110,7 @@
         <option value="$PROJECT_DIR$/56. 合并区间/src/main.java" />
         <option value="$PROJECT_DIR$/105. 从前序与中序遍历序列构造二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/763. 划分字母区间/src/main.java" />
+        <option value="$PROJECT_DIR$/1024. 视频拼接/src/main.java" />
       </list>
     </option>
   </component>
@@ -130,6 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,14 +142,12 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="763. 划分字母区间" type="462c0819:PsiDirectoryNode" />
+              <item name="1024. 视频拼接" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,14 +335,8 @@
       <workItem from="1603103056576" duration="4193000" />
       <workItem from="1603204531955" duration="2742000" />
       <workItem from="1603253163731" duration="36000" />
-      <workItem from="1603259271430" duration="3893000" />
-    </task>
-    <task id="LOCAL-00152" summary="Not finish Q322 (exceed time limit...)">
-      <created>1583728887498</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1583728887499</updated>
+      <workItem from="1603259271430" duration="4586000" />
+      <workItem from="1603522450622" duration="430000" />
     </task>
     <task id="LOCAL-00153" summary="Not finish Q322 (still exceed time limit...)">
       <created>1583729820334</created>
@@ -680,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603368008198</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="Finish Q763">
+      <created>1603369338018</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1603369338019</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312621000" />
+    <option name="totallyTimeSpent" value="313744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,7 +700,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23104435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23390558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -811,7 +812,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q345" />
     <MESSAGE value="Finish Q337" />
     <MESSAGE value="Finish Q841" />
     <MESSAGE value="Finish Q486" />
@@ -836,7 +836,8 @@
     <MESSAGE value="Update Q剑指36" />
     <MESSAGE value="Finish Q56" />
     <MESSAGE value="Finish Q105" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q105" />
+    <MESSAGE value="Finish Q763" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q763" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1141,9 +1142,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/912. 排序数组/912. 排序数组.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/912. 排序数组/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1531,8 +1529,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/763. 划分字母区间/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="236">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1024. 视频拼接/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
