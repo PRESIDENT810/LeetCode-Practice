@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/61. 旋转链表/61. 旋转链表.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/61. 旋转链表/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25. K 个一组翻转链表/25. K 个一组翻转链表.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25. K 个一组翻转链表/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,24 +32,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/23. 合并K个升序链表/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-              <folding>
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/61. 旋转链表/src/main.java">
+        <entry file="file://$PROJECT_DIR$/25. K 个一组翻转链表/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="140">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/912. 排序数组/src/main.java" />
-        <option value="$PROJECT_DIR$/14. 最长公共前缀/src/main.java" />
         <option value="$PROJECT_DIR$/6. Z 字形变换/src/main.java" />
         <option value="$PROJECT_DIR$/232. 用栈实现队列/src/main.java" />
         <option value="$PROJECT_DIR$/面试题50. 第一个只出现一次的字符/src/main.java" />
@@ -124,6 +115,8 @@
         <option value="$PROJECT_DIR$/129. 求根到叶子节点数字之和/src/main.java" />
         <option value="$PROJECT_DIR$/463. 岛屿的周长/src/main.java" />
         <option value="$PROJECT_DIR$/23. 合并K个升序链表/src/main.java" />
+        <option value="$PROJECT_DIR$/61. 旋转链表/src/main.java" />
+        <option value="$PROJECT_DIR$/25. K 个一组翻转链表/src/main.java" />
       </list>
     </option>
   </component>
@@ -154,13 +147,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="61. 旋转链表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="61. 旋转链表" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="25. K 个一组翻转链表" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -368,14 +355,7 @@
       <workItem from="1603968845447" duration="1958000" />
       <workItem from="1604041436519" duration="261000" />
       <workItem from="1604055109259" duration="1585000" />
-      <workItem from="1604227461224" duration="288000" />
-    </task>
-    <task id="LOCAL-00158" summary="Finish Q543">
-      <created>1583856495532</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1583856495533</updated>
+      <workItem from="1604227461224" duration="738000" />
     </task>
     <task id="LOCAL-00159" summary="Finish Q1013">
       <created>1583861350461</created>
@@ -713,11 +693,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604056829279</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="Finish Q61">
+      <created>1604227878015</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1604227878016</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320553000" />
+    <option name="totallyTimeSpent" value="321003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -844,7 +831,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q814" />
     <MESSAGE value="update" />
     <MESSAGE value="Finish Q257" />
     <MESSAGE value="Finish Q538" />
@@ -869,7 +855,8 @@
     <MESSAGE value="Finish Q1207" />
     <MESSAGE value="Finish Q463" />
     <MESSAGE value="Finish Q23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q23" />
+    <MESSAGE value="Finish Q61" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q61" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1180,13 +1167,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/345. 反转字符串中的元音字母/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/83. 删除排序链表中的重复元素/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1559,8 +1539,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/61. 旋转链表/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="299">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25. K 个一组翻转链表/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
