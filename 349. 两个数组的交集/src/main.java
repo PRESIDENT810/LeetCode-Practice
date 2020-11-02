@@ -9,6 +9,7 @@ class main {
 class Solution349 {
     public int[] intersection(int[] nums1, int[] nums2) {
         // switch so nums1 is always longer
+
         if (nums1.length < nums2.length){
             int[] temp = nums1;
             nums1 = nums2;
