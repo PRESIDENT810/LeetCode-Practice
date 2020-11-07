@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1. 两数之和/1. 两数之和.iml" filepath="$PROJECT_DIR$/1. 两数之和/1. 两数之和.iml" />
       <module fileurl="file://$PROJECT_DIR$/100. 相同的树/100. 相同的树.iml" filepath="$PROJECT_DIR$/100. 相同的树/100. 相同的树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1008. 前序遍历构造二叉搜索树/1008. 前序遍历构造二叉搜索树.iml" filepath="$PROJECT_DIR$/1008. 前序遍历构造二叉搜索树/1008. 前序遍历构造二叉搜索树.iml" />
       <module fileurl="file://$PROJECT_DIR$/101. 对称二叉树/101. 对称二叉树.iml" filepath="$PROJECT_DIR$/101. 对称二叉树/101. 对称二叉树.iml" />
       <module fileurl="file://$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/1013. 将数组分成和相等的三个部分.iml" filepath="$PROJECT_DIR$/1013. 将数组分成和相等的三个部分/1013. 将数组分成和相等的三个部分.iml" />
       <module fileurl="file://$PROJECT_DIR$/102. 二叉树的层序遍历/102. 二叉树的层序遍历.iml" filepath="$PROJECT_DIR$/102. 二叉树的层序遍历/102. 二叉树的层序遍历.iml" />

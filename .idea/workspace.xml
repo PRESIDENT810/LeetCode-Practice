@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/5323. 根据数字二进制下 1 的数目排序.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/1356. 根据数字二进制下 1 的数目排序.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/src/main.java" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/98. 验证二叉搜索树/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Q301-400.md" />
         <option value="$PROJECT_DIR$/328. 奇偶链表/src/main.java" />
         <option value="$PROJECT_DIR$/242. 有效的字母异位词/src/main.java" />
         <option value="$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
@@ -101,6 +109,7 @@
         <option value="$PROJECT_DIR$/941. 有效的山脉数组/src/main.java" />
         <option value="$PROJECT_DIR$/127. 单词接龙/src/main.java" />
         <option value="$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/src/main.java" />
+        <option value="$PROJECT_DIR$/98. 验证二叉搜索树/src/main.java" />
       </list>
     </option>
   </component>
@@ -120,6 +129,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,12 +138,15 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="1008. 前序遍历构造二叉搜索树" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,13 +347,7 @@
       <workItem from="1604346548809" duration="54000" />
       <workItem from="1604552693516" duration="4493000" />
       <workItem from="1604643230923" duration="910000" />
-    </task>
-    <task id="LOCAL-00163" summary="Finish Q914">
-      <created>1585319175692</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1585319175693</updated>
+      <workItem from="1604749473410" duration="401000" />
     </task>
     <task id="LOCAL-00164" summary="Finish Q215 &amp; 86">
       <created>1592039389296</created>
@@ -677,11 +685,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604574891896</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="Finish Q198">
+      <created>1604749562178</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1604749562179</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328761000" />
+    <option name="totallyTimeSpent" value="329162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,7 +710,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22317597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -807,7 +822,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Q146" />
     <MESSAGE value="Update Q145" />
     <MESSAGE value="Finish Q347" />
     <MESSAGE value="Finish Q541" />
@@ -832,7 +846,8 @@
     <MESSAGE value="Finish Q349" />
     <MESSAGE value="Finish Q941" />
     <MESSAGE value="Finish Q127" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q127" />
+    <MESSAGE value="Finish Q198" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q198" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1154,13 +1169,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/841. 钥匙和房间/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/486. 预测赢家/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -1181,12 +1189,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q201-300.md">
-      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4009">
           <caret line="211" column="29" selection-start-line="211" selection-start-column="29" selection-end-line="211" selection-end-column="29" />
         </state>
       </provider>
+      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/236. 二叉树的最近公共祖先/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1535,6 +1543,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/98. 验证二叉搜索树/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
