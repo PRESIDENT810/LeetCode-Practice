@@ -27,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/98. 验证二叉搜索树/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="211">
@@ -36,6 +36,28 @@
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#130#131#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1008. 前序遍历构造二叉搜索树/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/669. 修剪二叉搜索树/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -59,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/328. 奇偶链表/src/main.java" />
         <option value="$PROJECT_DIR$/242. 有效的字母异位词/src/main.java" />
         <option value="$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java" />
         <option value="$PROJECT_DIR$/345. 反转字符串中的元音字母/src/main.java" />
@@ -110,6 +131,7 @@
         <option value="$PROJECT_DIR$/127. 单词接龙/src/main.java" />
         <option value="$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/src/main.java" />
         <option value="$PROJECT_DIR$/98. 验证二叉搜索树/src/main.java" />
+        <option value="$PROJECT_DIR$/1008. 前序遍历构造二叉搜索树/src/main.java" />
       </list>
     </option>
   </component>
@@ -141,7 +163,13 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="1008. 前序遍历构造二叉搜索树" type="462c0819:PsiDirectoryNode" />
+              <item name="669. 修剪二叉搜索树" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="669. 修剪二叉搜索树" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,14 +375,7 @@
       <workItem from="1604346548809" duration="54000" />
       <workItem from="1604552693516" duration="4493000" />
       <workItem from="1604643230923" duration="910000" />
-      <workItem from="1604749473410" duration="401000" />
-    </task>
-    <task id="LOCAL-00164" summary="Finish Q215 &amp; 86">
-      <created>1592039389296</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1592039389297</updated>
+      <workItem from="1604749473410" duration="582000" />
     </task>
     <task id="LOCAL-00165" summary="Finish Q344">
       <created>1592049625273</created>
@@ -692,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604749562179</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="Finish Q1008">
+      <created>1604751264297</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1604751264297</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329162000" />
+    <option name="totallyTimeSpent" value="329343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -709,6 +737,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22317597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
@@ -822,7 +851,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Q145" />
     <MESSAGE value="Finish Q347" />
     <MESSAGE value="Finish Q541" />
     <MESSAGE value="Finish Q64" />
@@ -847,7 +875,8 @@
     <MESSAGE value="Finish Q941" />
     <MESSAGE value="Finish Q127" />
     <MESSAGE value="Finish Q198" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q198" />
+    <MESSAGE value="Finish Q1008" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q1008" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1169,14 +1198,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/486. 预测赢家/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="47" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java" />
     <entry file="file://$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1554,6 +1575,24 @@
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#130#131#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1008. 前序遍历构造二叉搜索树/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/669. 修剪二叉搜索树/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
