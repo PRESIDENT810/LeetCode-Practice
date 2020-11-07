@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/13. 罗马数字转整数/13. 罗马数字转整数.iml" filepath="$PROJECT_DIR$/13. 罗马数字转整数/13. 罗马数字转整数.iml" />
       <module fileurl="file://$PROJECT_DIR$/1323. 6 和 9 组成的最大数字/1323. 6 和 9 组成的最大数字.iml" filepath="$PROJECT_DIR$/1323. 6 和 9 组成的最大数字/1323. 6 和 9 组成的最大数字.iml" />
       <module fileurl="file://$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/1346. 检查整数及其两倍数是否存在.iml" filepath="$PROJECT_DIR$/1346. 检查整数及其两倍数是否存在/1346. 检查整数及其两倍数是否存在.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/1356. 根据数字二进制下 1 的数目排序.iml" filepath="$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/1356. 根据数字二进制下 1 的数目排序.iml" />
       <module fileurl="file://$PROJECT_DIR$/136. 只出现一次的数字/136. 只出现一次的数字.iml" filepath="$PROJECT_DIR$/136. 只出现一次的数字/136. 只出现一次的数字.iml" />
       <module fileurl="file://$PROJECT_DIR$/1365. 有多少小于当前数字的数字/1365. 有多少小于当前数字的数字.iml" filepath="$PROJECT_DIR$/1365. 有多少小于当前数字的数字/1365. 有多少小于当前数字的数字.iml" />
       <module fileurl="file://$PROJECT_DIR$/14. 最长公共前缀/14. 最长公共前缀.iml" filepath="$PROJECT_DIR$/14. 最长公共前缀/14. 最长公共前缀.iml" />
@@ -111,7 +112,6 @@
       <module fileurl="file://$PROJECT_DIR$/5. 最长回文子串/5. 最长回文子串.iml" filepath="$PROJECT_DIR$/5. 最长回文子串/5. 最长回文子串.iml" />
       <module fileurl="file://$PROJECT_DIR$/50. Pow(x, n)/50. Pow(x, n).iml" filepath="$PROJECT_DIR$/50. Pow(x, n)/50. Pow(x, n).iml" />
       <module fileurl="file://$PROJECT_DIR$/53. 最大子序和/53. 最大子序和.iml" filepath="$PROJECT_DIR$/53. 最大子序和/53. 最大子序和.iml" />
-      <module fileurl="file://$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/5323. 根据数字二进制下 1 的数目排序.iml" filepath="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/5323. 根据数字二进制下 1 的数目排序.iml" />
       <module fileurl="file://$PROJECT_DIR$/5325. 包含所有三种字符的子字符串数目/5325. 包含所有三种字符的子字符串数目.iml" filepath="$PROJECT_DIR$/5325. 包含所有三种字符的子字符串数目/5325. 包含所有三种字符的子字符串数目.iml" />
       <module fileurl="file://$PROJECT_DIR$/538. 把二叉搜索树转换为累加树/538. 把二叉搜索树转换为累加树.iml" filepath="$PROJECT_DIR$/538. 把二叉搜索树转换为累加树/538. 把二叉搜索树转换为累加树.iml" />
       <module fileurl="file://$PROJECT_DIR$/54. 螺旋矩阵/54. 螺旋矩阵.iml" filepath="$PROJECT_DIR$/54. 螺旋矩阵/54. 螺旋矩阵.iml" />
@@ -145,6 +145,7 @@
       <module fileurl="file://$PROJECT_DIR$/94. 二叉树的中序遍历/94. 二叉树的中序遍历.iml" filepath="$PROJECT_DIR$/94. 二叉树的中序遍历/94. 二叉树的中序遍历.iml" />
       <module fileurl="file://$PROJECT_DIR$/941. 有效的山脉数组/941. 有效的山脉数组.iml" filepath="$PROJECT_DIR$/941. 有效的山脉数组/941. 有效的山脉数组.iml" />
       <module fileurl="file://$PROJECT_DIR$/951. 翻转等价二叉树/951. 翻转等价二叉树.iml" filepath="$PROJECT_DIR$/951. 翻转等价二叉树/951. 翻转等价二叉树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/98. 验证二叉搜索树/98. 验证二叉搜索树.iml" filepath="$PROJECT_DIR$/98. 验证二叉搜索树/98. 验证二叉搜索树.iml" />
       <module fileurl="file://$PROJECT_DIR$/994. 腐烂的橘子/994. 腐烂的橘子.iml" filepath="$PROJECT_DIR$/994. 腐烂的橘子/994. 腐烂的橘子.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode.iml" filepath="$PROJECT_DIR$/.idea/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/剑指 Offer 36. 二叉搜索树与双向链表.iml" filepath="$PROJECT_DIR$/剑指 Offer 36. 二叉搜索树与双向链表/剑指 Offer 36. 二叉搜索树与双向链表.iml" />

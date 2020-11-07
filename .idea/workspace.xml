@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/127. 单词接龙/127. 单词接龙.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/127. 单词接龙/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/5323. 根据数字二进制下 1 的数目排序.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/1356. 根据数字二进制下 1 的数目排序.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,17 +31,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/127. 单词接龙/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/704. 二分查找/src/main.java" />
         <option value="$PROJECT_DIR$/Q301-400.md" />
         <option value="$PROJECT_DIR$/328. 奇偶链表/src/main.java" />
         <option value="$PROJECT_DIR$/242. 有效的字母异位词/src/main.java" />
@@ -111,6 +100,7 @@
         <option value="$PROJECT_DIR$/349. 两个数组的交集/src/main.java" />
         <option value="$PROJECT_DIR$/941. 有效的山脉数组/src/main.java" />
         <option value="$PROJECT_DIR$/127. 单词接龙/src/main.java" />
+        <option value="$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/src/main.java" />
       </list>
     </option>
   </component>
@@ -136,11 +126,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="127. 单词接龙" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,14 +331,8 @@
       <workItem from="1604055109259" duration="1585000" />
       <workItem from="1604227461224" duration="3039000" />
       <workItem from="1604346548809" duration="54000" />
-      <workItem from="1604552693516" duration="4470000" />
-    </task>
-    <task id="LOCAL-00162" summary="Finish Q_16_17">
-      <created>1585058306278</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1585058306278</updated>
+      <workItem from="1604552693516" duration="4493000" />
+      <workItem from="1604643230923" duration="910000" />
     </task>
     <task id="LOCAL-00163" summary="Finish Q914">
       <created>1585319175692</created>
@@ -691,11 +670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604346587255</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Finish Q127">
+      <created>1604574891896</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1604574891896</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327828000" />
+    <option name="totallyTimeSpent" value="328761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,9 +694,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -721,11 +706,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.25421688" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.25421688" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -822,7 +807,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q146" />
     <MESSAGE value="Update Q146" />
     <MESSAGE value="Update Q145" />
     <MESSAGE value="Finish Q347" />
@@ -847,7 +831,8 @@
     <MESSAGE value="Finish Q25" />
     <MESSAGE value="Finish Q349" />
     <MESSAGE value="Finish Q941" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q941" />
+    <MESSAGE value="Finish Q127" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q127" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -925,7 +910,7 @@
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/5323. 根据数字二进制下 1 的数目排序/src/main.java</url>
+          <url>file://$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/src/main.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="121" />
@@ -1169,17 +1154,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/337. 打家劫舍 III/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/841. 钥匙和房间/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1207,12 +1181,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q201-300.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4009">
           <caret line="211" column="29" selection-start-line="211" selection-start-column="29" selection-end-line="211" selection-end-column="29" />
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/236. 二叉树的最近公共祖先/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1465,13 +1439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test/src/quicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../test/src/quicksort.java" />
     <entry file="file://$PROJECT_DIR$/1365. 有多少小于当前数字的数字/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1558,8 +1526,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/127. 单词接龙/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="79">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1356. 根据数字二进制下 1 的数目排序/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
