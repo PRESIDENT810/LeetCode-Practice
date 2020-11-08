@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/589. N叉树的前序遍历/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/589. N叉树的前序遍历/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/113. 路径总和 II/113. 路径总和 II.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/113. 路径总和 II/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,23 +33,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/589. N叉树的前序遍历/src/main.java">
+        <entry file="file://$PROJECT_DIR$/590. N叉树的后序遍历/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="97">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/590. N叉树的后序遍历/src/main.java">
+        <entry file="file://$PROJECT_DIR$/113. 路径总和 II/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="131">
+              <caret line="16" selection-start-line="16" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/337. 打家劫舍 III/src/main.java" />
-        <option value="$PROJECT_DIR$/841. 钥匙和房间/src/main.java" />
         <option value="$PROJECT_DIR$/486. 预测赢家/src/main.java" />
         <option value="$PROJECT_DIR$/415. 字符串相加/src/main.java" />
         <option value="$PROJECT_DIR$/Q201-300.md" />
@@ -121,6 +126,8 @@
         <option value="$PROJECT_DIR$/965. 单值二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/429. N叉树的层序遍历/src/main.java" />
         <option value="$PROJECT_DIR$/589. N叉树的前序遍历/src/main.java" />
+        <option value="$PROJECT_DIR$/590. N叉树的后序遍历/src/main.java" />
+        <option value="$PROJECT_DIR$/113. 路径总和 II/src/main.java" />
       </list>
     </option>
   </component>
@@ -152,13 +159,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="590. N叉树的后序遍历" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="590. N叉树的后序遍历" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="113. 路径总和 II" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,14 +366,7 @@
       <workItem from="1604552693516" duration="4493000" />
       <workItem from="1604643230923" duration="910000" />
       <workItem from="1604749473410" duration="820000" />
-      <workItem from="1604839558223" duration="520000" />
-    </task>
-    <task id="LOCAL-00169" summary="Finish Q_50">
-      <created>1592235293396</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1592235293396</updated>
+      <workItem from="1604839558223" duration="1023000" />
     </task>
     <task id="LOCAL-00170" summary="update">
       <created>1592235808324</created>
@@ -710,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604840202712</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="Finish Q590">
+      <created>1604840467991</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1604840467991</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330101000" />
+    <option name="totallyTimeSpent" value="330604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,7 +842,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q54" />
     <MESSAGE value="Finish Q844" />
     <MESSAGE value="Finish Q951" />
     <MESSAGE value="Finish Q剑指36" />
@@ -866,7 +866,8 @@
     <MESSAGE value="Finish Q965" />
     <MESSAGE value="Finish Q429" />
     <MESSAGE value="Finish Q589" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q589" />
+    <MESSAGE value="Finish Q590" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q590" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1188,7 +1189,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/216. 组合总和 III/src/main.java" />
     <entry file="file://$PROJECT_DIR$/257. 二叉树的所有路径/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1576,8 +1576,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/590. N叉树的后序遍历/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="97">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/113. 路径总和 II/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="16" selection-start-line="16" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
