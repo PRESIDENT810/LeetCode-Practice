@@ -19,17 +19,22 @@ class Node {
     }
 };
 
-class Solution589 {
-    public List<Integer> preorder(Node root) {
+class Solution590 {
+    public List<Integer> postorder(Node root) {
         List<Integer> res = new LinkedList<>();
         if (root == null) return res;
         Stack<Node> stack = new Stack<>();
         stack.push(root);
         while (!stack.isEmpty()){
             Node node = stack.pop();
-            res.add(node.val);
+            if (node.children == null) {
+                res.add(node.val);
+                continue;
+            }
+            stack.push(node);
             Collections.reverse(node.children);
             stack.addAll(node.children);
+            node.children = null;
         }
         return res;
     }
