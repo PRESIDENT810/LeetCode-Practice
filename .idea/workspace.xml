@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/973. 最接近原点的 K 个点/973. 最接近原点的 K 个点.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/973. 最接近原点的 K 个点/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/74. 搜索二维矩阵/74. 搜索二维矩阵.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -31,25 +31,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/973. 最接近原点的 K 个点/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-              <folding>
-                <element signature="e#1715#1716#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/300. 最长上升子序列/src/main.java">
+        <entry file="file://$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="353">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -73,9 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Q201-300.md" />
-        <option value="$PROJECT_DIR$/814. 二叉树剪枝/src/main.java" />
-        <option value="$PROJECT_DIR$/236. 二叉树的最近公共祖先/src/main.java" />
         <option value="$PROJECT_DIR$/257. 二叉树的所有路径/src/main.java" />
         <option value="$PROJECT_DIR$/216. 组合总和 III/src/main.java" />
         <option value="$PROJECT_DIR$/538. 把二叉搜索树转换为累加树/src/main.java" />
@@ -124,6 +108,9 @@
         <option value="$PROJECT_DIR$/113. 路径总和 II/src/main.java" />
         <option value="$PROJECT_DIR$/剑指 Offer 33. 二叉搜索树的后序遍历序列/src/main.java" />
         <option value="$PROJECT_DIR$/973. 最接近原点的 K 个点/src/main.java" />
+        <option value="$PROJECT_DIR$/300. 最长上升子序列/src/main.java" />
+        <option value="$PROJECT_DIR$/80. 删除排序数组中的重复项 II/src/main.java" />
+        <option value="$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java" />
       </list>
     </option>
   </component>
@@ -144,7 +131,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,23 +141,18 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="113. 路径总和 II" type="462c0819:PsiDirectoryNode" />
+              <item name="74. 搜索二维矩阵" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="300. 最长上升子序列" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="300. 最长上升子序列" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +199,7 @@
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="973. 最接近原点的 K 个点" />
+      <module name="74. 搜索二维矩阵" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,14 +354,9 @@
       <workItem from="1604552693516" duration="4493000" />
       <workItem from="1604643230923" duration="910000" />
       <workItem from="1604749473410" duration="820000" />
-      <workItem from="1604839558223" duration="3643000" />
-    </task>
-    <task id="LOCAL-00172" summary="Finish Q_04">
-      <created>1592275003065</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1592275003066</updated>
+      <workItem from="1604839558223" duration="3761000" />
+      <workItem from="1604920965606" duration="302000" />
+      <workItem from="1604987678540" duration="1264000" />
     </task>
     <task id="LOCAL-00173" summary="Finish Q328">
       <created>1592275411329</created>
@@ -718,11 +694,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604849940095</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="Finish Q300">
+      <created>1604907586930</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1604907586930</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333224000" />
+    <option name="totallyTimeSpent" value="334908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,7 +720,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22603719" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23175965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -748,7 +731,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41566265" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41566265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -849,7 +832,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q剑指36" />
     <MESSAGE value="Finish Q925" />
     <MESSAGE value="Update Q剑指36" />
     <MESSAGE value="Finish Q56" />
@@ -874,7 +856,8 @@
     <MESSAGE value="Finish Q590" />
     <MESSAGE value="Finish Q113" />
     <MESSAGE value="Finish QJZ33" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish QJZ33" />
+    <MESSAGE value="Finish Q300" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,14 +1019,23 @@
           <properties />
           <option name="timeStamp" value="234" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/80. 删除排序数组中的重复项 II/src/main.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="points[8]" language="JAVA" />
-        <watch expression="points[9]" language="JAVA" />
-        <watch expression="points[10]" language="JAVA" />
-        <watch expression="points[11]" language="JAVA" />
+        <watch expression="matrix" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -1106,6 +1098,11 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>matrix</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>points[11]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1147,11 +1144,6 @@
       </expression>
       <expression>
         <expression-string>first.val</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr[map[i+1]]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1205,20 +1197,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/415. 字符串相加/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2. 两数相加/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1041">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1599,19 +1577,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/973. 最接近原点的 K 个点/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="874">
           <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/300. 最长上升子序列/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="133">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/80. 删除排序数组中的重复项 II/src/main.java" />
+    <entry file="file://$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="29" />
         </state>
       </provider>
     </entry>
