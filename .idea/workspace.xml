@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/74. 搜索二维矩阵/74. 搜索二维矩阵.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="29" />
+            <state relative-caret-position="68">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/82. 删除排序链表中的重复元素 II/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -141,7 +145,13 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="74. 搜索二维矩阵" type="462c0819:PsiDirectoryNode" />
+              <item name="82. 删除排序链表中的重复元素 II" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="82. 删除排序链表中的重复元素 II" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -356,14 +366,7 @@
       <workItem from="1604749473410" duration="820000" />
       <workItem from="1604839558223" duration="3761000" />
       <workItem from="1604920965606" duration="302000" />
-      <workItem from="1604987678540" duration="1264000" />
-    </task>
-    <task id="LOCAL-00173" summary="Finish Q328">
-      <created>1592275411329</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1592275411332</updated>
+      <workItem from="1604987678540" duration="1696000" />
     </task>
     <task id="LOCAL-00174" summary="Finish Q235 &amp; 242">
       <created>1592554417096</created>
@@ -701,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604907586930</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="Finish Q74">
+      <created>1604990550022</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1604990550023</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334908000" />
+    <option name="totallyTimeSpent" value="335340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -720,7 +730,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23175965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23175965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -731,7 +741,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41566265" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.41566265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -832,7 +842,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q925" />
     <MESSAGE value="Update Q剑指36" />
     <MESSAGE value="Finish Q56" />
     <MESSAGE value="Finish Q105" />
@@ -857,7 +866,8 @@
     <MESSAGE value="Finish Q113" />
     <MESSAGE value="Finish QJZ33" />
     <MESSAGE value="Finish Q300" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q300" />
+    <MESSAGE value="Finish Q74" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q74" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1027,17 +1037,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java</url>
-          <line>16</line>
+          <line>14</line>
           <properties />
-          <option name="timeStamp" value="237" />
+          <option name="timeStamp" value="239" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="matrix" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1197,13 +1202,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1. 两数之和/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/202. 快乐数/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1592,8 +1590,15 @@
     <entry file="file://$PROJECT_DIR$/80. 删除排序数组中的重复项 II/src/main.java" />
     <entry file="file://$PROJECT_DIR$/74. 搜索二维矩阵/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/82. 删除排序链表中的重复元素 II/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
