@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/922. 按奇偶排序数组 II/922. 按奇偶排序数组 II.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -379,14 +376,7 @@
       <workItem from="1604839558223" duration="3761000" />
       <workItem from="1604920965606" duration="302000" />
       <workItem from="1604987678540" duration="3287000" />
-      <workItem from="1605151923182" duration="991000" />
-    </task>
-    <task id="LOCAL-00178" summary="Finish Q486">
-      <created>1598939434252</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1598939434252</updated>
+      <workItem from="1605151923182" duration="1210000" />
     </task>
     <task id="LOCAL-00179" summary="Finish Q415">
       <created>1598945282125</created>
@@ -724,11 +714,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604997837398</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="Finish Q922">
+      <created>1605153588717</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1605153588718</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337922000" />
+    <option name="totallyTimeSpent" value="338141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -754,7 +751,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41566265" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41566265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -855,7 +852,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q1024" />
     <MESSAGE value="Finish Q845" />
     <MESSAGE value="Finish Q1207" />
     <MESSAGE value="Finish Q463" />
@@ -880,7 +876,8 @@
     <MESSAGE value="Finish Q80" />
     <MESSAGE value="Update Q80" />
     <MESSAGE value="Finish Q109" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q109" />
+    <MESSAGE value="Finish Q922" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q922" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1617,8 +1614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="399">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>

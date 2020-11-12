@@ -9,8 +9,6 @@ class Solution922 {
     public int[] sortArrayByParityII(int[] A) {
         int ptr1 = 0;
         int ptr2 = 1;
-        boolean L_odd = true;
-        boolean R_odd = false;
         // ptr1 is even and ptr2 is odd
         while (ptr1 != A.length && ptr2 != A.length+1){
             while (ptr1 != A.length && A[ptr1]%2 == 0) ptr1 += 2;
