@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/109. 有序链表转换二叉搜索树/109. 有序链表转换二叉搜索树.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/109. 有序链表转换二叉搜索树/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/922. 按奇偶排序数组 II/922. 按奇偶排序数组 II.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -31,18 +31,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/109. 有序链表转换二叉搜索树/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -66,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/538. 把二叉搜索树转换为累加树/src/main.java" />
         <option value="$PROJECT_DIR$/1. 两数之和/src/main.java" />
         <option value="$PROJECT_DIR$/202. 快乐数/src/main.java" />
         <option value="$PROJECT_DIR$/146. LRU缓存机制/src/main.java" />
@@ -117,6 +119,7 @@
         <option value="$PROJECT_DIR$/82. 删除排序链表中的重复元素 II/src/main.java" />
         <option value="$PROJECT_DIR$/80. 删除排序数组中的重复项 II/src/main.java" />
         <option value="$PROJECT_DIR$/109. 有序链表转换二叉搜索树/src/main.java" />
+        <option value="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" />
       </list>
     </option>
   </component>
@@ -126,7 +129,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -136,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,11 +146,35 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="109. 有序链表转换二叉搜索树" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="109. 有序链表转换二叉搜索树" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="109. 有序链表转换二叉搜索树" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="922. 按奇偶排序数组 II" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +221,7 @@
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="109. 有序链表转换二叉搜索树" />
+      <module name="922. 按奇偶排序数组 II" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -352,14 +378,8 @@
       <workItem from="1604749473410" duration="820000" />
       <workItem from="1604839558223" duration="3761000" />
       <workItem from="1604920965606" duration="302000" />
-      <workItem from="1604987678540" duration="3265000" />
-    </task>
-    <task id="LOCAL-00177" summary="Finish Q841">
-      <created>1598930076372</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1598930076373</updated>
+      <workItem from="1604987678540" duration="3287000" />
+      <workItem from="1605151923182" duration="991000" />
     </task>
     <task id="LOCAL-00178" summary="Finish Q486">
       <created>1598939434252</created>
@@ -697,11 +717,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604994043361</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="Finish Q109">
+      <created>1604997837398</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1604997837398</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336909000" />
+    <option name="totallyTimeSpent" value="337922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,8 +741,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23175965" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -726,7 +754,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.41566265" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41566265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -827,7 +855,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q763" />
     <MESSAGE value="Finish Q1024" />
     <MESSAGE value="Finish Q845" />
     <MESSAGE value="Finish Q1207" />
@@ -852,7 +879,8 @@
     <MESSAGE value="Finish Q82" />
     <MESSAGE value="Finish Q80" />
     <MESSAGE value="Update Q80" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Q80" />
+    <MESSAGE value="Finish Q109" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q109" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1020,6 +1048,12 @@
           <properties />
           <option name="timeStamp" value="239" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/109. 有序链表转换二叉搜索树/src/main.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1134,6 +1168,16 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>true ^ true</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>true ^ false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>compare(points[7], points[9])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1168,26 +1212,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>date[i][j] &gt; n</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>date[i][j]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/145. 二叉树的后序遍历/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/94. 二叉树的中序遍历/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1583,14 +1610,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/109. 有序链表转换二叉搜索树/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
