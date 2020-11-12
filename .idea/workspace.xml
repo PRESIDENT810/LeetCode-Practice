@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/889. 根据前序和后序遍历构造二叉树/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/106. 从中序与后序遍历序列构造二叉树/src/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/889. 根据前序和后序遍历构造二叉树/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="17" selection-start-column="17" selection-end-column="17" />
@@ -71,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/146. LRU缓存机制/src/main.java" />
         <option value="$PROJECT_DIR$/145. 二叉树的后序遍历/src/main.java" />
         <option value="$PROJECT_DIR$/617. 合并二叉树/src/main.java" />
         <option value="$PROJECT_DIR$/347. 前 K 个高频元素/src/main.java" />
@@ -122,6 +134,7 @@
         <option value="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" />
         <option value="$PROJECT_DIR$/905. 按奇偶排序数组/src/main.java" />
         <option value="$PROJECT_DIR$/剑指 Offer 03. 数组中重复的数字/src/main.java" />
+        <option value="$PROJECT_DIR$/106. 从中序与后序遍历序列构造二叉树/src/main.java" />
       </list>
     </option>
   </component>
@@ -151,12 +164,12 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="106. 从中序与后序遍历序列构造二叉树" type="462c0819:PsiDirectoryNode" />
+              <item name="889. 根据前序和后序遍历构造二叉树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="106. 从中序与后序遍历序列构造二叉树" type="462c0819:PsiDirectoryNode" />
+              <item name="889. 根据前序和后序遍历构造二叉树" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,14 +387,7 @@
       <workItem from="1604839558223" duration="3761000" />
       <workItem from="1604920965606" duration="302000" />
       <workItem from="1604987678540" duration="3287000" />
-      <workItem from="1605151923182" duration="1703000" />
-    </task>
-    <task id="LOCAL-00181" summary="Finish Q814">
-      <created>1599033067286</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1599033067287</updated>
+      <workItem from="1605151923182" duration="2022000" />
     </task>
     <task id="LOCAL-00182" summary="update">
       <created>1599117978601</created>
@@ -719,11 +725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605162364625</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="Finish Q106">
+      <created>1605167284701</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1605167284701</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338634000" />
+    <option name="totallyTimeSpent" value="338953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,7 +863,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q463" />
     <MESSAGE value="Finish Q23" />
     <MESSAGE value="Finish Q61" />
     <MESSAGE value="Finish Q25" />
@@ -875,7 +887,8 @@
     <MESSAGE value="Finish Q922" />
     <MESSAGE value="Finish Q905" />
     <MESSAGE value="Finish QJZ03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish QJZ03" />
+    <MESSAGE value="Finish Q106" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q106" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1210,7 +1223,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/556. 下一个更大元素 III/src/main.java" />
     <entry file="file://$PROJECT_DIR$/541. 反转字符串 II/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1603,6 +1615,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/106. 从中序与后序遍历序列构造二叉树/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/889. 根据前序和后序遍历构造二叉树/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
