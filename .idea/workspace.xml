@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" afterDir="false" />
-    </list>
+    <list default="true" id="54e075b0-17d2-4cbf-b6de-9010801d5d5a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +27,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/109. 有序链表转换二叉搜索树/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/905. 按奇偶排序数组/src/main.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -66,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1. 两数之和/src/main.java" />
         <option value="$PROJECT_DIR$/202. 快乐数/src/main.java" />
         <option value="$PROJECT_DIR$/146. LRU缓存机制/src/main.java" />
         <option value="$PROJECT_DIR$/145. 二叉树的后序遍历/src/main.java" />
@@ -117,6 +101,7 @@
         <option value="$PROJECT_DIR$/80. 删除排序数组中的重复项 II/src/main.java" />
         <option value="$PROJECT_DIR$/109. 有序链表转换二叉搜索树/src/main.java" />
         <option value="$PROJECT_DIR$/922. 按奇偶排序数组 II/src/main.java" />
+        <option value="$PROJECT_DIR$/905. 按奇偶排序数组/src/main.java" />
       </list>
     </option>
   </component>
@@ -142,29 +127,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="109. 有序链表转换二叉搜索树" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="109. 有序链表转换二叉搜索树" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="109. 有序链表转换二叉搜索树" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="922. 按奇偶排序数组 II" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,14 +338,7 @@
       <workItem from="1604839558223" duration="3761000" />
       <workItem from="1604920965606" duration="302000" />
       <workItem from="1604987678540" duration="3287000" />
-      <workItem from="1605151923182" duration="1210000" />
-    </task>
-    <task id="LOCAL-00179" summary="Finish Q415">
-      <created>1598945282125</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1598945282125</updated>
+      <workItem from="1605151923182" duration="1383000" />
     </task>
     <task id="LOCAL-00180" summary="Finish Q236">
       <created>1598950022035</created>
@@ -721,11 +676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605153588718</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="Finish Q905">
+      <created>1605157498943</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1605157498943</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338141000" />
+    <option name="totallyTimeSpent" value="338314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,9 +700,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -852,7 +813,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Q845" />
     <MESSAGE value="Finish Q1207" />
     <MESSAGE value="Finish Q463" />
     <MESSAGE value="Finish Q23" />
@@ -877,7 +837,8 @@
     <MESSAGE value="Update Q80" />
     <MESSAGE value="Finish Q109" />
     <MESSAGE value="Finish Q922" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Q922" />
+    <MESSAGE value="Finish Q905" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Q905" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1212,13 +1173,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/94. 二叉树的中序遍历/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/617. 合并二叉树/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1618,6 +1572,9 @@
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/905. 按奇偶排序数组/src/main.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
